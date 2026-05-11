@@ -101,9 +101,9 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 ---
 # Human Values in LLMs
 
-## Value Theory
+## 1. Value Theory
 
-### Basic Human Values
+### 1.1 Basic Human Values
 | Paper Title | Year | Remark |
 | :--- | :---: | :---: |
 |[Universals in the content and structure of values: Theoretical advances and empirical tests in 20 countries.](https://psycnet.apa.org/record/2003-00370-001) | 1992 | Schwartz |
@@ -115,9 +115,23 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 |[Mental representations of social values.](https://psycnet.apa.org/record/2012-14612-001) | 2010 | Maio |
 |[Functional theory of human values: Testing its content and structure hypotheses](https://www.researchgate.net/publication/259486885_Functional_theory_of_human_values_Testing_its_content_and_structure_hypotheses) | 2013 | Gouveia |
 
-### Moral Values and Moral Foundations
+### 1.2 Moral Values and Moral Foundations
+| Paper Title | Year | Remark |
+| :--- | :---: | :---: |
+|[Liberals and conservatives rely on different sets of moral foundations](https://pubmed.ncbi.nlm.nih.gov/19379034/) | 2009 | MFT |
+|[The Righteous Mind](https://righteousmind.com/) | 2012 | MFT |
+|[Moral Foundations Theory: The Pragmatic Validity of Moral Pluralism](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2184440) | 2013 | MFT |
+|[The theory of dyadic morality: Reinventing moral judgment by redefining harm.](https://psycnet.apa.org/record/2018-02142-002) | 2018 | TDM |
 
 ### Cultural and Cross-Cultural Values
+| Paper Title | Year | Remark |
+| :--- | :---: | :---: |
+|[Culture's consequences: International differences in work-related values](https://philpapers.org/rec/HOFCCI-2) | 1980 | Hofstede |
+|[Cultures and organizations: software of the mind](https://books.google.co.kr/books/about/Cultures_and_Organizations_Software_of_t.html?id=o4OqTgV3V00C&redir_esc=y) | 2010 | Hofstede |
+|[Mapping and interpreting cultural differences around the world](https://www.researchgate.net/publication/265596552_Mapping_and_interpreting_cultural_differences_around_the_world) | 2004 | Schwartz |
+|[Cultural Value Orientations: Nature & Implications of National Differences](https://www.researchgate.net/publication/265997557_Cultural_Value_Orientations_Nature_Implications_of_National_Differences) | 2008 | Schwartz |
+|[Modernization and Postmodernization: Cultural, Economic, and Political Change in 43 Societies](https://www.jstor.org/stable/j.ctv10vm2ns) | 1997 | Inglehart |
+|[Modernization, Cultural Change, and Democracy: The Human Development Sequence](https://www.researchgate.net/publication/230557603_Modernization_Cultural_Change_and_Democracy_The_Human_Development_Sequence) | 2005 | Inglehart |
 
 ### Political and Civic Values
 
