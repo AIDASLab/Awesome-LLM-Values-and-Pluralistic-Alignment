@@ -111,22 +111,24 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 | [ESS (European Social Survey)](https://www.europeansocialsurvey.org/data-portal) | - |
 | [GSS (General Social Survey)](https://gss.norc.org/) | - |
 
-### Value Annotation Datasets
-| Dataset | Year | Remark |
-| :--- | :---: | :---: |
-|[(ETHICS) Aligning AI With Shared Human Values](https://arxiv.org/abs/2008.02275) | 2020.08 | Ethics |
-|[Scruples: A Corpus of Community Ethical Judgments on 32,000 Real-Life Anecdotes](https://arxiv.org/abs/2008.09094) | 2020.08 | Ethics |
-|[ProsocialDialog: A Prosocial Backbone for Conversational Agents](https://arxiv.org/abs/2205.12688) | 2022.05 | Ethics |
-|[NormBank: A Knowledge Bank of Situational Social Norms](https://arxiv.org/abs/2305.17008) | 2023.05 | Ethics |
-|[DailyDilemmas: Revealing Value Preferences of LLMs with Quandaries of Daily Life](https://arxiv.org/abs/2410.02683) | 2024.10 | Ethics, Schwartz, MFT |
-|[ValueNet: A New Dataset for Human Value Driven Dialogue System](https://arxiv.org/abs/2112.06346) | 2021.12 | Schwartz |
-|[(Valueeval) The Touché23-ValueEval Dataset for Identifying Human Values behind Arguments](https://arxiv.org/abs/2301.13771) | 2023.01 | Schwartz |
-|[Moral Foundations Twitter Corpus: A Collection of 35k Tweets Annotated for Moral Sentiment](https://journals.sagepub.com/doi/10.1177/1948550619876629) | 2020.02 | MFT |
-|[Social Chemistry 101: Learning to Reason about Social and Moral Norms](https://arxiv.org/abs/2011.00620) | 2020.11 | MFT |
-|[The Moral Integrity Corpus: A Benchmark for Ethical Dialogue Systems](https://arxiv.org/abs/2204.03021) | 2022.04 | MFT |
-|[The Moral Foundations Reddit Corpus](https://arxiv.org/abs/2208.05545) | 2022.08 | MFT |
-|[Moral Stories: Situated Reasoning about Norms, Intents, Actions, and their Consequences](https://arxiv.org/abs/2012.15738) | 2020.12 | Morality |
-|[(ValuePrism) Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties](https://arxiv.org/abs/2309.00779) | 2023.10 | Value, Duty, Right |
+### Value Annotation Datasets & Benchmarks
+| Dataset | Year | Category | Remark |
+| :--- | :---: | :---: | :---: |
+|[(ETHICS) Aligning AI With Shared Human Values](https://arxiv.org/abs/2008.02275) | 2020.08 | Dataset | Ethics |
+|[Scruples: A Corpus of Community Ethical Judgments on 32,000 Real-Life Anecdotes](https://arxiv.org/abs/2008.09094) | 2020.08 | Dataset | Ethics |
+|[ProsocialDialog: A Prosocial Backbone for Conversational Agents](https://arxiv.org/abs/2205.12688) | 2022.05 | Dataset |  Ethics |
+|[NormBank: A Knowledge Bank of Situational Social Norms](https://arxiv.org/abs/2305.17008) | 2023.05 | Dataset | Ethics |
+|[DailyDilemmas: Revealing Value Preferences of LLMs with Quandaries of Daily Life](https://arxiv.org/abs/2410.02683) | 2024.10 | Dataset | Ethics, Schwartz, MFT |
+|[ValueNet: A New Dataset for Human Value Driven Dialogue System](https://arxiv.org/abs/2112.06346) | 2021.12 | Dataset | Schwartz |
+|[(Valueeval) The Touché23-ValueEval Dataset for Identifying Human Values behind Arguments](https://arxiv.org/abs/2301.13771) | 2023.01 | Dataset | Schwartz |
+|[ValueBench: Towards Comprehensively Evaluating Value Orientations and Understanding of Large Language Models](https://arxiv.org/abs/2406.04214) | 2024.06 | Benchmark | Schwartz |
+|[Moral Foundations Twitter Corpus: A Collection of 35k Tweets Annotated for Moral Sentiment](https://journals.sagepub.com/doi/10.1177/1948550619876629) | 2020.02 | Dataset | MFT |
+|[Social Chemistry 101: Learning to Reason about Social and Moral Norms](https://arxiv.org/abs/2011.00620) | 2020.11 | Dataset | MFT |
+|[The Moral Integrity Corpus: A Benchmark for Ethical Dialogue Systems](https://arxiv.org/abs/2204.03021) | 2022.04 | Dataset | MFT |
+|[The Moral Foundations Reddit Corpus](https://arxiv.org/abs/2208.05545) | 2022.08 | Dataset | MFT |
+|[Moral Stories: Situated Reasoning about Norms, Intents, Actions, and their Consequences](https://arxiv.org/abs/2012.15738) | 2020.12 | Dataset | Morality |
+|[(MoralChoice) Evaluating the Moral Beliefs Encoded in LLMs](https://arxiv.org/abs/2307.14324) | 2023.06 | Benchmark | Morality |
+|[(ValuePrism) Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties](https://arxiv.org/abs/2309.00779) | 2023.10 | Dataset | Value, Duty, Right |
 
 
 ### Public Opinion & Cultural Datasets
