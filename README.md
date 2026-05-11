@@ -94,7 +94,7 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 |[A roadmap for evaluating moral competence in large language models](https://www.nature.com/articles/s41586-025-10021-1) | 2026.02 | Nature | - |
 
 ---
-# Datasets and Resources
+# Datasets and Benchmarks
 
 ### Psychometric Inventories
 | Category | Examples |
@@ -126,12 +126,17 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 |[The Moral Integrity Corpus: A Benchmark for Ethical Dialogue Systems](https://arxiv.org/abs/2204.03021) | 2022.04 | MFT |
 |[The Moral Foundations Reddit Corpus](https://arxiv.org/abs/2208.05545) | 2022.08 | MFT |
 |[Moral Stories: Situated Reasoning about Norms, Intents, Actions, and their Consequences](https://arxiv.org/abs/2012.15738) | 2020.12 | Morality |
+|[(ValuePrism) Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties](https://arxiv.org/abs/2309.00779) | 2023.10 | Value, Duty, Right |
 
 
-### Public Opinion & Social Simulation Datasets
+### Public Opinion & Cultural Datasets
 | Dataset | Year | Remark |
 | :--- | :---: | :---: |
-
+|[(OpinionsQA) Whose Opinions Do Language Models Reflect?](https://arxiv.org/abs/2208.05545) | 2023.03 | - |
+|[(GlobalOpinionQA) Towards Measuring the Representation of Subjective Global Opinions in Language Models](https://arxiv.org/abs/2306.16388) | 2023.06 | - |
+|[The PRISM Alignment Dataset: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models](https://arxiv.org/abs/2404.16019) | 2024.04 | - |
+|[(NYTBookOpinions) Benchmarking Distributional Alignment of Large Language Models](https://arxiv.org/abs/2411.05403) | 2024.11 | - |
+|[CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models](https://arxiv.org/abs/2405.13974) | 2024.05 | - |
 
 ---
 # Human Values in LLMs
