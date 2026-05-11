@@ -14,35 +14,32 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
    - [Github Repos]
    - [Survey & Position Papers]
 
-### Human Values in LLMs
-1. [**Value Theory**]
-   - [Basic Human Values]
-   - [Moral Values and Moral Foundations]
-   - [Cultural and Cross-Cultural Values]
-   - [Political and Civic Values]
-   - [Human Rights and Duties]
-   - [Well-being, Needs, and Capabilities]
-   - [Value Change and Modernization]
-
-2. [**Datasets and Resources**]
+### Datasets and Resources
    - [Psychometric Inventories]
    - [Survey Datasets]
    - [Value Annotation Datasets]
    - [Public Opinion Datasets]
 
-3. [**Value Representation and Extraction**]
+### Human Values in LLMs
+1. [**Value Theory**]
+   - [Basic Human Values]
+   - [Moral Values and Moral Foundations]
+   - [Cultural and Cross-Cultural Values]
+   - [Political, Civic Values and Human Rights]
+
+2. [**Value Representation and Extraction**]
    - [Value Classification]
    - [Value Embedding]
    - [Value Profiling]
    - [Value Relation Extraction]
 
-4. [**Value Measurement, Evaluation, and Benchmarks**]
+3. [**Value Measurement, Evaluation, and Benchmarks**]
    - [Value Orientation Benchmarks]
    - [Value Understanding Benchmarks]
    - [Survey-Based Evaluation]
    - [Cross-Cultural Evaluation]
 
-5. [**Value Alignment and Steering**]
+4. [**Value Alignment and Steering**]
    - [Prompt-Based Alignment]
    - [Fine-Tuning and RLHF]
    - [Activation-Based Steering]
@@ -56,7 +53,6 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
    - [Moral Pluralism]
    - [Political Pluralism]
    - [Social Choice and Democratic Theory]
-
 
 2. [**Multicultural and Cross-Cultural Alignment**]
    - [Country-Level Alignment]
@@ -97,6 +93,45 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 |[Missing the Margins: A Systematic Literature Review on the Demographic Representativeness of LLMs](https://arxiv.org/abs/2511.01864) | 2025.11 | ACL 2025 Findings | - |
 |[A roadmap for evaluating moral competence in large language models](https://www.nature.com/articles/s41586-025-10021-1) | 2026.02 | Nature | - |
 
+---
+# Datasets and Resources
+
+### Psychometric Inventories
+| Category | Examples |
+| :--- | :--- |
+| Value inventories | SVS, PVQ, Rokeach Value Survey |
+| Moral inventories | MFQ, DIT, Ethics Position Questionnaire |
+| Personality inventories | Big Five, NEO-PI-R, HEXACO, MBTI |
+
+### Survey Datasets
+| Survey | Remarks |
+| :--- | :--- |
+| [WVS (World Values Survey)](https://www.worldvaluessurvey.org/) | - |
+| [EVS (European Values Survey)](https://europeanvaluesstudy.eu/) | - |
+| [ESS (European Social Survey)](https://www.europeansocialsurvey.org/data-portal) | - |
+| [GSS (General Social Survey)](https://gss.norc.org/) | - |
+
+### Value Annotation Datasets
+| Dataset | Year | Remark |
+| :--- | :---: | :---: |
+|[(ETHICS) Aligning AI With Shared Human Values](https://arxiv.org/abs/2008.02275) | 2020.08 | Ethics |
+|[Scruples: A Corpus of Community Ethical Judgments on 32,000 Real-Life Anecdotes](https://arxiv.org/abs/2008.09094) | 2020.08 | Ethics |
+|[ProsocialDialog: A Prosocial Backbone for Conversational Agents](https://arxiv.org/abs/2205.12688) | 2022.05 | Ethics |
+|[NormBank: A Knowledge Bank of Situational Social Norms](https://arxiv.org/abs/2305.17008) | 2023.05 | Ethics |
+|[DailyDilemmas: Revealing Value Preferences of LLMs with Quandaries of Daily Life](https://arxiv.org/abs/2410.02683) | 2024.10 | Ethics, Schwartz, MFT |
+|[ValueNet: A New Dataset for Human Value Driven Dialogue System](https://arxiv.org/abs/2112.06346) | 2021.12 | Schwartz |
+|[(Valueeval) The Touché23-ValueEval Dataset for Identifying Human Values behind Arguments](https://arxiv.org/abs/2301.13771) | 2023.01 | Schwartz |
+|[Moral Foundations Twitter Corpus: A Collection of 35k Tweets Annotated for Moral Sentiment](https://journals.sagepub.com/doi/10.1177/1948550619876629) | 2020.02 | MFT |
+|[Social Chemistry 101: Learning to Reason about Social and Moral Norms](https://arxiv.org/abs/2011.00620) | 2020.11 | MFT |
+|[The Moral Integrity Corpus: A Benchmark for Ethical Dialogue Systems](https://arxiv.org/abs/2204.03021) | 2022.04 | MFT |
+|[The Moral Foundations Reddit Corpus](https://arxiv.org/abs/2208.05545) | 2022.08 | MFT |
+|[Moral Stories: Situated Reasoning about Norms, Intents, Actions, and their Consequences](https://arxiv.org/abs/2012.15738) | 2020.12 | Morality |
+
+
+### Public Opinion & Social Simulation Datasets
+| Dataset | Year | Remark |
+| :--- | :---: | :---: |
+
 
 ---
 # Human Values in LLMs
@@ -133,10 +168,12 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 |[Modernization and Postmodernization: Cultural, Economic, and Political Change in 43 Societies](https://www.jstor.org/stable/j.ctv10vm2ns) | 1997 | Inglehart |
 |[Modernization, Cultural Change, and Democracy: The Human Development Sequence](https://www.researchgate.net/publication/230557603_Modernization_Cultural_Change_and_Democracy_The_Human_Development_Sequence) | 2005 | Inglehart |
 
-### Political and Civic Values
+### Political, Civic Values and Human Rights
+| Paper Title | Year | Remark |
+| :--- | :---: | :---: |
+|[Citizenship and Social Class](https://books.google.co.kr/books/about/Citizenship_and_Social_Class.html?id=99v4JQAACAAJ&redir_esc=y) | 1950 | Marshall |
+|[A theory of justice.](https://www.jstor.org/stable/j.ctvjf9z6v) | 1971 | Rawls |
+|[A 30-year struggle; the sustained efforts to give force of law to the Universal Declaration of Human Rights](https://unesdoc.unesco.org/ark:/48223/pf0000048063) | 1977 | Vasak |
+|[The Theory of Communicative Action](https://philpapers.org/rec/HABTTO) | 1981 | Habermas |
+|[Creating Capabilities: The Human Development Approach and Its Implementation](https://www.cambridge.org/core/journals/hypatia/article/abs/creating-capabilities-the-human-development-approach-and-its-implementation/6774FAF6E6CEC38018F9733B188A1A6C) | 2009 | Nussbaum |
 
-### Human Rights and Duties
-
-### Well-being, Needs, and Capabilities
-
-### Value Change and Modernization
