@@ -9,37 +9,37 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 
 ## ⚙️ Overview
 
-### Surveys & Useful Resources
-   - [Blogs & Lectures]
-   - [Github Repos]
-   - [Survey & Position Papers]
+### [Surveys & Useful Resources](#surveys--useful-resources)
+   - [Blogs & Lectures](#-blogs--lectures)
+   - [Github Repos](#-github-repos)
+   - [Survey & Position Papers](#-survey--perspective-papers)
 
-### Datasets and Resources
-   - [Psychometric Inventories]
-   - [Survey Datasets]
-   - [Value Annotation Datasets]
-   - [Public Opinion Datasets]
+### [Datasets and Benchmarks](#datasets-and-benchmarks)
+   - [Psychometric Inventories](#psychometric-inventories)
+   - [Survey Datasets](#survey-datasets)
+   - [Value Annotation Datasets](#value-annotation-datasets)
+   - [Public Opinion & Cultural Datasets](#public-opinion--cultural-datasets)
 
-### Human Values in LLMs
-1. [**Value Theory**]
-   - [Basic Human Values]
-   - [Moral Values and Moral Foundations]
-   - [Cultural and Cross-Cultural Values]
-   - [Political, Civic Values and Human Rights]
+### [Human Values in LLMs](#human-values-in-llms)
+[**1. Value Theory**](#1-value-theory)
+   - [1.1 Basic Human Values](#11-basic-human-values)
+   - [1.2 Moral Values and Moral Foundations](#12-moral-values-and-moral-foundations)
+   - [1.3 Cultural and Cross-Cultural Values](#13-cultural-and-cross-cultural-values)
+   - [1.4 Political, Civic Values and Human Rights](#14-political-civic-values-and-human-rights)
 
-2. [**Value Representation and Extraction**]
+[**2. Value Representation and Extraction**]
    - [Value Classification]
    - [Value Embedding]
    - [Value Profiling]
    - [Value Relation Extraction]
 
-3. [**Value Measurement, Evaluation, and Benchmarks**]
+[**3. Value Measurement and Evaluation**]
    - [Value Orientation Benchmarks]
    - [Value Understanding Benchmarks]
    - [Survey-Based Evaluation]
    - [Cross-Cultural Evaluation]
 
-4. [**Value Alignment and Steering**]
+[**4. Value Alignment and Steering**]
    - [Prompt-Based Alignment]
    - [Fine-Tuning and RLHF]
    - [Activation-Based Steering]
@@ -111,7 +111,7 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 | [ESS (European Social Survey)](https://www.europeansocialsurvey.org/data-portal) | - |
 | [GSS (General Social Survey)](https://gss.norc.org/) | - |
 
-### Value Annotation Datasets & Benchmarks
+### Value Annotation Datasets
 | Dataset | Year | Category | Remark |
 | :--- | :---: | :---: | :---: |
 |[(ETHICS) Aligning AI With Shared Human Values](https://arxiv.org/abs/2008.02275) | 2020.08 | Dataset | Ethics |
@@ -165,7 +165,7 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 |[Moral Foundations Theory: The Pragmatic Validity of Moral Pluralism](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2184440) | 2013 | MFT |
 |[The theory of dyadic morality: Reinventing moral judgment by redefining harm.](https://psycnet.apa.org/record/2018-02142-002) | 2018 | TDM |
 
-### Cultural and Cross-Cultural Values
+### 1.3 Cultural and Cross-Cultural Values
 | Paper Title | Year | Remark |
 | :--- | :---: | :---: |
 |[Culture's consequences: International differences in work-related values](https://philpapers.org/rec/HOFCCI-2) | 1980 | Hofstede |
@@ -175,7 +175,7 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 |[Modernization and Postmodernization: Cultural, Economic, and Political Change in 43 Societies](https://www.jstor.org/stable/j.ctv10vm2ns) | 1997 | Inglehart |
 |[Modernization, Cultural Change, and Democracy: The Human Development Sequence](https://www.researchgate.net/publication/230557603_Modernization_Cultural_Change_and_Democracy_The_Human_Development_Sequence) | 2005 | Inglehart |
 
-### Political, Civic Values and Human Rights
+### 1.4 Political, Civic Values and Human Rights
 | Paper Title | Year | Remark |
 | :--- | :---: | :---: |
 |[Citizenship and Social Class](https://books.google.co.kr/books/about/Citizenship_and_Social_Class.html?id=99v4JQAACAAJ&redir_esc=y) | 1950 | Marshall |
