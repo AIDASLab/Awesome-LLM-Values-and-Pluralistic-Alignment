@@ -9,20 +9,64 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 
 ## ⚙️ Overview
 
-### Human Value in LLM
+### Human Values in LLMs
+
 1. [**Surveys & Useful Resources**]
+
 2. [**Value Theory**]
-3. [**Dataset & Benchmark**]
-4. [**Value Representation**]
-5. [**Value Alignment**]
-6. [**Value Evaluation**]
+   - [Basic Human Values]
+   - [Moral Values and Moral Foundations]
+   - [Cultural and Cross-Cultural Values]
+   - [Political and Civic Values]
+   - [Human Rights and Duties]
+   - [Well-being, Needs, and Capabilities]
+   - [Value Change and Modernization]
+
+3. [**Datasets and Resources**]
+   - [Psychometric Inventories]
+   - [Survey Datasets]
+   - [Value Annotation Datasets]
+   - [Public Opinion Datasets]
+
+4. [**Value Representation and Extraction**]
+   - [Value Classification]
+   - [Value Embedding]
+   - [Value Profiling]
+   - [Value Relation Extraction]
+
+5. [**Value Measurement, Evaluation, and Benchmarks**]
+   - [Value Orientation Benchmarks]
+   - [Value Understanding Benchmarks]
+   - [Survey-Based Evaluation]
+   - [Cross-Cultural Evaluation]
+
+6. [**Value Alignment and Steering**]
+   - [Prompt-Based Alignment]
+   - [Fine-Tuning and RLHF]
+   - [Activation-Based Steering]
+   - [Multi-Value Control]
+
+   
 
 ### Pluralistic Alignment
+
 1. [**Surveys & Useful Resources**]
-2. [**Value Pluralism**]
-3. [**Dataset & Benchmark**]
-4. [**Overton Pluralism**]
+
+2. [**Theoretical Foundations**]
+   - [Value Pluralism]
+   - [Moral Pluralism]
+   - [Political Pluralism]
+   - [Social Choice and Democratic Theory]
+
+
+4. [**Multicultural and Cross-Cultural Alignment**]
+   - [Country-Level Alignment]
+   - [Language-Level Alignment]
+   - [Culture-Aware Evaluation] 
+
 5. [**Distributional Pluralism**]
 6. [**Steerable Pluralism**]
+7. [**Overton Pluralism**]
+
 
 ---
