@@ -28,9 +28,10 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
    - [1.4 Political, Civic Values and Human Rights](#14-political-civic-values-and-human-rights)
 
 [**2. Value Representation and Extraction**]
-   - [Value Classification]
-   - [Value Embedding]
-   - [Value Profiling]
+   - [Value Identification and Classification]
+   - [Value Representation and Embedding]
+   - [Value System Construction and Discovery]
+   - [Value Profling]
 
 [**3. Value Measurement and Evaluation**]
 
@@ -183,35 +184,41 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 
 ## 2. Value Representation and Extraction
 
-### 2.1 Value System, Embedding & Classification
+### 2.1 Value Identification and Classification
 | Paper Title | Year | Venue | Remark |
 | :--- | :---: | :---: | :--- |
 |[ValueNet: A New Dataset for Human Value Driven Dialogue System](https://arxiv.org/abs/2112.06346) | 2021.12 | AAAI 2022 | Schwartz |
 |[SemEval-2023 Task 4: ValueEval: Identification of Human Values Behind Arguments](https://aclanthology.org/2023.semeval-1.313/) | 2023.07 | SemEval 2023 | Schwartz |
-|[Value FULCRA: Mapping Large Language Models to the Multidimensional Spectrum of Basic Human Values](https://arxiv.org/abs/2311.10766) | 2023.11 | NAACL 2024 | Schwartz |
-|[MoralBERT: A Fine-Tuned Language Model for Capturing Moral Values in Social Discussions](https://arxiv.org/abs/2403.07678) | 2024.03 | GoodIT 2024 | Morality |
 |[What does a Text Classifier Learn about Morality? An Explainable Method for Cross-Domain Comparison of Moral Rhetoric](https://aclanthology.org/2023.acl-long.789/) | 2023.07 | ACL 2024 | Morality |
-|[MoVa: Towards Generalizable Classification of Human Morals and Values](https://arxiv.org/abs/2509.24216) | 2025.10 | EMNLP 2025 | Morality, Schwartz |
+|[Value FULCRA: Mapping Large Language Models to the Multidimensional Spectrum of Basic Human Values](https://arxiv.org/abs/2311.10766) | 2023.11 | NAACL 2024 | Schwartz |
 |[Investigating Human Values in Online Communities](https://arxiv.org/abs/2402.14177) | 2024.02 | NAACL 2025 | Schwartz |
+|[MoralBERT: A Fine-Tuned Language Model for Capturing Moral Values in Social Discussions](https://arxiv.org/abs/2403.07678) | 2024.03 | GoodIT 2024 | Morality |
 |[The Value of Nothing: Multimodal Extraction of Human Values Expressed by TikTok Influencers](https://arxiv.org/abs/2501.11770) | 2025.01 | Arxiv | Schwartz |
-|[Morality is Non-Binary: Building a Pluralist Moral Sentence Embedding Space using Contrastive Learning](https://arxiv.org/abs/2401.17228) | 2024.01 | EACL 2024 Findings | Morality |
-|[VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models](https://arxiv.org/abs/2602.03160) | 2026.02 | ICML 2026 | Schwartz, Morality, Right, Duty |
-|[Learning the Value Systems of Societies from Preferences](https://arxiv.org/abs/2507.20728) | 2025.07 | ECAI 2025 | - |
 |[EAVIT: Efficient and Accurate Human Value Identification from Text data via LLMs](https://arxiv.org/abs/2505.12792) | 2025.05 | Arxiv | Schwartz |
-|[Generative Psycho-Lexical Approach for Constructing Value Systems in Large Language Models](https://arxiv.org/abs/2502.02444) | 2025.02 | Arxiv | - |
-|[Revisiting LLM Value Probing Strategies: Are They Robust and Expressive?](https://arxiv.org/abs/2507.13490) | 2025.07 | EMNLP 2025 | - |
-|[Dual Mechanisms of Value Expression: Intrinsic vs. Prompted Values in Large Language Models](https://arxiv.org/abs/2509.24319) | 2025.10 | Arxiv | - |
-|[Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs](https://arxiv.org/abs/2502.08640) | 2025.02 | NeurIPS 2025 | - |
-|[Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties](https://arxiv.org/abs/2309.00779) | 2023.09 | AAAI 24 | - |
-|[High-Dimension Human Value Representation in Large Language Models](https://arxiv.org/abs/2404.07900) | 2024.04 | NAACL 2025 | - |
+|[MoVa: Towards Generalizable Classification of Human Morals and Values](https://arxiv.org/abs/2509.24216) | 2025.10 | EMNLP 2025 | Morality, Schwartz |
 
-### 2.2 Value Profiling
+### 2.2 Value Representation and Embedding
 | Paper Title | Year | Venue | Remark |
 | :--- | :---: | :---: | :--- |
-|[Value Alignment of Social Media Ranking Algorithms](https://arxiv.org/abs/2509.14434) | 2025.10 | CHI 2026 | Schwartz |
-|[Do Differences in Values Influence Disagreements in Online Discussions?](https://arxiv.org/abs/2310.15757) | 2023.10 | EMNLP 2023 | Schwartz |
+|[Morality is Non-Binary: Building a Pluralist Moral Sentence Embedding Space using Contrastive Learning](https://arxiv.org/abs/2401.17228) | 2024.01 | EACL 2024 Findings | Morality |
+|[High-Dimension Human Value Representation in Large Language Models](https://arxiv.org/abs/2404.07900) | 2024.04 | NAACL 2025 | - |
 |[VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models](https://arxiv.org/abs/2602.03160) | 2026.02 | ICML 2026 | Schwartz, Morality, Right, Duty |
+
+### 2.3 Value System Construction and Discovery
+| Paper Title | Year | Venue | Remark |
+| :--- | :---: | :---: | :--- |
+|[Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties](https://arxiv.org/abs/2309.00779) | 2023.09 | AAAI 24 | - |
+|[Generative Psycho-Lexical Approach for Constructing Value Systems in Large Language Models](https://arxiv.org/abs/2502.02444) | 2025.02 | Arxiv | - |
+|[Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs](https://arxiv.org/abs/2502.08640) | 2025.02 | NeurIPS 2025 | - |
+|[Learning the Value Systems of Societies from Preferences](https://arxiv.org/abs/2507.20728) | 2025.07 | ECAI 2025 | - |
+
+### 2.4 Value Profiling
+| Paper Title | Year | Venue | Remark |
+| :--- | :---: | :---: | :--- |
+|[Do Differences in Values Influence Disagreements in Online Discussions?](https://arxiv.org/abs/2310.15757) | 2023.10 | EMNLP 2023 | Schwartz |
 |[Value Profiles for Encoding Human Variation](https://arxiv.org/abs/2503.15484) | 2025.03 | EMNLP 2025 | - |
+|[Value Alignment of Social Media Ranking Algorithms](https://arxiv.org/abs/2509.14434) | 2025.10 | CHI 2026 | Schwartz |
+|[VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models](https://arxiv.org/abs/2602.03160) | 2026.02 | ICML 2026 | Schwartz, Morality, Right, Duty |
 
 
 ## 3. Value Measurement and Evaluation
@@ -244,6 +251,8 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 |[Are Large Language Models Consistent over Value-laden Questions?](https://arxiv.org/abs/2407.02996) | 2024.07 | EMNLP 2024 Findings | - |
 |[Heterogeneous Value Alignment Evaluation for Large Language Models](https://arxiv.org/abs/2305.17147) | 2023.05 | AAAI 24 Workshop | - |
 |[Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties](https://arxiv.org/abs/2309.00779) | 2023.09 | AAAI 24 | - |
+|[Revisiting LLM Value Probing Strategies: Are They Robust and Expressive?](https://arxiv.org/abs/2507.13490) | 2025.07 | EMNLP 2025 | - |
+|[Dual Mechanisms of Value Expression: Intrinsic vs. Prompted Values in Large Language Models](https://arxiv.org/abs/2509.24319) | 2025.10 | Arxiv | - |
 
 ## 4. Value Alignment and Steering
 | Paper Title | Year | Venue | Remark |
