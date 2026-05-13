@@ -9,29 +9,29 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 
 ## ⚙️ Overview
 
-### [Surveys & Useful Resources](#surveys--useful-resources)
+### [A. Surveys & Useful Resources](#surveys--useful-resources)
    - [Blogs & Lectures](#-blogs--lectures)
    - [Github Repos](#-github-repos)
    - [Survey & Position Papers](#-survey--perspective-papers)
 
-### [Datasets and Benchmarks](#datasets-and-benchmarks)
+### [B. Datasets and Benchmarks](#datasets-and-benchmarks)
    - [Psychometric Inventories](#psychometric-inventories)
    - [Survey Datasets](#survey-datasets)
    - [Value Annotation Datasets](#value-annotation-datasets)
    - [Public Opinion & Cultural Datasets](#public-opinion--cultural-datasets)
 
-### [Human Values in LLMs](#human-values-in-llms)
+### [C. Human Values in LLMs](#human-values-in-llms)
 [**1. Value Theory**](#1-value-theory)
    - [1.1 Basic Human Values](#11-basic-human-values)
    - [1.2 Moral Values and Moral Foundations](#12-moral-values-and-moral-foundations)
    - [1.3 Cultural and Cross-Cultural Values](#13-cultural-and-cross-cultural-values)
    - [1.4 Political, Civic Values and Human Rights](#14-political-civic-values-and-human-rights)
 
-[**2. Value Representation and Extraction**]
-   - [Value Identification and Classification]
-   - [Value Representation and Embedding]
-   - [Value System Construction and Discovery]
-   - [Value Profling]
+[**2. Value Representation and Extraction**](#2-value-representation-and-extraction)
+   - [Value Identification and Classification](#21-value-identification-and-classification)
+   - [Value Representation and Embedding](#22-value-representation-and-embedding)
+   - [Value System Construction and Discovery](#23-value-system-construction-and-discovery)
+   - [Value Profiling](#24-value-profiling)
 
 [**3. Value Measurement and Evaluation**]
 
@@ -44,7 +44,7 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 
 [**5. Other Related Works**]   
 
-### Pluralistic Alignment
+### [D. Pluralistic Alignment](#pluralistic-alignment)
 1. [**Theoretical Foundations**]
    - [Value Pluralism]
    - [Moral Pluralism]
@@ -91,7 +91,7 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 |[A roadmap for evaluating moral competence in large language models](https://www.nature.com/articles/s41586-025-10021-1) | 2026.02 | Nature | - |
 
 ---
-# 📊 Datasets and Benchmarks
+# Datasets and Benchmarks
 
 ### Psychometric Inventories
 | Category | Examples |
@@ -138,7 +138,7 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 |[CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models](https://arxiv.org/abs/2405.13974) | 2024.05 | - |
 
 ---
-# 🕊️ Human Values in LLMs
+# Human Values in LLMs
 
 ## 1. Value Theory
 
@@ -208,15 +208,19 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 | Paper Title | Year | Venue | Remark |
 | :--- | :---: | :---: | :--- |
 |[Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties](https://arxiv.org/abs/2309.00779) | 2023.09 | AAAI 24 | - |
-|[Generative Psycho-Lexical Approach for Constructing Value Systems in Large Language Models](https://arxiv.org/abs/2502.02444) | 2025.02 | Arxiv | - |
+|[Generative Psycho-Lexical Approach for Constructing Value Systems in Large Language Models](https://arxiv.org/abs/2502.02444) | 2025.02 | ACL 2025 | - |
 |[Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs](https://arxiv.org/abs/2502.08640) | 2025.02 | NeurIPS 2025 | - |
+|[Values in the Wild: Discovering and Analyzing Values in Real-World Language Model Interactions](https://arxiv.org/abs/2504.15236) | 2025.04 | Arxiv | - |
 |[Learning the Value Systems of Societies from Preferences](https://arxiv.org/abs/2507.20728) | 2025.07 | ECAI 2025 | - |
+|[Value Lens: Using Large Language Models to Understand Human Values](https://arxiv.org/abs/2512.15722) | 2025.12 | ECAI 2025 | - |
+|[Exploring Universal Human Values with Large Language Models: The AWARE-Value Model](https://www.researchsquare.com/article/rs-8188052/v1) | 2026.01 | - | - |
 
 ### 2.4 Value Profiling
 | Paper Title | Year | Venue | Remark |
 | :--- | :---: | :---: | :--- |
 |[Do Differences in Values Influence Disagreements in Online Discussions?](https://arxiv.org/abs/2310.15757) | 2023.10 | EMNLP 2023 | Schwartz |
 |[Value Profiles for Encoding Human Variation](https://arxiv.org/abs/2503.15484) | 2025.03 | EMNLP 2025 | - |
+|[SOLAR: Towards Characterizing Subjectivity of Individuals through Modeling Value Conflicts and Trade-offs](https://arxiv.org/abs/2504.12633) | 2025.04 | EMNLP 2025 | - |
 |[Value Alignment of Social Media Ranking Algorithms](https://arxiv.org/abs/2509.14434) | 2025.10 | CHI 2026 | Schwartz |
 |[VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models](https://arxiv.org/abs/2602.03160) | 2026.02 | ICML 2026 | Schwartz, Morality, Right, Duty |
 
