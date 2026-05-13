@@ -41,7 +41,7 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
    - [Activation-Based Steering]
    - [Multi-Value Control]
 
-   
+[**5. Other Related Works**]   
 
 ### Pluralistic Alignment
 1. [**Theoretical Foundations**]
@@ -183,7 +183,7 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 
 ## 2. Value Representation and Extraction
 
-### 2.1 Value Space, Embedding & Classification
+### 2.1 Value System, Embedding & Classification
 | Paper Title | Year | Venue | Remark |
 | :--- | :---: | :---: | :--- |
 |[ValueNet: A New Dataset for Human Value Driven Dialogue System](https://arxiv.org/abs/2112.06346) | 2021.12 | AAAI 2022 | Schwartz |
@@ -198,6 +198,12 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 |[VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models](https://arxiv.org/abs/2602.03160) | 2026.02 | ICML 2026 | Schwartz, Morality, Right, Duty |
 |[Learning the Value Systems of Societies from Preferences](https://arxiv.org/abs/2507.20728) | 2025.07 | ECAI 2025 | - |
 |[EAVIT: Efficient and Accurate Human Value Identification from Text data via LLMs](https://arxiv.org/abs/2505.12792) | 2025.05 | Arxiv | Schwartz |
+|[Generative Psycho-Lexical Approach for Constructing Value Systems in Large Language Models](https://arxiv.org/abs/2502.02444) | 2025.02 | Arxiv | - |
+|[Revisiting LLM Value Probing Strategies: Are They Robust and Expressive?](https://arxiv.org/abs/2507.13490) | 2025.07 | EMNLP 2025 | - |
+|[Dual Mechanisms of Value Expression: Intrinsic vs. Prompted Values in Large Language Models](https://arxiv.org/abs/2509.24319) | 2025.10 | Arxiv | - |
+|[Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs](https://arxiv.org/abs/2502.08640) | 2025.02 | NeurIPS 2025 | - |
+|[Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties](https://arxiv.org/abs/2309.00779) | 2023.09 | AAAI 24 | - |
+|[High-Dimension Human Value Representation in Large Language Models](https://arxiv.org/abs/2404.07900) | 2024.04 | NAACL 2025 | - |
 
 ### 2.2 Value Profiling
 | Paper Title | Year | Venue | Remark |
@@ -205,6 +211,7 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 |[Value Alignment of Social Media Ranking Algorithms](https://arxiv.org/abs/2509.14434) | 2025.10 | CHI 2026 | Schwartz |
 |[Do Differences in Values Influence Disagreements in Online Discussions?](https://arxiv.org/abs/2310.15757) | 2023.10 | EMNLP 2023 | Schwartz |
 |[VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models](https://arxiv.org/abs/2602.03160) | 2026.02 | ICML 2026 | Schwartz, Morality, Right, Duty |
+|[Value Profiles for Encoding Human Variation](https://arxiv.org/abs/2503.15484) | 2025.03 | EMNLP 2025 | - |
 
 
 ## 3. Value Measurement and Evaluation
@@ -221,6 +228,22 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 |[ValueDCG: Measuring Comprehensive Human Value Understanding Ability of Language Models](https://arxiv.org/abs/2310.00378) | 2023.10 | Arxiv | - |
 |[Learning the Value Systems of Societies from Preferences](https://arxiv.org/abs/2507.20728) | 2025.07 | ECAI 2025 | - |
 |[Value-Spectrum: Quantifying Preferences of Vision-Language Models via Value Decomposition in Social Media Contexts](https://arxiv.org/abs/2411.11479) | 2024.11 | ACL 2025 | - |
+|[Mind the Value-Action Gap: Do LLMs Act in Alignment with Their Values?](https://arxiv.org/abs/2501.15463) | 2025.01 | EMNLP 2025 | - |
+|[Revisiting LLM Value Probing Strategies: Are They Robust and Expressive?](https://arxiv.org/abs/2507.13490) | 2025.07 | EMNLP 2025 | - |
+|[Context-Value-Action Architecture for Value-Driven Large Language Model Agents](https://arxiv.org/abs/2604.05939) | 2026.04 | ACL 2026 | - |
+|[Understanding How Value Neurons Shape the Generation of Specified Values in LLMs](https://arxiv.org/abs/2505.17712) | 2025.05 | EMNLP 2025 Findings | - |
+|[Value Compass Benchmarks: A Platform for Fundamental and Validated Evaluation of LLMs Values](https://arxiv.org/abs/2501.07071) | 2025.01 | ACL 2025 Demo | - |
+|[Deep Value Benchmark: Measuring Whether Models Generalize Deep Values or Shallow Preferences](https://arxiv.org/abs/2511.02109) | 2025.11 | NeurIPS 2025 | - |
+|[Implicit Values Embedded in How Humans and LLMs Complete Subjective Everyday Tasks](https://arxiv.org/abs/2510.03384) | 2025.10 | EMNLP 2025 | - |
+|[Are the Values of LLMs Structurally Aligned with Humans? A Causal Perspective](https://arxiv.org/abs/2501.00581) | 2024.12 | ACL 2025 Findings | - |
+|[ValueFlow: Measuring the Propagation of Value Perturbations in Multi-Agent LLM Systems](https://arxiv.org/abs/2602.08567) | 2026.02 | Arxiv | - |
+|[LocalValueBench: A Collaboratively Built and Extensible Benchmark for Evaluating Localized Value Alignment and Ethical Safety in Large Language Models](https://arxiv.org/abs/2408.01460) | 2024.07 | Arxiv | - |
+|[Stick to your role! Stability of personal values expressed in large language models](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0309114) | 2024.08 | PLOS One | - |
+|[Raising the Bar: Investigating the Values of Large Language Models via Generative Evolving Testing](https://arxiv.org/abs/2406.14230) | 2024.06 | ICML 2025 | - |
+|[Do LLMs have Consistent Values?](https://arxiv.org/abs/2407.12878) | 2024.07 | ICLR 2025 | - |
+|[Are Large Language Models Consistent over Value-laden Questions?](https://arxiv.org/abs/2407.02996) | 2024.07 | EMNLP 2024 Findings | - |
+|[Heterogeneous Value Alignment Evaluation for Large Language Models](https://arxiv.org/abs/2305.17147) | 2023.05 | AAAI 24 Workshop | - |
+|[Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties](https://arxiv.org/abs/2309.00779) | 2023.09 | AAAI 24 | - |
 
 ## 4. Value Alignment and Steering
 | Paper Title | Year | Venue | Remark |
@@ -231,4 +254,20 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 |[Value FULCRA: Mapping Large Language Models to the Multidimensional Spectrum of Basic Human Values](https://arxiv.org/abs/2311.10766) | 2023.11 | NAACL 2024 | Schwartz |
 |[Value Alignment of Social Media Ranking Algorithms](https://arxiv.org/abs/2509.14434) | 2025.10 | CHI 2026 | Schwartz |
 |[VISA: Value Injection via Shielded Adaptation for Personalized LLM Alignment](https://arxiv.org/abs/2603.04822) | 2026.03 | Arxiv | - |
-|[VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models](https://arxiv.org/abs/2602.03160) | 2026.02 | ICML 2026 | Schwartz, Morality, Right, Duty |
+|[ValuePilot: A Two-Phase Framework for Value-Driven Decision-Making](https://arxiv.org/abs/2503.04569) | 2025.03 | Arxiv | - |
+|[Survey-to-Behavior: Downstream Alignment of Human Values in LLMs via Survey Questions](https://arxiv.org/abs/2508.11414) | 2025.08 | Arxiv | - |
+|[PICACO: Pluralistic In-Context Value Alignment of LLMs via Total Correlation Optimization](https://arxiv.org/abs/2507.16679) | 2025.06 | Arxiv | - |
+|[Dual Mechanisms of Value Expression: Intrinsic vs. Prompted Values in Large Language Models](https://arxiv.org/abs/2509.24319) | 2025.10 | Arxiv | - |
+|[Controllable Value Alignment in Large Language Models through Neuron-Level Editing](https://arxiv.org/abs/2602.07356) | 2026.02 | Arxiv | - |
+|[Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs](https://arxiv.org/abs/2502.08640) | 2025.02 | NeurIPS 2025 | - |
+|[Internal Value Alignment in Large Language Models through Controlled Value Vector Activation](https://arxiv.org/abs/2507.11316) | 2025.07 | ACL 2025 | - |
+|[Controllable Value Alignment in Large Language Models through Neuron-Level Editing](https://arxiv.org/abs/2602.07356) | 2026.02 | Arxiv | - |
+|[Strong and weak alignment of large language models with human values](https://arxiv.org/abs/2408.04655) | 2024.08 | Scientific Reports | - |
+|[What are human values, and how do we align AI to them?](https://arxiv.org/abs/2404.10636) | 2024.03 | Arxiv | - |
+
+## 5. Other Related Works
+| Paper Title | Year | Venue | Remark |
+| :--- | :---: | :---: | :--- |
+|[Bridging Values and Behavior: A Hierarchical Framework for Proactive Embodied Agents](https://arxiv.org/abs/2604.27699) | 2026.04 | Arxiv | Robotic Agent |
+|[Value-Based Human–Robot-Interaction: A Perceptual Control Theory Approach Toward Socially Intelligent Agents](https://link.springer.com/chapter/10.1007/978-3-031-99290-2_7) | 2026.02 | SOCUSRA 2026 | Robotic Agent |
+|[If they disagree, will you conform? Exploring the role of robots’ value awareness in a decision-making task](https://www.jbe-platform.com/content/journals/10.1075/is.25030.pus) | 2025.12 | Interaction Studies 2025 | Robotic Agent |
