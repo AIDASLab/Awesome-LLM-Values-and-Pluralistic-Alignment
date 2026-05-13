@@ -235,6 +235,7 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 | :--- | :---: | :---: | :--- |
 |[Heterogeneous Value Alignment Evaluation for Large Language Models](https://arxiv.org/abs/2305.17147) | 2023.05 | AAAI 24 Workshop | - |
 |[ValueBench: Towards Comprehensively Evaluating Value Orientations and Understanding of Large Language Models](https://arxiv.org/abs/2406.04214) | 2024.06 | ACL 2024 | Schwartz |
+|[Raising the Bar: Investigating the Values of Large Language Models via Generative Evolving Testing](https://arxiv.org/abs/2406.14230) | 2024.06 | ICML 2025 | - |
 |[CLAVE: An Adaptive Framework for Evaluating Values of LLM Generated Responses](https://arxiv.org/abs/2407.10725) | 2024.07 | NeurIPS 2024 | - |
 |[LocalValueBench: A Collaboratively Built and Extensible Benchmark for Evaluating Localized Value Alignment and Ethical Safety in Large Language Models](https://arxiv.org/abs/2408.01460) | 2024.07 | Arxiv | - |
 |[Measuring Human and AI Values Based on Generative Psychometrics with Large Language Models](https://arxiv.org/abs/2409.12106) | 2024.09 | AAAI 2025 | GPV |
@@ -257,7 +258,6 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 ### 3.3 Robustness, Stability, and Consistency
 | Paper Title | Year | Venue | Remark |
 | :--- | :---: | :---: | :--- |
-|[Raising the Bar: Investigating the Values of Large Language Models via Generative Evolving Testing](https://arxiv.org/abs/2406.14230) | 2024.06 | ICML 2025 | - |
 |[Do LLMs have Consistent Values?](https://arxiv.org/abs/2407.12878) | 2024.07 | ICLR 2025 | - |
 |[Are Large Language Models Consistent over Value-laden Questions?](https://arxiv.org/abs/2407.02996) | 2024.07 | EMNLP 2024 Findings | - |
 |[Stick to your role! Stability of personal values expressed in large language models](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0309114) | 2024.08 | PLOS One | - |
