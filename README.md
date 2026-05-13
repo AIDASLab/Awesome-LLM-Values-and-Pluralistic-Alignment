@@ -31,13 +31,9 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
    - [Value Classification]
    - [Value Embedding]
    - [Value Profiling]
-   - [Value Relation Extraction]
 
 [**3. Value Measurement and Evaluation**]
-   - [Value Orientation Benchmarks]
-   - [Value Understanding Benchmarks]
-   - [Survey-Based Evaluation]
-   - [Cross-Cultural Evaluation]
+
 
 [**4. Value Alignment and Steering**]
    - [Prompt-Based Alignment]
@@ -94,7 +90,7 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 |[A roadmap for evaluating moral competence in large language models](https://www.nature.com/articles/s41586-025-10021-1) | 2026.02 | Nature | - |
 
 ---
-# Datasets and Benchmarks
+# 📊 Datasets and Benchmarks
 
 ### Psychometric Inventories
 | Category | Examples |
@@ -141,7 +137,7 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 |[CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models](https://arxiv.org/abs/2405.13974) | 2024.05 | - |
 
 ---
-# Human Values in LLMs
+# 🕊️ Human Values in LLMs
 
 ## 1. Value Theory
 
@@ -184,3 +180,55 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 |[The Theory of Communicative Action](https://philpapers.org/rec/HABTTO) | 1981 | Habermas |
 |[Creating Capabilities: The Human Development Approach and Its Implementation](https://www.cambridge.org/core/journals/hypatia/article/abs/creating-capabilities-the-human-development-approach-and-its-implementation/6774FAF6E6CEC38018F9733B188A1A6C) | 2009 | Nussbaum |
 
+
+## 2. Value Representation and Extraction
+
+### 2.1 Value Space, Embedding & Classification
+| Paper Title | Year | Venue | Remark |
+| :--- | :---: | :---: | :--- |
+|[ValueNet: A New Dataset for Human Value Driven Dialogue System](https://arxiv.org/abs/2112.06346) | 2021.12 | AAAI 2022 | Schwartz |
+|[SemEval-2023 Task 4: ValueEval: Identification of Human Values Behind Arguments](https://aclanthology.org/2023.semeval-1.313/) | 2023.07 | SemEval 2023 | Schwartz |
+|[Value FULCRA: Mapping Large Language Models to the Multidimensional Spectrum of Basic Human Values](https://arxiv.org/abs/2311.10766) | 2023.11 | NAACL 2024 | Schwartz |
+|[MoralBERT: A Fine-Tuned Language Model for Capturing Moral Values in Social Discussions](https://arxiv.org/abs/2403.07678) | 2024.03 | GoodIT 2024 | Morality |
+|[What does a Text Classifier Learn about Morality? An Explainable Method for Cross-Domain Comparison of Moral Rhetoric](https://aclanthology.org/2023.acl-long.789/) | 2023.07 | ACL 2024 | Morality |
+|[MoVa: Towards Generalizable Classification of Human Morals and Values](https://arxiv.org/abs/2509.24216) | 2025.10 | EMNLP 2025 | Morality, Schwartz |
+|[Investigating Human Values in Online Communities](https://arxiv.org/abs/2402.14177) | 2024.02 | NAACL 2025 | Schwartz |
+|[The Value of Nothing: Multimodal Extraction of Human Values Expressed by TikTok Influencers](https://arxiv.org/abs/2501.11770) | 2025.01 | Arxiv | Schwartz |
+|[Morality is Non-Binary: Building a Pluralist Moral Sentence Embedding Space using Contrastive Learning](https://arxiv.org/abs/2401.17228) | 2024.01 | EACL 2024 Findings | Morality |
+|[VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models](https://arxiv.org/abs/2602.03160) | 2026.02 | ICML 2026 | Schwartz, Morality, Right, Duty |
+|[Learning the Value Systems of Societies from Preferences](https://arxiv.org/abs/2507.20728) | 2025.07 | ECAI 2025 | - |
+|[EAVIT: Efficient and Accurate Human Value Identification from Text data via LLMs](https://arxiv.org/abs/2505.12792) | 2025.05 | Arxiv | Schwartz |
+
+### 2.2 Value Profiling
+| Paper Title | Year | Venue | Remark |
+| :--- | :---: | :---: | :--- |
+|[Value Alignment of Social Media Ranking Algorithms](https://arxiv.org/abs/2509.14434) | 2025.10 | CHI 2026 | Schwartz |
+|[Do Differences in Values Influence Disagreements in Online Discussions?](https://arxiv.org/abs/2310.15757) | 2023.10 | EMNLP 2023 | Schwartz |
+|[VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models](https://arxiv.org/abs/2602.03160) | 2026.02 | ICML 2026 | Schwartz, Morality, Right, Duty |
+
+
+## 3. Value Measurement and Evaluation
+| Paper Title | Year | Venue | Remark |
+| :--- | :---: | :---: | :--- |
+|[ValueBench: Towards Comprehensively Evaluating Value Orientations and Understanding of Large Language Models](https://arxiv.org/abs/2406.04214) | 2024.06 | ACL 2024 | Schwartz |
+|[CLAVE: An Adaptive Framework for Evaluating Values of LLM Generated Responses](https://arxiv.org/abs/2407.10725) | 2024.07 | NeurIPS 2024 | - |
+|[Measuring Human and AI Values Based on Generative Psychometrics with Large Language Models](https://arxiv.org/abs/2409.12106) | 2024.09 | AAAI 2025 | GPV |
+|[Value Portrait: Assessing Language Models' Values through Psychometrically and Ecologically Valid Items](https://arxiv.org/abs/2505.01015) | 2025.05 | AAAI 2025 | Schwartz |
+|[Multimodal understanding of human values in videos: A benchmark dataset and PLM-based method](https://arxiv.org/abs/2505.01015) | 2025.07 | Neurocomputing 2025 | - |
+|[AdAEM: An Adaptively and Automated Extensible Measurement of LLMs' Value Difference](https://arxiv.org/abs/2505.13531) | 2025.05 | ICLR 2026 | - |
+|[VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models](https://arxiv.org/abs/2602.03160) | 2026.02 | ICML 2026 | Schwartz, Morality, Right, Duty |
+|[Following the Whispers of Values: Unraveling Neural Mechanisms Behind Value-Oriented Behaviors in LLMs](https://arxiv.org/abs/2504.04994) | 2025.04 | Arxiv | - |
+|[ValueDCG: Measuring Comprehensive Human Value Understanding Ability of Language Models](https://arxiv.org/abs/2310.00378) | 2023.10 | Arxiv | - |
+|[Learning the Value Systems of Societies from Preferences](https://arxiv.org/abs/2507.20728) | 2025.07 | ECAI 2025 | - |
+|[Value-Spectrum: Quantifying Preferences of Vision-Language Models via Value Decomposition in Social Media Contexts](https://arxiv.org/abs/2411.11479) | 2024.11 | ACL 2025 | - |
+
+## 4. Value Alignment and Steering
+| Paper Title | Year | Venue | Remark |
+| :--- | :---: | :---: | :--- |
+|[Rethinking Machine Ethics -- Can LLMs Perform Moral Reasoning through the Lens of Moral Theories?](https://arxiv.org/abs/2308.15399) | 2023.08 | NAACL 2024 Findings | Morality |
+|[Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights](https://arxiv.org/abs/2506.06404) | 2025.06 | ACL 2025 | Safety |
+|[From Values to Opinions: Predicting Human Behaviors and Stances Using Value-Injected Large Language Models](https://arxiv.org/abs/2310.17857) | 2023.08 | EMNLP 2023 | Schwartz, VIM |
+|[Value FULCRA: Mapping Large Language Models to the Multidimensional Spectrum of Basic Human Values](https://arxiv.org/abs/2311.10766) | 2023.11 | NAACL 2024 | Schwartz |
+|[Value Alignment of Social Media Ranking Algorithms](https://arxiv.org/abs/2509.14434) | 2025.10 | CHI 2026 | Schwartz |
+|[VISA: Value Injection via Shielded Adaptation for Personalized LLM Alignment](https://arxiv.org/abs/2603.04822) | 2026.03 | Arxiv | - |
+|[VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models](https://arxiv.org/abs/2602.03160) | 2026.02 | ICML 2026 | Schwartz, Morality, Right, Duty |
