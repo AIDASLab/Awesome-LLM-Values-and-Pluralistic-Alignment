@@ -429,7 +429,7 @@
 
 ## 1️⃣ Value Theory
  
-> What are values? Where do they come from? How are they structured across individuals and societies?
+> Foundational theories that define value structures across individuals, cultures, and political traditions.
  
 <a id="11-basic-human-values"></a>
 <details open>
@@ -498,7 +498,7 @@
 
 ## 2️⃣ Value Representation and Extraction
  
-> How do we find values inside text — and inside models?
+> Methods for identifying, representing, and modeling values in language data and LLM internals.
  
 <a id="21-value-identification-and-classification"></a>
 <details open>
@@ -567,6 +567,8 @@
 <br/>
 
 ## 3️⃣ Value Measurement and Evaluation
+
+> Benchmarks and evaluation frameworks for measuring value orientation, reasoning, robustness, and behavioral alignment.
  
 <a id="31-value-orientation-and-psychometric-measurement"></a>
 <details open>
@@ -638,7 +640,10 @@
  
 </details>
 <br/>
+
 ## 4️⃣ Value Alignment and Steering
+
+> Approaches for aligning and controlling LLM behavior through training-time and inference-time value interventions.
  
 <a id="41-foundations-and-pluralistic-alignment"></a>
 <details open>
@@ -695,8 +700,11 @@
  
 </details>
 <br/>
+
 <a id="5-other-related-works"></a>
 ## 5️⃣ Other Related Works
+
+> Related studies that extend value alignment to adjacent domains such as embodied and human-robot systems.
  
 | Paper | Year | Venue | Domain |
 | :-- | :-: | :-: | :-: |
@@ -712,6 +720,8 @@
  
 <a id="1️⃣-theoretical-foundations"></a>
 ## 1️⃣ Theoretical Foundations
+
+> Core philosophical and social choice foundations for reasoning about plural values and collective alignment.
  
 <a id="11-value-pluralism"></a>
 <details open>
