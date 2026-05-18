@@ -3,7 +3,7 @@
 <!-- ════════════════════════════════════════════════════════════════════ -->
 <div align="center">
 <p align="center">
-  <img src="banner.png" width="75%" alt="banner"/>
+  <img src="banner.png" width="80%" alt="banner"/>
 </p>
 <br/>
 <a href="https://github.com/sindresorhus/awesome">
