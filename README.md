@@ -45,20 +45,14 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
    - [Inference-time and Representation-level Steering](#43-inference-time-and-representation-level-steering)
 
 
-[**5. Other Related Works**]   
+[**5. Other Related Works**](#5-other-related-works)   
 
-### [D. Pluralistic Alignment](#pluralistic-alignment)
-1. [**Theoretical Foundations**]
-   - [Value Pluralism]
-   - [Moral Pluralism]
-   - [Political Pluralism]
-   - [Social Choice and Democratic Theory]
+### [D. Pluralistic Alignment](#d-pluralistic-alignment)
+[**1. Theoretical Foundations**](#1-theoretical-foundations)
+   - [Value Pluralism](#11-value-pluralism)
+   - [Social Choice](#12-social-choice)
 
 2. [**Multicultural and Cross-Cultural Alignment**]
-   - [Country-Level Alignment]
-   - [Language-Level Alignment]
-   - [Culture-Aware Evaluation] 
-
 3. [**Distributional Pluralism**]
 4. [**Steerable Pluralism**]
 5. [**Overton Pluralism**]
@@ -320,4 +314,19 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 |[Value-Based Human–Robot-Interaction: A Perceptual Control Theory Approach Toward Socially Intelligent Agents](https://link.springer.com/chapter/10.1007/978-3-031-99290-2_7) | 2026.02 | SOCUSRA 2026 | Robotic Agent |
 |[Bridging Values and Behavior: A Hierarchical Framework for Proactive Embodied Agents](https://arxiv.org/abs/2604.27699) | 2026.04 | Arxiv | Robotic Agent |
 
+---
+# Pluralistic Alignment
 
+## 1. Theoretical Foundations
+
+### 1.1 Value Pluralism
+| Paper Title | Year | Remark |
+| :--- | :---: | :---: |
+|[The Right and the Good](https://academic.oup.com/book/27608) | 1930 | Ross |
+|[Two Concepts of Liberty](https://academic.oup.com/book/7968/chapter-abstract/153281672?redirectedFrom=fulltext) | 1958 | Berlin |
+|[Conflicts of Values (in *Moral Luck*)](https://www.cambridge.org/core/books/abs/moral-luck/conflicts-of-values/652C425160A2BC6BA74E049D220E4245) | 1981 | Williams |
+|[The Morality of Freedom](https://academic.oup.com/book/9926) | 1988 | Raz |
+|[The Morality of Pluralism](https://www.jstor.org/stable/j.ctt7smh7) | 1993 | Kekes |
+|[The Morals of Modernity](https://www.cambridge.org/core/books/morals-of-modernity/2D52EFBB271F119438B8B4DA753079D3) | 1998 | Larmore |
+|[Liberal Pluralism: The Implications of Value Pluralism for Political Theory and Practice](https://www.cambridge.org/core/books/liberal-pluralism/B7B1CC377F1E093457A525CDC14EA008) | 2002 | Galston |
+|[Value Pluralism (in Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/value-pluralism/) | 2023 | Mason |
