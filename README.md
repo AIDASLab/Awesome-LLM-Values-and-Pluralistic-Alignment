@@ -39,11 +39,11 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
    - [Robustness, Stability, and Consistency](#33-robustness-stability-and-consistency)
    - [Value-Action Alignment, Behavioral Evaluation, and Interpretability](#34-value-action-alignment-behavioral-evaluation-and-interpretability)
 
-[**4. Value Alignment and Steering**]
-   - [Prompt-Based Alignment]
-   - [Fine-Tuning and RLHF]
-   - [Activation-Based Steering]
-   - [Multi-Value Control]
+[**4. Value Alignment and Steering**](#4-value-alignment-and-steering)
+   - [Foundations and Pluralistic Alignment](#41-foundations-and-pluralistic-alignment)
+   - [Training-based Alignment and Value Injection](#42-training-based-alignment-and-value-injection)
+   - [Inference-time and Representation-level Steering](#43-inference-time-and-representation-level-steering)
+
 
 [**5. Other Related Works**]   
 
@@ -258,6 +258,7 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 ### 3.3 Robustness, Stability, and Consistency
 | Paper Title | Year | Venue | Remark |
 | :--- | :---: | :---: | :--- |
+|[Exploring Multilingual Concepts of Human Value in Large Language Models: Is Value Alignment Consistent, Transferable and Controllable across Languages?](https://arxiv.org/abs/2402.18120) | 2024.02 | EMNLP 2024 Findings | - |
 |[Do LLMs have Consistent Values?](https://arxiv.org/abs/2407.12878) | 2024.07 | ICLR 2025 | - |
 |[Are Large Language Models Consistent over Value-laden Questions?](https://arxiv.org/abs/2407.02996) | 2024.07 | EMNLP 2024 Findings | - |
 |[Stick to your role! Stability of personal values expressed in large language models](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0309114) | 2024.08 | PLOS One | - |
@@ -274,32 +275,49 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 |[Dual Mechanisms of Value Expression: Intrinsic vs. Prompted Values in Large Language Models](https://arxiv.org/abs/2509.24319) | 2025.10 | Arxiv | - |
 |[Context-Value-Action Architecture for Value-Driven Large Language Model Agents](https://arxiv.org/abs/2604.05939) | 2026.04 | ACL 2026 Findings | - |
 
-
-
-
 ## 4. Value Alignment and Steering
+
+### 4.1 Foundations and Pluralistic Alignment
 | Paper Title | Year | Venue | Remark |
 | :--- | :---: | :---: | :--- |
-|[Rethinking Machine Ethics -- Can LLMs Perform Moral Reasoning through the Lens of Moral Theories?](https://arxiv.org/abs/2308.15399) | 2023.08 | NAACL 2024 Findings | Morality |
+|[A Roadmap to Pluralistic Alignment](https://arxiv.org/abs/2402.05070) | 2024.02 | ICML 2024 Position | - |
+|[What are human values, and how do we align AI to them?](https://arxiv.org/abs/2404.10636) | 2024.03 | Arxiv | - |
+|[Strong and weak alignment of large language models with human values](https://arxiv.org/abs/2408.04655) | 2024.08 | Scientific Reports | - |
 |[Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights](https://arxiv.org/abs/2506.06404) | 2025.06 | ACL 2025 | Safety |
+|[Rethinking Machine Ethics -- Can LLMs Perform Moral Reasoning through the Lens of Moral Theories?](https://arxiv.org/abs/2308.15399) | 2023.08 | NAACL 2024 Findings | Morality |
+|[ProgressGym: Alignment with a Millennium of Moral Progress](https://arxiv.org/abs/2406.20087) | 2024.06 | NeurIPS 2024 DB | - |
+
+### 4.2 Training-based Alignment and Value Injection
+| Paper Title | Year | Venue | Remark |
+| :--- | :---: | :---: | :--- |
 |[From Values to Opinions: Predicting Human Behaviors and Stances Using Value-Injected Large Language Models](https://arxiv.org/abs/2310.17857) | 2023.08 | EMNLP 2023 | Schwartz, VIM |
 |[Value FULCRA: Mapping Large Language Models to the Multidimensional Spectrum of Basic Human Values](https://arxiv.org/abs/2311.10766) | 2023.11 | NAACL 2024 | Schwartz |
-|[Value Alignment of Social Media Ranking Algorithms](https://arxiv.org/abs/2509.14434) | 2025.10 | CHI 2026 | Schwartz |
-|[VISA: Value Injection via Shielded Adaptation for Personalized LLM Alignment](https://arxiv.org/abs/2603.04822) | 2026.03 | Arxiv | - |
-|[ValuePilot: A Two-Phase Framework for Value-Driven Decision-Making](https://arxiv.org/abs/2503.04569) | 2025.03 | Arxiv | - |
+|[Modular Pluralism: Pluralistic Alignment via Multi-LLM Collaboration](https://arxiv.org/abs/2406.15951) | 2024.06 | EMNLP 2024 | - |
+|[Moral Alignment for LLM Agents](https://arxiv.org/abs/2410.01639) | 2024.10 | ICLR 2025 | - |
 |[Survey-to-Behavior: Downstream Alignment of Human Values in LLMs via Survey Questions](https://arxiv.org/abs/2508.11414) | 2025.08 | Arxiv | - |
-|[PICACO: Pluralistic In-Context Value Alignment of LLMs via Total Correlation Optimization](https://arxiv.org/abs/2507.16679) | 2025.06 | Arxiv | - |
-|[Dual Mechanisms of Value Expression: Intrinsic vs. Prompted Values in Large Language Models](https://arxiv.org/abs/2509.24319) | 2025.10 | Arxiv | - |
-|[Controllable Value Alignment in Large Language Models through Neuron-Level Editing](https://arxiv.org/abs/2602.07356) | 2026.02 | Arxiv | - |
+|[Multi-Value Alignment for LLMs via Value Decorrelation and Extrapolation](https://arxiv.org/abs/2511.17579) | 2025.11 | AAAI 2026 | - |
+|[VISA: Value Injection via Shielded Adaptation for Personalized LLM Alignment](https://arxiv.org/abs/2603.04822) | 2026.03 | Arxiv | - |
+
+### 4.3 Inference-time and Representation-level Steering
+| Paper Title | Year | Venue | Remark |
+| :--- | :---: | :---: | :--- |
+|[Aligning Large Language Models with Human Opinions through Persona Selection and Value--Belief--Norm Reasoning](https://arxiv.org/abs/2311.08385) | 2023.11 | COLING 2025 | - |
 |[Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs](https://arxiv.org/abs/2502.08640) | 2025.02 | NeurIPS 2025 | - |
+|[ValuePilot: A Two-Phase Framework for Value-Driven Decision-Making](https://arxiv.org/abs/2503.04569) | 2025.03 | Arxiv | - |
+|[MAP: Multi-Human-Value Alignment Palette](https://arxiv.org/abs/2410.19198) | 2024.10 | ICLR 2025 | - |
+|[PICACO: Pluralistic In-Context Value Alignment of LLMs via Total Correlation Optimization](https://arxiv.org/abs/2507.16679) | 2025.06 | Arxiv | - |
 |[Internal Value Alignment in Large Language Models through Controlled Value Vector Activation](https://arxiv.org/abs/2507.11316) | 2025.07 | ACL 2025 | - |
+|[Steerable Pluralism: Pluralistic Alignment via Few-Shot Comparative Regression](https://arxiv.org/abs/2508.08509) | 2025.08 | AIES 2025 | - |
+|[Counterfactual Reasoning for Steerable Pluralistic Value Alignment of Large Language Models](https://arxiv.org/abs/2510.18526) | 2025.10 | NeurIPS 2025 | - |
+|[Diverse Human Value Alignment for Large Language Models via Ethical Reasoning](https://arxiv.org/abs/2511.00379) | 2025.11 | AIES 2025 | - |
+|[VISPA: Pluralistic Alignment via Automatic Value Selection and Activation](https://arxiv.org/abs/2601.12758) | 2026.01 | Arxiv | - |
 |[Controllable Value Alignment in Large Language Models through Neuron-Level Editing](https://arxiv.org/abs/2602.07356) | 2026.02 | Arxiv | - |
-|[Strong and weak alignment of large language models with human values](https://arxiv.org/abs/2408.04655) | 2024.08 | Scientific Reports | - |
-|[What are human values, and how do we align AI to them?](https://arxiv.org/abs/2404.10636) | 2024.03 | Arxiv | - |
 
 ## 5. Other Related Works
 | Paper Title | Year | Venue | Remark |
 | :--- | :---: | :---: | :--- |
-|[Bridging Values and Behavior: A Hierarchical Framework for Proactive Embodied Agents](https://arxiv.org/abs/2604.27699) | 2026.04 | Arxiv | Robotic Agent |
-|[Value-Based Human–Robot-Interaction: A Perceptual Control Theory Approach Toward Socially Intelligent Agents](https://link.springer.com/chapter/10.1007/978-3-031-99290-2_7) | 2026.02 | SOCUSRA 2026 | Robotic Agent |
 |[If they disagree, will you conform? Exploring the role of robots’ value awareness in a decision-making task](https://www.jbe-platform.com/content/journals/10.1075/is.25030.pus) | 2025.12 | Interaction Studies 2025 | Robotic Agent |
+|[Value-Based Human–Robot-Interaction: A Perceptual Control Theory Approach Toward Socially Intelligent Agents](https://link.springer.com/chapter/10.1007/978-3-031-99290-2_7) | 2026.02 | SOCUSRA 2026 | Robotic Agent |
+|[Bridging Values and Behavior: A Hierarchical Framework for Proactive Embodied Agents](https://arxiv.org/abs/2604.27699) | 2026.04 | Arxiv | Robotic Agent |
+
+
