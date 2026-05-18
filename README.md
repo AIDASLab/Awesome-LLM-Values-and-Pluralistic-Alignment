@@ -125,10 +125,10 @@
 
 <sub>
 • <a href="#1️⃣-theoretical-foundations">Theoretical Foundations</a><br/>
-• <a href="#d-pluralistic-alignment">Cultural Alignment</a><br/>
-• <a href="#d-pluralistic-alignment">Overton Pluralism</a><br/>
-• <a href="#d-pluralistic-alignment">Steerable Pluralism</a><br/>
-• <a href="#d-pluralistic-alignment">Distributional Pluralism</a><br/>
+• <a href="#d-pluralistic-alignment">Cultural Alignment (WIP)</a><br/>
+• <a href="#d-pluralistic-alignment">Overton Pluralism (WIP)</a><br/>
+• <a href="#d-pluralistic-alignment">Steerable Pluralism (WIP)</a><br/>
+• <a href="#d-pluralistic-alignment">Distributional Pluralism (WIP)</a><br/>
 &nbsp;<br/>
 &nbsp;
 </sub>
@@ -721,14 +721,14 @@
    
 | Paper | Year | Remark |
 | :-- | :-: | :-: |
-| [The Right and the Good](https://academic.oup.com/book/27608) | 1930 | - |
+| [The Right and the Good](https://academic.oup.com/book/27608) | 1930 | Ross |
 | [Two Concepts of Liberty](https://academic.oup.com/book/7968/chapter-abstract/153281672) | 1958 | Berlin |
-| [Conflicts of Values (in *Moral Luck*)](https://www.cambridge.org/core/books/abs/moral-luck/conflicts-of-values/652C425160A2BC6BA74E049D220E4245) | 1981 | - |
-| [The Morality of Freedom](https://academic.oup.com/book/9926) | 1988 | - |
-| [The Morality of Pluralism](https://www.jstor.org/stable/j.ctt7smh7) | 1993 | - |
-| [The Morals of Modernity](https://www.cambridge.org/core/books/morals-of-modernity/2D52EFBB271F119438B8B4DA753079D3) | 1998 | - |
-| [Liberal Pluralism: The Implications of Value Pluralism for Political Theory and Practice](https://www.cambridge.org/core/books/liberal-pluralism/B7B1CC377F1E093457A525CDC14EA008) | 2002 | - |
-| [Value Pluralism (in Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/value-pluralism/) | 2023 | - |
+| [Conflicts of Values (in *Moral Luck*)](https://www.cambridge.org/core/books/abs/moral-luck/conflicts-of-values/652C425160A2BC6BA74E049D220E4245) | 1981 | Williams |
+| [The Morality of Freedom](https://academic.oup.com/book/9926) | 1988 | Raz |
+| [The Morality of Pluralism](https://www.jstor.org/stable/j.ctt7smh7) | 1993 | Kekes |
+| [The Morals of Modernity](https://www.cambridge.org/core/books/morals-of-modernity/2D52EFBB271F119438B8B4DA753079D3) | 1998 | Larmore |
+| [Liberal Pluralism: The Implications of Value Pluralism for Political Theory and Practice](https://www.cambridge.org/core/books/liberal-pluralism/B7B1CC377F1E093457A525CDC14EA008) | 2002 | Galston |
+| [Value Pluralism (in Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/value-pluralism/) | 2023 | Mason |
  
 </details>
 <a id="12-social-choice"></a>
@@ -739,15 +739,15 @@
    
 | Paper | Year | Remark |
 | :-- | :-: | :-: |
-| [On the Rationale of Group Decision-making](https://www.jstor.org/stable/1825026) | 1948 | - |
-| [Social Choice and Individual Values](https://www.jstor.org/stable/j.ctt1nqb90) | 1951 | - |
-| [Collective Choice and Social Welfare](https://www.jstor.org/stable/j.ctv2sp3dqx) | 1970 | - |
-| [The Impossibility of a Paretian Liberal](https://www.jstor.org/stable/1829633) | 1970 | - |
-| [Manipulation of Voting Schemes: A General Result](https://www.jstor.org/stable/1914083) | 1973 | - |
-| [Strategy-proofness and Arrow's Conditions](https://www.sciencedirect.com/science/article/pii/0022053175900502) | 1975 | - |
-| [Aggregating Sets of Judgments: An Impossibility Result](https://www.cambridge.org/core/journals/economics-and-philosophy/article/abs/aggregating-sets-of-judgments-an-impossibility-result/35BB2A979DC8D2548B3040A1757B058B) | 2002 | - |
-| [Handbook of Computational Social Choice](https://www.cambridge.org/core/books/handbook-of-computational-social-choice/8AF63E87F76A5FC974D5E73536C52BD6) | 2016 | - |
-| [Social Choice Theory (in Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/social-choice/) | 2022 | - |
+| [On the Rationale of Group Decision-making](https://www.jstor.org/stable/1825026) | 1948 | Black |
+| [Social Choice and Individual Values](https://www.jstor.org/stable/j.ctt1nqb90) | 1951 | Arrow |
+| [Collective Choice and Social Welfare](https://www.jstor.org/stable/j.ctv2sp3dqx) | 1970 | Sen |
+| [The Impossibility of a Paretian Liberal](https://www.jstor.org/stable/1829633) | 1970 | Sen |
+| [Manipulation of Voting Schemes: A General Result](https://www.jstor.org/stable/1914083) | 1973 | Gibbard |
+| [Strategy-proofness and Arrow's Conditions](https://www.sciencedirect.com/science/article/pii/0022053175900502) | 1975 | Satterthwaite |
+| [Aggregating Sets of Judgments: An Impossibility Result](https://www.cambridge.org/core/journals/economics-and-philosophy/article/abs/aggregating-sets-of-judgments-an-impossibility-result/35BB2A979DC8D2548B3040A1757B058B) | 2002 | List & Pettit |
+| [Handbook of Computational Social Choice](https://www.cambridge.org/core/books/handbook-of-computational-social-choice/8AF63E87F76A5FC974D5E73536C52BD6) | 2016 | Brandt et al. |
+| [Social Choice Theory (in Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/social-choice/) | 2022 | List |
  
 </details>
 <br/>
