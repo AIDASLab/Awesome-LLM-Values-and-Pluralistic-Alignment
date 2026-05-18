@@ -306,7 +306,7 @@
 </details>
 
 <details open>
-<summary><b>🌈 Pluralistic Alignment & Social Choice</b></summary>
+<summary><b>🧭 Pluralistic Alignment & Social Choice</b></summary>
 
 <br/> 
 
@@ -708,7 +708,7 @@
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,20&height=2" width="100%"/>
 <br/>
 
-# 🌈 Pluralistic Alignment
+# 🧭 Pluralistic Alignment
  
 <a id="1️⃣-theoretical-foundations"></a>
 ## 1️⃣ Theoretical Foundations
