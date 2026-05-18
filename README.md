@@ -46,9 +46,9 @@
 <div align="left">
 
 <sub>
-•  Blogs & Lectures<br/>
-•  Github Repos<br/>
-•  Survey & Position Papers<br/>
+• <a href="#-blogs--lectures">Blogs & Lectures</a><br/>
+• <a href="#-github-repos">Github Repos</a><br/>
+• <a href="#-survey--perspective-papers">Survey & Position Papers</a><br/>
 &nbsp;<br/>
 &nbsp;<br/>
 &nbsp;<br/>
@@ -72,10 +72,10 @@
 <div align="left">
 
 <sub>
-•  Psychometric Inventories<br/>
-•  Survey Questionnaires<br/>
-•  Value Annotation Datasets<br/>
-•  Opinion & Cultural Datasets<br/>
+• <a href="#-psychometric-inventories">Psychometric Inventories</a><br/>
+• <a href="#-survey-datasets">Survey Questionnaires</a><br/>
+• <a href="#️-value-annotation-datasets">Value Annotation Datasets</a><br/>
+• <a href="#-public-opinion--cultural-datasets">Opinion & Cultural Datasets</a><br/>
 &nbsp;<br/>
 &nbsp;<br/>
 &nbsp;
@@ -98,10 +98,10 @@
 <div align="left">
 
 <sub>
-•  Value Theory<br/>
-•  Representation & Extraction<br/>
-•  Measurement & Evaluation<br/>
-•  Alignment & Steering<br/>
+• <a href="#1️⃣-value-theory">Value Theory</a><br/>
+• <a href="#2️⃣-value-representation-and-extraction">Representation & Extraction</a><br/>
+• <a href="#3️⃣-value-measurement-and-evaluation">Measurement & Evaluation</a><br/>
+• <a href="#4️⃣-value-alignment-and-steering">Alignment & Steering</a><br/>
 &nbsp;<br/>
 &nbsp;<br/>
 &nbsp;
@@ -124,11 +124,11 @@
 <div align="left">
 
 <sub>
-•  Theoretical Foundations<br/>
-•  Cultural Alignment<br/>
-•  Overton Pluralism<br/>
-•  Steerable Pluralism<br/>
-•  Distributional Pluralism<br/>
+• <a href="#1️⃣-theoretical-foundations">Theoretical Foundations</a><br/>
+• <a href="#-pluralistic-alignment">Cultural Alignment</a><br/>
+• <a href="#-pluralistic-alignment">Overton Pluralism</a><br/>
+• <a href="#-pluralistic-alignment">Steerable Pluralism</a><br/>
+• <a href="#-pluralistic-alignment">Distributional Pluralism</a><br/>
 &nbsp;<br/>
 &nbsp;
 </sub>
