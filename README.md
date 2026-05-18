@@ -347,7 +347,7 @@
    
 | Paper | Year | Venue |
 | :-- | :-: | :-: |
-| [Cultural Alignment in Large Language Models: An Explanatory Analysis Based on Hofstede's Cultural Dimensions](https://arxiv.org/abs/2309.12342) | `2023.09` |    ![venue](https://img.shields.io/badge/LREC-COLING-24-0D9488?style=flat-square) |
+| [Cultural Alignment in Large Language Models: An Explanatory Analysis Based on Hofstede's Cultural Dimensions](https://arxiv.org/abs/2309.12342) | `2023.09` |    ![venue](https://img.shields.io/badge/COLING-24-0D9488?style=flat-square) |
 | [Cultural Bias and Cultural Alignment of Large Language Models](https://arxiv.org/abs/2311.14096) | `2023.11` |    ![venue](https://img.shields.io/badge/PNAS_Nexus-24-6B7280?style=flat-square) |
 | [Towards Measuring and Modeling "Culture" in LLMs: A Survey](https://arxiv.org/abs/2403.15412) | `2024.03` |    ![venue](https://img.shields.io/badge/EMNLP-24-DC2626?style=flat-square) |
 | [Survey of Cultural Awareness in Language Models: Text and Beyond](https://arxiv.org/abs/2411.00860) | `2024.11` |    ![arXiv](https://img.shields.io/badge/arXiv-B31B1B?style=flat-square&logo=arxiv&logoColor=white) |
@@ -431,8 +431,8 @@
  
 > What are values? Where do they come from? How are they structured across individuals and societies?
  
-<details open>
 <a id="11-basic-human-values"></a>
+<details open>
 <summary><b>1.1 Basic Human Values</b></summary>
 
 <br/>
@@ -449,8 +449,8 @@
 | [Functional theory of human values](https://www.researchgate.net/publication/259486885) | 2013 | Gouveia |
  
 </details>
-<details open>
 <a id="12-moral-values-and-moral-foundations"></a>
+<details open>
 <summary><b>1.2 Moral Values and Moral Foundations</b></summary>
 
 <br/>
@@ -463,8 +463,8 @@
 | [The theory of dyadic morality: Reinventing moral judgment by redefining harm.](https://psycnet.apa.org/record/2018-02142-002) | 2018 | TDM |
  
 </details>
-<details open>
 <a id="13-cultural-and-cross-cultural-values"></a>
+<details open>
 <summary><b>1.3 Cultural and Cross-Cultural Values</b></summary>
 
 <br/>
@@ -479,8 +479,8 @@
 | [Modernization, Cultural Change, and Democracy](https://www.researchgate.net/publication/230557603) | 2005 | Inglehart |
  
 </details>
-<details open>
 <a id="14-political-civic-values-and-human-rights"></a>
+<details open>
 <summary><b>1.4 Political, Civic Values and Human Rights</b></summary>
 
 <br/>
@@ -500,8 +500,8 @@
  
 > How do we find values inside text — and inside models?
  
-<details open>
 <a id="21-value-identification-and-classification"></a>
+<details open>
 <summary><b>2.1 Value Identification and Classification</b></summary>
 
 <br/>
@@ -519,8 +519,8 @@
 | [MoVa: Towards Generalizable Classification of Human Morals and Values](https://arxiv.org/abs/2509.24216) | `2025.10` |    ![venue](https://img.shields.io/badge/EMNLP-25-DC2626?style=flat-square) | Morality · Schwartz |
  
 </details>
-<details open>
 <a id="22-value-representation-and-embedding"></a>
+<details open>
 <summary><b>2.2 Value Representation and Embedding</b></summary>
 
 <br/>
@@ -532,8 +532,8 @@
 | [VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models](https://arxiv.org/abs/2602.03160) | `2026.02` |    ![venue](https://img.shields.io/badge/ICML-26-2563EB?style=flat-square) |
  
 </details>
-<details open>
 <a id="23-value-system-construction-and-discovery"></a>
+<details open>
 <summary><b>2.3 Value System Construction and Discovery</b></summary>
 
 <br/>
@@ -549,8 +549,8 @@
 | [Exploring Universal Human Values with Large Language Models: The AWARE-Value Model](https://www.researchsquare.com/article/rs-8188052/v1) | `2026.01` |  - |
  
 </details>
-<details open>
 <a id="24-value-profiling"></a>
+<details open>
 <summary><b>2.4 Value Profiling</b></summary>
 
 <br/>
@@ -568,8 +568,8 @@
 
 ## 3️⃣ Value Measurement and Evaluation
  
-<details open>
 <a id="31-value-orientation-and-psychometric-measurement"></a>
+<details open>
 <summary><b>3.1 Value Orientation and Psychometric Measurement</b></summary>
 
 <br/>
@@ -591,8 +591,8 @@
 | [VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models](https://arxiv.org/abs/2602.03160) | `2026.02` |    ![venue](https://img.shields.io/badge/ICML-26-2563EB?style=flat-square) |
  
 </details>
-<details open>
 <a id="32-value-understanding-and-reasoning"></a>
+<details open>
 <summary><b>3.2 Value Understanding and Reasoning</b></summary>
 
 <br/>
@@ -605,8 +605,8 @@
 | [Investigating Value-Reasoning Reliability in Small Large Language Models](https://aclanthology.org/2025.emnlp-main.395/) | `2025.11` |    ![venue](https://img.shields.io/badge/EMNLP-25-DC2626?style=flat-square) |
  
 </details>
-<details open>
 <a id="33-robustness-stability-and-consistency"></a>
+<details open>
 <summary><b>3.3 Robustness, Stability, and Consistency</b></summary>
 
 <br/>
@@ -621,8 +621,8 @@
 | [ValueFlow: Measuring the Propagation of Value Perturbations in Multi-Agent LLM Systems](https://arxiv.org/abs/2602.08567) | `2026.02` |    ![arXiv](https://img.shields.io/badge/arXiv-B31B1B?style=flat-square&logo=arxiv&logoColor=white) |
  
 </details>
-<details open>
 <a id="34-value-action-alignment-behavioral-evaluation-and-interpretability"></a>
+<details open>
 <summary><b>3.4 Value–Action Alignment, Behavior, and Interpretability</b></summary>
 
 <br/>
@@ -640,8 +640,8 @@
 <br/>
 ## 4️⃣ Value Alignment and Steering
  
-<details open>
 <a id="41-foundations-and-pluralistic-alignment"></a>
+<details open>
 <summary><b>4.1 Foundations and Pluralistic Alignment</b></summary>
 
 <br/>
@@ -656,8 +656,8 @@
 | [ProgressGym: Alignment with a Millennium of Moral Progress](https://arxiv.org/abs/2406.20087) | `2024.06` |    ![venue](https://img.shields.io/badge/NeurIPS_DB-24-8E44AD?style=flat-square) |
  
 </details>
-<details open>
 <a id="42-training-based-alignment-and-value-injection"></a>
+<details open>
 <summary><b>4.2 Training-based Alignment and Value Injection</b></summary>
 
 <br/>
@@ -673,8 +673,8 @@
 | [VISA: Value Injection via Shielded Adaptation for Personalized LLM Alignment](https://arxiv.org/abs/2603.04822) | `2026.03` |    ![arXiv](https://img.shields.io/badge/arXiv-B31B1B?style=flat-square&logo=arxiv&logoColor=white) |
  
 </details>
-<details open>
 <a id="43-inference-time-and-representation-level-steering"></a>
+<details open>
 <summary><b>4.3 Inference-time and Representation-level Steering</b></summary>
 
 <br/>
@@ -713,8 +713,8 @@
 <a id="1️⃣-theoretical-foundations"></a>
 ## 1️⃣ Theoretical Foundations
  
-<details open>
 <a id="11-value-pluralism"></a>
+<details open>
 <summary><b>1.1 Value Pluralism</b></summary>
 
 <br/>
@@ -731,8 +731,8 @@
 | [Value Pluralism (in Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/value-pluralism/) | 2023 | - |
  
 </details>
-<details open>
 <a id="12-social-choice"></a>
+<details open>
 <summary><b>1.2 Social Choice</b></summary>
 
 <br/>
