@@ -38,14 +38,14 @@
 <a href="#-surveys--useful-resources">
 <img src="https://img.icons8.com/fluency/64/literature.png" width="56"/>
 
-<h2>Surveys &<br/>Useful Resources</h2>
+<h2>Surveys &<br/>Resources</h2>
 </a>
 
 <hr/>
 
 <div align="left">
 
-<small>
+<sub>
 •  Blogs & Lectures<br/>
 •  Github Repos<br/>
 •  Survey & Position Papers<br/>
@@ -53,7 +53,7 @@
 &nbsp;<br/>
 &nbsp;<br/>
 &nbsp;
-</small>
+</sub>
 
 </div>
 
@@ -71,7 +71,7 @@
 
 <div align="left">
 
-<small>
+<sub>
 •  Psychometric Inventories<br/>
 •  Survey Questionnaires<br/>
 •  Value Annotation Datasets<br/>
@@ -79,7 +79,7 @@
 &nbsp;<br/>
 &nbsp;<br/>
 &nbsp;
-</small>
+</sub>
 
 </div>
 
@@ -97,7 +97,7 @@
 
 <div align="left">
 
-<small>
+<sub>
 •  Value Theory<br/>
 •  Representation & Extraction<br/>
 •  Measurement & Evaluation<br/>
@@ -105,7 +105,7 @@
 &nbsp;<br/>
 &nbsp;<br/>
 &nbsp;
-</small>
+</sub>
 
 </div>
 
@@ -123,7 +123,7 @@
 
 <div align="left">
 
-<small>
+<sub>
 •  Theoretical Foundations<br/>
 •  Cultural Alignment<br/>
 •  Overton Pluralism<br/>
@@ -131,7 +131,7 @@
 •  Distributional Pluralism<br/>
 &nbsp;<br/>
 &nbsp;
-</small>
+</sub>
 
 </div>
 
