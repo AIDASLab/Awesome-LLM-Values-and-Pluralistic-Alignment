@@ -330,3 +330,16 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 |[The Morals of Modernity](https://www.cambridge.org/core/books/morals-of-modernity/2D52EFBB271F119438B8B4DA753079D3) | 1998 | Larmore |
 |[Liberal Pluralism: The Implications of Value Pluralism for Political Theory and Practice](https://www.cambridge.org/core/books/liberal-pluralism/B7B1CC377F1E093457A525CDC14EA008) | 2002 | Galston |
 |[Value Pluralism (in Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/value-pluralism/) | 2023 | Mason |
+
+### 1.2 Social Choice
+| Paper Title | Year | Remark |
+| :--- | :---: | :---: |
+|[On the Rationale of Group Decision-making](https://www.jstor.org/stable/1825026) | 1948 | Black |
+|[Social Choice and Individual Values](https://www.jstor.org/stable/j.ctt1nqb90) | 1951 | Arrow |
+|[Collective Choice and Social Welfare](https://www.jstor.org/stable/j.ctv2sp3dqx) | 1970 | Sen |
+|[The Impossibility of a Paretian Liberal](https://www.jstor.org/stable/1829633) | 1970 | Sen |
+|[Manipulation of Voting Schemes: A General Result](https://www.jstor.org/stable/1914083) | 1973 | Gibbard |
+|[Strategy-proofness and Arrow's Conditions](https://www.sciencedirect.com/science/article/pii/0022053175900502) | 1975 | Satterthwaite |
+|[Aggregating Sets of Judgments: An Impossibility Result](https://www.cambridge.org/core/journals/economics-and-philosophy/article/abs/aggregating-sets-of-judgments-an-impossibility-result/35BB2A979DC8D2548B3040A1757B058B) | 2002 | List & Pettit |
+|[Handbook of Computational Social Choice](https://www.cambridge.org/core/books/handbook-of-computational-social-choice/8AF63E87F76A5FC974D5E73536C52BD6) | 2016 | Brandt et al. |
+|[Social Choice Theory (in Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/social-choice/) | 2022 | List |
