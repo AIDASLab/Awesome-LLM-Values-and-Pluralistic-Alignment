@@ -164,10 +164,10 @@
 ---
 
 ## B. Datasets and Benchmarks
-- [Psychometric Inventories](#psychometric-inventories)
-- [Survey Datasets](#survey-datasets)
-- [Value Annotation Datasets](#value-annotation-datasets)
-- [Public Opinion & Cultural Datasets](#public-opinion--cultural-datasets)
+- [Psychometric Inventories](#-psychometric-inventories)
+- [Survey Datasets](#-survey-datasets)
+- [Value Annotation Datasets](#️-value-annotation-datasets)
+- [Public Opinion & Cultural Datasets](#-public-opinion--cultural-datasets)
 
 ---
 
