@@ -52,10 +52,35 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
    - [Value Pluralism](#11-value-pluralism)
    - [Social Choice](#12-social-choice)
 
-2. [**Multicultural and Cross-Cultural Alignment**]
-3. [**Distributional Pluralism**]
-4. [**Steerable Pluralism**]
-5. [**Overton Pluralism**]
+**🚧 Sections 2–6 below are work in progress**
+
+[**2. Multicultural and Cross-Cultural Alignment**] *(WIP)*
+
+[**3. Overton Pluralism**] *(WIP)*
+
+[**4. Steerable Pluralism**] *(WIP)*
+
+[**5. Distributional Pluralism**] *(WIP)*
+
+[**6. Social Simulation**] *(WIP)*
+
+<!--
+[**2. Multicultural and Cross-Cultural Alignment**](#2-multicultural-and-cross-cultural-alignment)
+   - [Evaluation and Benchmarks](#21-evaluation-and-benchmarks)
+   - [Alignment Methods](#22-alignment-methods)
+   - [Multilingual Value Transfer](#23-multilingual-value-transfer)
+[**3. Overton Pluralism**](#3-overton-pluralism)
+   - [Generation of Multiple Perspectives](#31-generation-of-multiple-perspectives)
+   - [Benchmarks and Measurement](#32-benchmarks-and-measurement)
+[**4. Steerable Pluralism**](#4-steerable-pluralism)
+   - [Prompt- and Reasoning-based Steering](#41-prompt--and-reasoning-based-steering)
+   - [Representation-level Steering](#42-representation-level-steering)
+   - [Multi-Value Control and Trade-offs](#43-multi-value-control-and-trade-offs)
+[**5. Distributional Pluralism**](#5-distributional-pluralism)
+   - [Distributional Alignment Methods](#51-distributional-alignment-methods)
+   - [Benchmarks and Measurement](#52-benchmarks-and-measurement)
+[**6. Social Simulation**](#6-social-simulation)
+-->
 
 ---
 # Surveys & Useful Resources
@@ -71,21 +96,62 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 - [Awesome-LLM-in-Social-Science](https://github.com/ValueByte-AI/Awesome-LLM-in-Social-Science)
 - [Awesome-LLM-Psychometrics](https://github.com/ValueByte-AI/Awesome-LLM-Psychometrics)
 - [Awesome-Pluralistic-Alignment](https://github.com/anudeex/Awesome-Pluralistic-Alignment)
+- [awesome-llm-social-simulation](https://github.com/Wanying-He/awesome-llm-social-simulation)
+- [SocialAgent](https://github.com/FudanDISC/SocialAgent)
+- [culture-awareness-llms](https://github.com/siddheshih/culture-awareness-llms)
+- [cultural-llm-papers](https://github.com/faridlazuarda/cultural-llm-papers)
 
 ### 📝 Survey & Perspective Papers
+
+**General LLM Alignment Surveys**
 | Paper Title | Year | Venue | Remark |
 | :--- | :---: | :---: | :--- |
 |[Aligning Large Language Models with Human: A Survey](https://arxiv.org/abs/2307.12966) | 2023.07 | Arxiv | - |
 |[From Instructions to Intrinsic Human Values -- A Survey of Alignment Goals for Big Models](https://arxiv.org/abs/2308.12014) | 2023.08 | Arxiv | - |
 |[AI Alignment: A Comprehensive Survey](https://arxiv.org/abs/2310.19852) | 2023.10 | Arxiv | - |
-|[A Roadmap to Pluralistic Alignment](https://arxiv.org/abs/2402.05070) | 2024.02 | ICML 2024 Position | - |
+|[What are human values, and how do we align AI to them?](https://arxiv.org/abs/2404.10636) | 2024.03 | Arxiv | - |
 |[Position: Towards Bidirectional Human-AI Alignment](https://arxiv.org/abs/2406.09264) | 2024.06 | NeurIPS 2025 Position | - |
-|[The Potential and Challenges of Evaluating Attitudes, Opinions, and Values in Large Language Models](https://arxiv.org/abs/2406.11096) | 2024.06 | Arxiv | - |
 |[A Survey on Human-Centric LLMs](https://arxiv.org/abs/2411.14491) | 2024.11 | Arxiv | - |
-|[From Individual to Society: A Survey on Social Simulation Driven by Large Language Model-based Agents](https://arxiv.org/abs/2412.03563) | 2024.12 | Arxiv | - |
+
+**Evaluation, Psychometrics & Representativeness**
+| Paper Title | Year | Venue | Remark |
+| :--- | :---: | :---: | :--- |
+|[The Potential and Challenges of Evaluating Attitudes, Opinions, and Values in Large Language Models](https://arxiv.org/abs/2406.11096) | 2024.06 | Arxiv | - |
 |[Large Language Model Psychometrics: A Systematic Review of Evaluation, Validation, and Enhancement](https://arxiv.org/abs/2505.08245) | 2025.05 | Arxiv | - |
 |[Missing the Margins: A Systematic Literature Review on the Demographic Representativeness of LLMs](https://arxiv.org/abs/2511.01864) | 2025.11 | ACL 2025 Findings | - |
 |[A roadmap for evaluating moral competence in large language models](https://www.nature.com/articles/s41586-025-10021-1) | 2026.02 | Nature | - |
+
+**Pluralistic Alignment & Social Choice**
+| Paper Title | Year | Venue | Remark |
+| :--- | :---: | :---: | :--- |
+|[Personalisation within bounds: A risk taxonomy and policy framework for the alignment of large language models with personalised feedback](https://arxiv.org/abs/2303.05453) | 2023.03 | Arxiv | - |
+|[AI Alignment and Social Choice: Fundamental Limitations and Policy Implications](https://arxiv.org/abs/2310.16048) | 2023.10 | Arxiv | - |
+|[A Roadmap to Pluralistic Alignment](https://arxiv.org/abs/2402.05070) | 2024.02 | ICML 2024 Position | - |
+|[Social Choice Should Guide AI Alignment in Dealing with Diverse Human Feedback](https://arxiv.org/abs/2404.10271) | 2024.04 | ICML 2024 Position | - |
+|[A Survey on Personalized and Pluralistic Preference Alignment in Large Language Models](https://arxiv.org/abs/2504.07070) | 2025.04 | Arxiv | - |
+|[Decentralising LLM Alignment: A Case for Context, Pluralism, and Participation](https://arxiv.org/abs/2509.08858) | 2025.09 | AIES 2025 | - |
+|[Operationalizing Pluralistic Values in Large Language Model Alignment Reveals Trade-offs in Safety, Inclusivity, and Model Behavior](https://arxiv.org/abs/2511.14476) | 2025.11 | Arxiv | - |
+|[LLM Alignment should go beyond Harmlessness–Helpfulness and incorporate Human Agency](https://link.springer.com/article/10.1007/s12559-026-10568-9) | 2026.03 | Cognitive Computation | - |
+|[Towards Pluralistic Alignment of LLMs: A Comprehensive Survey](https://www.preprints.org/manuscript/202603.1876) | 2026.03 | Preprints | - |
+
+**Social Simulation**
+| Paper Title | Year | Venue | Remark |
+| :--- | :---: | :---: | :--- |
+|[Large language models empowered agent-based modeling and simulation: a survey and perspectives](https://www.nature.com/articles/s41599-024-03611-3) | 2024.10 | Nature | - |
+|[From Individual to Society: A Survey on Social Simulation Driven by Large Language Model-based Agents](https://arxiv.org/abs/2412.03563) | 2024.12 | Arxiv | - |
+|[LLM Social Simulations Are a Promising Research Method](https://arxiv.org/abs/2504.02234) | 2025.04 | ICML 2025 Position | - |
+|[Simulating Society Requires Simulating Thought](https://arxiv.org/abs/2506.06958) | 2025.06 | NeurIPS 2025 Position | - |
+|[Integrating LLM in Agent-Based Social Simulation: Opportunities and Challenges](https://arxiv.org/abs/2507.19364) | 2025.07 | Arxiv | - |
+|[Position: AI Agents Are Not (Yet) a Panacea for Social Simulation](https://arxiv.org/abs/2603.00113) | 2026.03 | ICML 2026 | - |
+
+**Cultural Alignment**
+| Paper Title | Year | Venue | Remark |
+| :--- | :---: | :---: | :--- |
+|[Cultural Alignment in Large Language Models: An Explanatory Analysis Based on Hofstede's Cultural Dimensions](https://arxiv.org/abs/2309.12342) | 2023.09 | LREC-COLING 2024 | - |
+|[Cultural Bias and Cultural Alignment of Large Language Models](https://arxiv.org/abs/2311.14096) | 2023.11 | PNAS Nexus 2024 | - |
+|[Towards Measuring and Modeling "Culture" in LLMs: A Survey](https://arxiv.org/abs/2403.15412) | 2024.03 | EMNLP 2024 | - |
+|[Survey of Cultural Awareness in Language Models: Text and Beyond](https://arxiv.org/abs/2411.00860) | 2024.11 | Arxiv | - |
+|[Randomness, Not Representation: The Unreliability of Evaluating Cultural Alignment in LLMs](https://arxiv.org/abs/2503.08688) | 2025 | FAccT 2025 | - |
 
 ---
 # Datasets and Benchmarks
@@ -343,3 +409,7 @@ A curated collection of papers, benchmarks, datasets, and tools on human values 
 |[Aggregating Sets of Judgments: An Impossibility Result](https://www.cambridge.org/core/journals/economics-and-philosophy/article/abs/aggregating-sets-of-judgments-an-impossibility-result/35BB2A979DC8D2548B3040A1757B058B) | 2002 | List & Pettit |
 |[Handbook of Computational Social Choice](https://www.cambridge.org/core/books/handbook-of-computational-social-choice/8AF63E87F76A5FC974D5E73536C52BD6) | 2016 | Brandt et al. |
 |[Social Choice Theory (in Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/social-choice/) | 2022 | List |
+
+
+
+
