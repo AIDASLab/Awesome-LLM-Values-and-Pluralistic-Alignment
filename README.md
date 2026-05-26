@@ -588,6 +588,7 @@
 | [Value Compass Benchmarks: A Platform for Fundamental and Validated Evaluation of LLMs Values](https://arxiv.org/abs/2501.07071) | `2025.01` |    ![venue](https://img.shields.io/badge/ACL_Demo-25-DC2626?style=flat-square) |
 | [Value Portrait: Assessing Language Models' Values through Psychometrically and Ecologically Valid Items](https://arxiv.org/abs/2505.01015) | `2025.05` |    ![venue](https://img.shields.io/badge/AAAI-25-1D4ED8?style=flat-square) |
 | [AdAEM: An Adaptively and Automated Extensible Measurement of LLMs' Value Difference](https://arxiv.org/abs/2505.13531) | `2025.05` |    ![venue](https://img.shields.io/badge/ICLR-26-0891B2?style=flat-square) |
+| [Generative Value Conflicts Reveal LLM Priorities](https://arxiv.org/abs/2509.25369) | `2025.09` |    ![venue](https://img.shields.io/badge/ICLR-26-0891B2?style=flat-square) |
 | [Implicit Values Embedded in How Humans and LLMs Complete Subjective Everyday Tasks](https://arxiv.org/abs/2510.03384) | `2025.10` |    ![venue](https://img.shields.io/badge/EMNLP-25-DC2626?style=flat-square) |
 | [Deep Value Benchmark: Measuring Whether Models Generalize Deep Values or Shallow Preferences](https://arxiv.org/abs/2511.02109) | `2025.11` |    ![venue](https://img.shields.io/badge/NeurIPS-25-8E44AD?style=flat-square) |
 | [VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models](https://arxiv.org/abs/2602.03160) | `2026.02` |    ![venue](https://img.shields.io/badge/ICML-26-2563EB?style=flat-square) |
