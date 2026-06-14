@@ -207,11 +207,14 @@
 - [Value Pluralism](#11-value-pluralism)
 - [Social Choice](#12-social-choice)
 
-### 2. Multicultural Alignment 🚧
-- *(coming soon)*
+### 2. Multicultural Alignment
+- [Surveys, Taxonomies & Position Papers](#21-surveys-taxonomies--position-papers)
+- [Evaluation & Benchmarks](#22-evaluation--benchmarks)
+- [Methods: Training, Steering & Adaptation](#23-methods-training-steering--adaptation)
 
-### 3. Overton Pluralism 🚧
-- *(coming soon)*
+### 3. Overton Pluralism
+- [Overton: Named & Direct](#31-overton-named--direct)
+- [Similar View: Covering the Full Spectrum](#32-similar-view-covering-the-full-spectrum)
 
 ### 4. Steerable Pluralism 🚧
 - *(coming soon)*
@@ -762,6 +765,119 @@
  
 </details>
 <br/>
-> **🚧 Sections 2–6 are work in progress** — Multicultural · Overton · Steerable · Distributional · Social Simulation
+
+<a id="2️⃣-multicultural-alignment"></a>
+## 2️⃣ Multicultural Alignment
+
+> Research on measuring, benchmarking, and improving cultural awareness and value alignment across diverse populations and languages in LLMs.
+
+<a id="21-surveys-taxonomies--position-papers"></a>
+<details open>
+<summary><b>2.1 Surveys, Taxonomies & Position Papers</b></summary>
+
+<br/>
+   
+| Paper | Year | Venue |
+| :-- | :-: | :-: |
+| [Challenges and Strategies in Cross-Cultural NLP](https://arxiv.org/abs/2203.10020) | `2022.03` |    ![venue](https://img.shields.io/badge/ACL-22-DC2626?style=flat-square) |
+| [Towards Measuring and Modeling "Culture" in LLMs: A Survey](https://arxiv.org/abs/2403.15412) | `2024.03` |    ![venue](https://img.shields.io/badge/EMNLP-24-DC2626?style=flat-square) |
+| [Culturally Aware and Adapted NLP: A Taxonomy and a Survey of the State of the Art](https://arxiv.org/abs/2406.03930) | `2024.06` |    ![venue](https://img.shields.io/badge/TACL-25-6B7280?style=flat-square) |
+| [Survey of Cultural Awareness in Language Models: Text and Beyond](https://arxiv.org/abs/2411.00860) | `2024.11` |    ![arXiv](https://img.shields.io/badge/arXiv-B31B1B?style=flat-square&logo=arxiv&logoColor=white) |
+| [Meta-Cultural Competence: Climbing the Right Hill of Cultural Awareness](https://arxiv.org/abs/2502.09637) | `2025.02` |    ![venue](https://img.shields.io/badge/NAACL-25-DC2626?style=flat-square) |
+| ['Too much alignment; not enough culture': Re-balancing Cultural Alignment Practices in LLMs](https://arxiv.org/abs/2509.26167) | `2025.09` |    ![arXiv](https://img.shields.io/badge/arXiv-B31B1B?style=flat-square&logo=arxiv&logoColor=white) |
+| [Hire Your Anthropologist! Rethinking Culture Benchmarks Through an Anthropological Lens](https://arxiv.org/abs/2510.05931) | `2025.10` |    ![venue](https://img.shields.io/badge/EACL_Findings-26-DC2626?style=flat-square) |
+| [RLHF: A Comprehensive Survey for Cultural, Multimodal and Low-Latency Alignment Methods](https://arxiv.org/abs/2511.03939) | `2025.11` |    ![venue](https://img.shields.io/badge/ICCCN-25-6B7280?style=flat-square) |
+| [Toward Culturally Grounded Natural Language Processing](https://arxiv.org/abs/2603.26013) | `2026.03` |    ![venue](https://img.shields.io/badge/C3NLP_@_ACL-26-DC2626?style=flat-square) |
+ 
+</details>
+<a id="22-evaluation--benchmarks"></a>
+<details open>
+<summary><b>2.2 Evaluation & Benchmarks</b></summary>
+
+<br/>
+   
+| Paper | Year | Venue |
+| :-- | :-: | :-: |
+| [Probing Pre-Trained Language Models for Cross-Cultural Differences in Values](https://arxiv.org/abs/2203.13722) | `2022.03` |    ![venue](https://img.shields.io/badge/C3NLP_@_ACL-23-DC2626?style=flat-square) |
+| [Assessing Cross-Cultural Alignment between ChatGPT and Human Societies](https://arxiv.org/abs/2303.17466) | `2023.03` |    ![venue](https://img.shields.io/badge/C3NLP_@_ACL-23-DC2626?style=flat-square) |
+| [Towards Measuring the Representation of Subjective Global Opinions in LMs (GlobalOpinionQA)](https://arxiv.org/abs/2306.16388) | `2023.06` |    ![arXiv](https://img.shields.io/badge/arXiv-B31B1B?style=flat-square&logo=arxiv&logoColor=white) |
+| [DLAMA: A Framework for Curating Culturally Diverse Facts for Probing the Knowledge of Pretrained LMs](https://arxiv.org/abs/2306.05076) | `2023.06` |    ![venue](https://img.shields.io/badge/ACL_Findings-23-DC2626?style=flat-square) |
+| [Large Language Models as Superpositions of Cultural Perspectives](https://arxiv.org/abs/2307.07870) | `2023.07` |    ![arXiv](https://img.shields.io/badge/arXiv-B31B1B?style=flat-square&logo=arxiv&logoColor=white) |
+| [Cultural Alignment in Large Language Models: An Explanatory Analysis Based on Hofstede's Cultural Dimensions](https://arxiv.org/abs/2309.12342) | `2023.09` |    ![venue](https://img.shields.io/badge/COLING-25-0D9488?style=flat-square) |
+| [EtiCor: Corpus for Analyzing LLMs for Etiquettes](https://arxiv.org/abs/2310.18974) | `2023.10` |    ![venue](https://img.shields.io/badge/EMNLP-23-DC2626?style=flat-square) |
+| [CDEval: A Benchmark for Measuring the Cultural Dimensions of Large Language Models](https://arxiv.org/abs/2311.16421) | `2023.11` |    ![venue](https://img.shields.io/badge/C3NLP_@_ACL-24-DC2626?style=flat-square) |
+| [Investigating Cultural Alignment of Large Language Models](https://arxiv.org/abs/2402.13231) | `2024.02` |    ![venue](https://img.shields.io/badge/ACL-24-DC2626?style=flat-square) |
+| [NormAd: A Framework for Measuring the Cultural Adaptability of Large Language Models](https://arxiv.org/abs/2404.12464) | `2024.04` |    ![venue](https://img.shields.io/badge/NAACL-25-DC2626?style=flat-square) |
+| [CultureBank: An Online Community-Driven Knowledge Base toward Culturally Aware Language Technologies](https://arxiv.org/abs/2404.15238) | `2024.04` |    ![venue](https://img.shields.io/badge/EMNLP_Findings-24-DC2626?style=flat-square) |
+| [WorldValuesBench: A Large-Scale Benchmark for Multi-Cultural Value Awareness of Language Models](https://arxiv.org/abs/2404.16308) | `2024.04` |    ![venue](https://img.shields.io/badge/LREC--COLING-24-0D9488?style=flat-square) |
+| [BLEnD: A Benchmark for LLMs on Everyday Knowledge in Diverse Cultures and Languages](https://arxiv.org/abs/2406.09948) | `2024.06` |    ![venue](https://img.shields.io/badge/NeurIPS_DB-24-8E44AD?style=flat-square) |
+| [LLM-GLOBE: A Benchmark Evaluating the Cultural Values Embedded in LLM Output](https://arxiv.org/abs/2411.06032) | `2024.11` |    ![arXiv](https://img.shields.io/badge/arXiv-B31B1B?style=flat-square&logo=arxiv&logoColor=white) |
+| [CulturalBench: A Robust, Diverse, and Challenging Cultural Benchmark](https://arxiv.org/abs/2410.02677) | `2024.10` |    ![venue](https://img.shields.io/badge/ACL-25-DC2626?style=flat-square) |
+| [Randomness, Not Representation: The Unreliability of Evaluating Cultural Alignment in LLMs](https://arxiv.org/abs/2503.08688) | `2025.03` |    ![venue](https://img.shields.io/badge/FAccT-25-EA580C?style=flat-square) |
+| [Break the Checkbox: Challenging Closed-Style Evaluations of Cultural Alignment in LLMs](https://arxiv.org/abs/2502.08045) | `2025.02` |    ![venue](https://img.shields.io/badge/EMNLP-25-DC2626?style=flat-square) |
+ 
+</details>
+<a id="23-methods-training-steering--adaptation"></a>
+<details open>
+<summary><b>2.3 Methods: Training, Steering & Adaptation</b></summary>
+
+<br/>
+   
+| Paper | Year | Venue |
+| :-- | :-: | :-: |
+| [CultureLLM: Incorporating Cultural Differences into Large Language Models](https://arxiv.org/abs/2402.10946) | `2024.02` |    ![venue](https://img.shields.io/badge/NeurIPS-24-8E44AD?style=flat-square) |
+| [CulturePark: Boosting Cross-cultural Understanding in Large Language Models](https://arxiv.org/abs/2405.15145) | `2024.05` |    ![venue](https://img.shields.io/badge/NeurIPS-24-8E44AD?style=flat-square) |
+| [Modular Pluralism: Pluralistic Alignment via Multi-LLM Collaboration](https://arxiv.org/abs/2406.15951) | `2024.06` |    ![venue](https://img.shields.io/badge/EMNLP-24-DC2626?style=flat-square) |
+| [Self-Pluralising Culture Alignment for Large Language Models (CultureSPA)](https://arxiv.org/abs/2410.12971) | `2024.10` |    ![venue](https://img.shields.io/badge/NAACL-25-DC2626?style=flat-square) |
+| [Cultural Palette: Pluralising Culture Alignment via Multi-agent Palette](https://arxiv.org/abs/2412.11167) | `2024.12` |    ![arXiv](https://img.shields.io/badge/arXiv-B31B1B?style=flat-square&logo=arxiv&logoColor=white) |
+| [Cultural Learning-Based Culture Adaptation of Language Models (CLCA)](https://arxiv.org/abs/2504.02953) | `2025.04` |    ![venue](https://img.shields.io/badge/ACL-25-DC2626?style=flat-square) |
+| [CAReDiO: Enhancing Cultural Alignment via Representativeness and Distinctiveness Guided Data Optimization](https://arxiv.org/abs/2504.08820) | `2025.04` |    ![arXiv](https://img.shields.io/badge/arXiv-B31B1B?style=flat-square&logo=arxiv&logoColor=white) |
+| [CARE: Multilingual Human Preference Learning for Cultural Awareness](https://arxiv.org/abs/2504.05154) | `2025.04` |    ![venue](https://img.shields.io/badge/EMNLP-25-DC2626?style=flat-square) |
+| [CulFiT: Fine-grained Cultural-aware LLM Training via Multilingual Critique Data Synthesis](https://arxiv.org/abs/2505.19484) | `2025.05` |    ![venue](https://img.shields.io/badge/ACL-25-DC2626?style=flat-square) |
+| [Towards Realistic Evaluation of Cultural Value Alignment: Diversity Enhancement for Survey Simulation](https://www.sciencedirect.com/science/article/abs/pii/S030645732500041X) | `2025` |    ![venue](https://img.shields.io/badge/Inf._Process._Mgmt.-25-6B7280?style=flat-square) |
+| [Mind the Gap in Cultural Alignment: Task-Aware Culture Management for Large Language Models](https://arxiv.org/abs/2602.22475) | `2026.02` |    ![arXiv](https://img.shields.io/badge/arXiv-B31B1B?style=flat-square&logo=arxiv&logoColor=white) |
+ 
+</details>
+<br/>
+
+<a id="3️⃣-overton-pluralism"></a>
+## 3️⃣ Overton Pluralism
+
+> The goal: when asked a contested question, present the full *window* of reasonable responses rather than collapsing to a single answer. Coined in Sorensen et al.'s [Roadmap to Pluralistic Alignment](https://arxiv.org/abs/2402.05070) (see §1.1).
+
+<a id="31-overton-named--direct"></a>
+<details open>
+<summary><b>3.1 Overton: Named & Direct</b></summary>
+
+<br/>
+   
+| Paper | Year | Venue |
+| :-- | :-: | :-: |
+| [From Distributional to Overton Pluralism: Investigating Large Language Model Alignment](https://arxiv.org/abs/2406.17692) | `2024.06` |    ![venue](https://img.shields.io/badge/NAACL-25-DC2626?style=flat-square) |
+| [Modular Pluralism: Pluralistic Alignment via Multi-LLM Collaboration](https://arxiv.org/abs/2406.15951) | `2024.06` |    ![venue](https://img.shields.io/badge/EMNLP-24-DC2626?style=flat-square) |
+| [Pairwise Calibrated Rewards for Pluralistic Alignment](https://arxiv.org/abs/2506.06298) | `2025.06` |    ![venue](https://img.shields.io/badge/NeurIPS-25-8E44AD?style=flat-square) |
+| [Benchmarking Overton Pluralism in LLMs](https://arxiv.org/abs/2512.01351) | `2025.12` |    ![venue](https://img.shields.io/badge/ICLR-26-0891B2?style=flat-square) |
+| [Overton Pluralistic Reinforcement Learning for Large Language Models](https://arxiv.org/abs/2602.20759) | `2026.02` |    ![arXiv](https://img.shields.io/badge/arXiv-B31B1B?style=flat-square&logo=arxiv&logoColor=white) |
+ 
+</details>
+<a id="32-similar-view-covering-the-full-spectrum"></a>
+<details open>
+<summary><b>3.2 Similar View: Covering the Full Spectrum</b></summary>
+
+<br/>
+   
+| Paper | Year | Venue |
+| :-- | :-: | :-: |
+| [Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties](https://arxiv.org/abs/2309.00779) | `2023.09` |    ![venue](https://img.shields.io/badge/AAAI-24-1D4ED8?style=flat-square) |
+| [Plurals: A System for Guiding LLMs Via Simulated Social Ensembles](https://arxiv.org/abs/2409.17213) | `2024.09` |    ![venue](https://img.shields.io/badge/CHI-25-EA580C?style=flat-square) |
+| [Arbiters of Ambivalence: Challenges of Using LLMs in No-Consensus Tasks](https://arxiv.org/abs/2505.23820) | `2025.05` |    ![venue](https://img.shields.io/badge/ACL_Findings-25-DC2626?style=flat-square) |
+| [EMBRACE: Shaping Inclusive Opinion Representation by Aligning Implicit Conversations with Social Norms](https://arxiv.org/abs/2507.20264) | `2025.07` |    ![venue](https://img.shields.io/badge/AACL_Findings-25-DC2626?style=flat-square) |
+| [Pluralistic Alignment for Healthcare: A Role-Driven Framework](https://arxiv.org/abs/2509.10685) | `2025.09` |    ![venue](https://img.shields.io/badge/EMNLP-25-DC2626?style=flat-square) |
+| [Prompts to Proxies: Emulating Human Preferences via a Compact LLM Ensemble](https://arxiv.org/abs/2509.11311) | `2025.09` |    ![arXiv](https://img.shields.io/badge/arXiv-B31B1B?style=flat-square&logo=arxiv&logoColor=white) |
+| [Pluralistic Behavior Suite: Stress-Testing Multi-Turn Adherence to Custom Behavioral Policies](https://arxiv.org/abs/2511.05018) | `2025.11` |    ![venue](https://img.shields.io/badge/NeurIPS_Workshop-25-8E44AD?style=flat-square) |
+ 
+</details>
+<br/>
+> **🚧 Sections 4–6 are work in progress** — Steerable Pluralism · Distributional Pluralism · Social Simulation
  
 <br/>
