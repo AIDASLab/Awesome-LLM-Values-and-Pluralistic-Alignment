@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LLM Values &amp; Pluralistic Alignment — Paper Board</title>
+    <meta
+      name="description"
+      content="A searchable, category-first board of papers on LLM human values and pluralistic alignment."
+    />
+    <meta name="theme-color" content="#0f172a" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+    />
+    <link rel="stylesheet" href="./app.css" />
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="Paper Board home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>LLM Values &amp; Pluralistic Alignment</span>
+      </a>
+      <a
+        class="repo-link"
+        href="https://github.com/AIDASLab/Awesome-LLM-Values-and-Pluralistic-Alignment"
+        target="_blank"
+        rel="noopener noreferrer"
+        >GitHub ↗</a
+      >
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Awesome list · live board</p>
+          <h1 id="page-title">LLM Values &amp; Pluralistic Alignment</h1>
+          <p>
+            A curated, searchable index of research on human values in LLMs and pluralistic
+            alignment — grouped by research area, with TL;DRs and code links.
+          </p>
+        </div>
+      </section>
+
+      <div class="board-shell">
+        <aside class="controls" id="board" aria-label="Paper board controls">
+          <div class="search-wrap">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="m21 21-4.3-4.3m1.3-5.2a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z"
+              ></path>
+            </svg>
+            <input
+              id="searchInput"
+              type="search"
+              autocomplete="off"
+              placeholder="Search title, area, venue, author, tag..."
+              aria-label="Search papers"
+            />
+          </div>
+
+          <div class="filter-row" id="categoryTabs" aria-label="Paper categories"></div>
+
+          <div class="sort-panel" aria-label="Paper sorting controls">
+            <label class="sort-field" title="Filter by subcategory within the selected area.">
+              <span>Subcategory</span>
+              <select id="subSelect">
+                <option value="all">All</option>
+              </select>
+            </label>
+            <label class="sort-field" title="How the visible papers are ordered.">
+              <span>Sort</span>
+              <select id="sortSelect">
+                <option value="newest">Newest</option>
+                <option value="oldest">Oldest</option>
+                <option value="venue">Venue</option>
+                <option value="title">Title</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="member-panel" aria-label="Board summary">
+            <span>Papers indexed</span>
+            <strong id="paperTotal">—</strong>
+          </div>
+        </aside>
+
+        <section class="paper-grid" id="paperGrid" aria-live="polite"></section>
+        <nav class="pagination" id="pagination" aria-label="Paper pages"></nav>
+      </div>
+    </main>
+  </body>
+</html>

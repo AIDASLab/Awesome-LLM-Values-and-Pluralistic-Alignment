@@ -1,0 +1,4584 @@
+{
+  "generatedAt": "2026-06-16T11:23:47.950Z",
+  "count": 215,
+  "categories": [
+    "Surveys & Resources",
+    "Datasets & Benchmarks",
+    "Value Theory",
+    "Representation & Extraction",
+    "Measurement & Evaluation",
+    "Alignment & Steering",
+    "Other Related Works",
+    "Pluralistic Alignment"
+  ],
+  "counts": {
+    "Surveys & Resources": 39,
+    "Datasets & Benchmarks": 23,
+    "Value Theory": 23,
+    "Representation & Extraction": 23,
+    "Measurement & Evaluation": 30,
+    "Alignment & Steering": 24,
+    "Other Related Works": 3,
+    "Pluralistic Alignment": 65
+  },
+  "papers": [
+    {
+      "id": "2604.27699",
+      "title": "Bridging Values and Behavior: A Hierarchical Framework for Proactive Embodied Agents",
+      "url": "https://arxiv.org/abs/2604.27699",
+      "year": "2026.04",
+      "pubKey": 202604,
+      "venue": "arXiv",
+      "authors": "Zhang, Wang, Qin et al.",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "ValuePlanner is a hierarchical cognitive architecture for embodied agents that decouples high-level value reasoning (using an LLM to generate symbolic subgoals) from low-level action execution (via PDDL planning), enabling agents to arbitrate competing values and exhibit self-directed, long-horizon behavior beyond instruction-following.",
+      "tags": [
+        "Robotics"
+      ],
+      "categories": [
+        "Other Related Works"
+      ],
+      "subcategories": [
+        "Other Related Works"
+      ]
+    },
+    {
+      "id": "2604.05939",
+      "title": "Context-Value-Action Architecture for Value-Driven Large Language Model Agents",
+      "url": "https://arxiv.org/abs/2604.05939",
+      "year": "2026.04",
+      "pubKey": 202604,
+      "venue": "ACL Findings 2026",
+      "authors": "Zhang, Sun, Xie et al.",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "CVA (Context-Value-Action) is an architecture for LLM agents that separates value reasoning from action generation using a Value Verifier trained on over 1.1 million real-world human interaction records, reducing value polarization while improving behavioral fidelity compared to standard prompt-driven reasoning approaches.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value–Action Alignment, Behavior, and Interpretability"
+      ]
+    },
+    {
+      "id": "llm-alignment-should-go-beyond-harmlessness-helpfulness-and-",
+      "title": "LLM Alignment should go beyond Harmlessness–Helpfulness and incorporate Human Agency",
+      "url": "https://link.springer.com/article/10.1007/s12559-026-10568-9",
+      "year": "2026.03",
+      "pubKey": 202603,
+      "venue": "Cognitive Computation 2026",
+      "authors": "Naseem, Chakraborty, Chang et al.",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Argues that the standard Harmlessness-Helpfulness-Honesty (HHH) alignment framework is insufficient and proposes a Flourishing-Justice-Autonomy (FJA) alternative that incorporates human agency through inference-time adaptability, participatory constitutions, and dynamic reward models.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Pluralistic Alignment & Social Choice"
+      ]
+    },
+    {
+      "id": "2603.00113",
+      "title": "Position: AI Agents Are Not (Yet) a Panacea for Social Simulation",
+      "url": "https://arxiv.org/abs/2603.00113",
+      "year": "2026.03",
+      "pubKey": 202603,
+      "venue": "ICML 2026",
+      "authors": "Li, Tao",
+      "org": "Nanyang Technological University",
+      "code": "",
+      "project": "",
+      "summary": "A position paper identifying three fundamental limitations of using networked LLM agents for social simulation — behavior fidelity gaps, underspecified environment interactions, and sensitivity to protocol design — and proposes reformulating the problem as an environment-involved Markov game for greater transparency.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Social Simulation"
+      ]
+    },
+    {
+      "id": "2603.26013",
+      "title": "Toward Culturally Grounded Natural Language Processing",
+      "url": "https://arxiv.org/abs/2603.26013",
+      "year": "2026.03",
+      "pubKey": 202603,
+      "venue": "",
+      "authors": "Bagheri Nezhad",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "A survey and framework for culturally grounded NLP that analyzes how tokenization, prompt language, benchmark design, and community validation shape cultural competence across multilingual systems, proposing evaluation through 'communicative ecologies' rather than isolated language benchmarks.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Surveys, Taxonomies & Position Papers"
+      ]
+    },
+    {
+      "id": "towards-pluralistic-alignment-of-llms-a-comprehensive-survey",
+      "title": "Towards Pluralistic Alignment of LLMs: A Comprehensive Survey",
+      "url": "https://www.preprints.org/manuscript/202603.1876",
+      "year": "2026.03",
+      "pubKey": 202603,
+      "venue": "Preprints 2026",
+      "authors": "",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "A comprehensive survey of pluralistic alignment for LLMs, reviewing methods, datasets, and evaluation metrics for enabling models to reflect diverse human values and perspectives while avoiding collapse to monolithic viewpoints.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Pluralistic Alignment & Social Choice"
+      ]
+    },
+    {
+      "id": "2603.04822",
+      "title": "VISA: Value Injection via Shielded Adaptation for Personalized LLM Alignment",
+      "url": "https://arxiv.org/abs/2603.04822",
+      "year": "2026.03",
+      "pubKey": 202603,
+      "venue": "arXiv",
+      "authors": "Chen, Yang, Zhang et al.",
+      "org": "Peking University",
+      "code": "",
+      "project": "",
+      "summary": "VISA is a framework for personalized LLM alignment that uses a value detector, semantic-to-value translator, and a GRPO-trained value-rewriter to inject target values into model outputs while preserving factual consistency during fine-tuning.",
+      "tags": [],
+      "categories": [
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Training-based Alignment and Value Injection"
+      ]
+    },
+    {
+      "id": "a-roadmap-for-evaluating-moral-competence-in-large-language-",
+      "title": "A roadmap for evaluating moral competence in large language models",
+      "url": "https://www.nature.com/articles/s41586-025-10021-1",
+      "year": "2026.02",
+      "pubKey": 202602,
+      "venue": "Nature 2026",
+      "authors": "Haas, Bridgers, Manzini et al.",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "A roadmap for evaluating LLM moral competence that distinguishes genuine moral understanding from surface imitation, identifying three key challenges: the facsimile problem, moral multidimensionality, and moral pluralism.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Evaluation, Psychometrics & Representativeness"
+      ]
+    },
+    {
+      "id": "2602.07356",
+      "title": "Controllable Value Alignment in Large Language Models through Neuron-Level Editing",
+      "url": "https://arxiv.org/abs/2602.07356",
+      "year": "2026.02",
+      "pubKey": 202602,
+      "venue": "arXiv",
+      "authors": "Yang, Wang, Li et al.",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "NeVA identifies sparse value-relevant neurons in LLMs and edits their activations at inference time to achieve fine-grained, controllable value alignment without retraining, while reducing unintended activation of non-target values (value leakage).",
+      "tags": [],
+      "categories": [
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Inference-time and Representation-level Steering"
+      ]
+    },
+    {
+      "id": "2602.22475",
+      "title": "Mind the Gap in Cultural Alignment: Task-Aware Culture Management for Large Language Models",
+      "url": "https://arxiv.org/abs/2602.22475",
+      "year": "2026.02",
+      "pubKey": 202602,
+      "venue": "arXiv",
+      "authors": "Zhang, Zhao, Li et al.",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "CultureManager proposes a task-aware pipeline that synthesizes culturally grounded training data and uses separate adapters with a culture router to align LLMs across ten national cultures without cross-cultural interference.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Methods: Training, Steering & Adaptation"
+      ]
+    },
+    {
+      "id": "2602.20759",
+      "title": "Overton Pluralistic Reinforcement Learning for Large Language Models",
+      "url": "https://arxiv.org/abs/2602.20759",
+      "year": "2026.02",
+      "pubKey": 202602,
+      "venue": "arXiv",
+      "authors": "Fu, Son et al.",
+      "org": "University College London",
+      "code": "",
+      "project": "",
+      "summary": "Introduces OP-GRPO, a reinforcement learning method that trains a single LLM to generate Overton-pluralistic responses covering diverse human perspectives without explicit prompting or modular orchestration, using a similarity estimator and a dual reward for coverage and uniqueness. A 3B model trained this way beats a 20B baseline by 37.4% on an NLI benchmark.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Overton Pluralism — Overton: Named & Direct"
+      ]
+    },
+    {
+      "id": "value-based-human-robot-interaction-a-perceptual-control-the",
+      "title": "Value-Based Human–Robot-Interaction: A Perceptual Control Theory Approach Toward Socially Intelligent Agents",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-99290-2_7",
+      "year": "2026.02",
+      "pubKey": 202602,
+      "venue": "SOCUSRA 2026",
+      "authors": "Schmiedel, Zhong",
+      "org": "FHNW University of Applied Sciences and Arts Northwestern Switzerland",
+      "code": "",
+      "project": "",
+      "summary": "Proposes a conceptual framework based on perceptual control theory for representing human values in social robots, so they can dynamically decide during an interaction how to best honor relevant human values rather than execute pre-programmed behavior.",
+      "tags": [
+        "Robotics"
+      ],
+      "categories": [
+        "Other Related Works"
+      ],
+      "subcategories": [
+        "Other Related Works"
+      ]
+    },
+    {
+      "id": "2602.08567",
+      "title": "ValueFlow: Measuring the Propagation of Value Perturbations in Multi-Agent LLM Systems",
+      "url": "https://arxiv.org/abs/2602.08567",
+      "year": "2026.02",
+      "pubKey": 202602,
+      "venue": "arXiv",
+      "authors": "Liu, Liu et al.",
+      "org": "NYU Shanghai",
+      "code": "",
+      "project": "",
+      "summary": "Presents ValueFlow, a perturbation-based framework that measures how value orientations drift through interactions in multi-agent LLM systems, scoring 56 Schwartz values via LLM-as-judge and defining agent- and system-level susceptibility metrics. Finds susceptibility varies sharply by value and is strongly shaped by interaction structure.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Robustness, Stability, and Consistency"
+      ]
+    },
+    {
+      "id": "2602.03160",
+      "title": "VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models",
+      "url": "https://arxiv.org/abs/2602.03160",
+      "year": "2026.02",
+      "pubKey": 202602,
+      "venue": "ICML 2026",
+      "authors": "Kim, Hyeon et al.",
+      "org": "Seoul National University",
+      "code": "https://github.com/AIDASLab/VALUEFLOW",
+      "project": "",
+      "summary": "Proposes VALUEFLOW, a unified framework for pluralistic, steerable value alignment combining a hierarchical value embedding space (HIVES), a value-intensity database (VIDB), and an anchor-based evaluator, then runs a large-scale study across ten models and four value theories to characterize steerability asymmetries and composition laws for multi-value control.",
+      "tags": [],
+      "categories": [
+        "Representation & Extraction",
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value Representation and Embedding",
+        "Value Profiling",
+        "Value Orientation and Psychometric Measurement"
+      ]
+    },
+    {
+      "id": "exploring-universal-human-values-with-large-language-models-",
+      "title": "Exploring Universal Human Values with Large Language Models: The AWARE-Value Model",
+      "url": "https://www.researchsquare.com/article/rs-8188052/v1",
+      "year": "2026.01",
+      "pubKey": 202601,
+      "venue": "",
+      "authors": "",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Uses LLMs to mine 4,648 candidate values from large longitudinal internet corpora, distills them to 521 descriptors via embedding-based semantic filtering, and analyzes 392,843 passages from 10,995 individuals to derive a five-factor structure of human values called AWARE (Authenticity, Well-Being, Actualization, Relatedness, Epistemic Need).",
+      "tags": [],
+      "categories": [
+        "Representation & Extraction"
+      ],
+      "subcategories": [
+        "Value System Construction and Discovery"
+      ]
+    },
+    {
+      "id": "2601.12758",
+      "title": "VISPA: Pluralistic Alignment via Automatic Value Selection and Activation",
+      "url": "https://arxiv.org/abs/2601.12758",
+      "year": "2026.01",
+      "pubKey": 202601,
+      "venue": "arXiv",
+      "authors": "Zheng, Zhong, Shetty et al.",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "VISPA is a training-free pluralistic alignment framework that steers LLM outputs by dynamically selecting value vectors and applying internal activation steering, enabling direct control over which values a model expresses without retraining.",
+      "tags": [],
+      "categories": [
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Inference-time and Representation-level Steering"
+      ]
+    },
+    {
+      "id": "2512.01351",
+      "title": "Benchmarking Overton Pluralism in LLMs",
+      "url": "https://arxiv.org/abs/2512.01351",
+      "year": "2025.12",
+      "pubKey": 202512,
+      "venue": "ICLR 2026",
+      "authors": "Poole-Dayan, Wu, Sorensen et al.",
+      "org": "MIT",
+      "code": "https://github.com/elinorp-d/overtonbench",
+      "project": "",
+      "summary": "OVERTONBENCH measures how well LLMs represent diverse human viewpoints using a U.S.-representative survey of 1,208 participants across 60 questions and 8 models, finding all models score far below the theoretical maximum (0.35–0.41) and providing an automated benchmark that correlates strongly with human judgments.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Overton Pluralism — Overton: Named & Direct"
+      ]
+    },
+    {
+      "id": "if-they-disagree-will-you-conform-exploring-the-role-of-robo",
+      "title": "If they disagree, will you conform? Exploring the role of robots’ value awareness in a decision-making task",
+      "url": "https://www.jbe-platform.com/content/journals/10.1075/is.25030.pus",
+      "year": "2025.12",
+      "pubKey": 202512,
+      "venue": "Interaction Studies 2025",
+      "authors": "Pusceddu, Abbo, Rea et al.",
+      "org": "Italian Institute of Technology",
+      "code": "",
+      "project": "",
+      "summary": "A human-subject study with Furhat robots finds that robots displaying value awareness attract more visual attention and are perceived as more loyal, and that participants conform to robot disagreement in about 25% of trials, with implications for both beneficial reflection and manipulation risks.",
+      "tags": [
+        "Robotics"
+      ],
+      "categories": [
+        "Other Related Works"
+      ],
+      "subcategories": [
+        "Other Related Works"
+      ]
+    },
+    {
+      "id": "2512.15722",
+      "title": "Value Lens: Using Large Language Models to Understand Human Values",
+      "url": "https://arxiv.org/abs/2512.15722",
+      "year": "2025.12",
+      "pubKey": 202512,
+      "venue": "ECAI 2025",
+      "authors": "de la Cruz Fernández, Karanik, Ossowski",
+      "org": "Polytechnic University of Madrid",
+      "code": "",
+      "project": "",
+      "summary": "Value Lens is a two-phase LLM-based system that detects human values in text by first generating theory-grounded value descriptions validated by experts, then using a paired LLM setup where one model identifies values and another reviews the detections, achieving performance comparable to or better than prior methods.",
+      "tags": [],
+      "categories": [
+        "Representation & Extraction"
+      ],
+      "subcategories": [
+        "Value System Construction and Discovery"
+      ]
+    },
+    {
+      "id": "2511.02109",
+      "title": "Deep Value Benchmark: Measuring Whether Models Generalize Deep Values or Shallow Preferences",
+      "url": "https://arxiv.org/abs/2511.02109",
+      "year": "2025.11",
+      "pubKey": 202511,
+      "venue": "NeurIPS 2025",
+      "authors": "Ashkinaze, Shen, Avula et al.",
+      "org": "University of Michigan",
+      "code": "https://github.com/josh-ashkinaze/deep-value-benchmark-neurips",
+      "project": "",
+      "summary": "The Deep Value Benchmark tests whether LLMs learn genuine moral values or merely surface-level correlates by deliberately decorrelating deep values from shallow features at test time; across nine models the average Deep Value Generalization Rate is only 0.30, meaning all models perform below chance at generalizing deep values.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value Orientation and Psychometric Measurement"
+      ]
+    },
+    {
+      "id": "2511.00379",
+      "title": "Diverse Human Value Alignment for Large Language Models via Ethical Reasoning",
+      "url": "https://arxiv.org/abs/2511.00379",
+      "year": "2025.11",
+      "pubKey": 202511,
+      "venue": "AIES 2025",
+      "authors": "Wang, Xue, Li et al.",
+      "org": "Huawei Technologies (TTE Laboratory)",
+      "code": "",
+      "project": "",
+      "summary": "Proposes a five-step ethical reasoning framework (contextual fact gathering, norm identification, option generation, multi-lens impact analysis, reflection) to align LLMs with diverse regional human values, outperforming baselines on the SafeWorld benchmark.",
+      "tags": [],
+      "categories": [
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Inference-time and Representation-level Steering"
+      ]
+    },
+    {
+      "id": "investigating-value-reasoning-reliability-in-small-large-lan",
+      "title": "Investigating Value-Reasoning Reliability in Small Large Language Models",
+      "url": "https://aclanthology.org/2025.emnlp-main.395/",
+      "year": "2025.11",
+      "pubKey": 202511,
+      "venue": "EMNLP 2025",
+      "authors": "Du, Sun, Liu et al.",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Evaluates value-reasoning reliability in small LLMs across consistency, robustness, and adversarial stability tasks, finding that models exhibit high output randomness uncorrelated with self-reported confidence, revealing a lack of stable internal value-reasoning mechanisms.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value Understanding and Reasoning"
+      ]
+    },
+    {
+      "id": "2511.01864",
+      "title": "Missing the Margins: A Systematic Literature Review on the Demographic Representativeness of LLMs",
+      "url": "https://arxiv.org/abs/2511.01864",
+      "year": "2025.11",
+      "pubKey": 202511,
+      "venue": "ACL Findings 2025",
+      "authors": "Sen, Lutz, Rogers et al.",
+      "org": "",
+      "code": "https://github.com/Indiiigo/LLM_rep_review",
+      "project": "",
+      "summary": "A systematic review of 211 papers on LLM demographic representativeness, finding that positive representativeness claims are often methodologically weak and that research heavily over-indexes on U.S. populations while excluding marginalized groups.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Evaluation, Psychometrics & Representativeness"
+      ]
+    },
+    {
+      "id": "2511.17579",
+      "title": "Multi-Value Alignment for LLMs via Value Decorrelation and Extrapolation",
+      "url": "https://arxiv.org/abs/2511.17579",
+      "year": "2025.11",
+      "pubKey": 202511,
+      "venue": "AAAI 2026",
+      "authors": "Xu, Wu, Cheng et al.",
+      "org": "Hefei University of Technology",
+      "code": "https://github.com/HeFei-X/MVA",
+      "project": "",
+      "summary": "Introduces Multi-Value Alignment (MVA), a framework that reduces interference between conflicting human values by minimizing their mutual information and uses value extrapolation to efficiently explore the Pareto frontier of diverse value preferences.",
+      "tags": [],
+      "categories": [
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Training-based Alignment and Value Injection"
+      ]
+    },
+    {
+      "id": "2511.14476",
+      "title": "Operationalizing Pluralistic Values in Large Language Model Alignment Reveals Trade-offs in Safety, Inclusivity, and Model Behavior",
+      "url": "https://arxiv.org/abs/2511.14476",
+      "year": "2025.11",
+      "pubKey": 202511,
+      "venue": "arXiv",
+      "authors": "Ali, Zhao, Koenecke et al.",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Collects pluralistic alignment ratings from 1,095 US and German participants and shows that demographic group and technical design choices (rating scale, aggregation method) have strong and sometimes opposing effects on LLM safety and inclusivity.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Pluralistic Alignment & Social Choice"
+      ]
+    },
+    {
+      "id": "2511.05018",
+      "title": "Pluralistic Behavior Suite: Stress-Testing Multi-Turn Adherence to Custom Behavioral Policies",
+      "url": "https://arxiv.org/abs/2511.05018",
+      "year": "2025.11",
+      "pubKey": 202511,
+      "venue": "NeurIPS Workshop 2025",
+      "authors": "Varshney, Sreedhar, Jiang et al.",
+      "org": "NVIDIA",
+      "code": "",
+      "project": "",
+      "summary": "PBSUITE is an evaluation framework with 300 realistic behavioral policies across 30 industries for stress-testing LLM compliance in multi-turn conversations; models show under 4% failure in single-turn settings but up to 84% failure under adversarial multi-turn interactions.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Overton Pluralism — Similar View: Covering the Full Spectrum"
+      ]
+    },
+    {
+      "id": "2511.03939",
+      "title": "RLHF: A Comprehensive Survey for Cultural, Multimodal and Low-Latency Alignment Methods",
+      "url": "https://arxiv.org/abs/2511.03939",
+      "year": "2025.11",
+      "pubKey": 202511,
+      "venue": "ICCCN 2025",
+      "authors": "Sharma, Mehta, Raina",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "A survey of RLHF methods that extends beyond standard text alignment to cover multimodal, cultural fairness, and low-latency optimization, reviewing algorithms like PPO, DPO, and GRPO and mapping out directions for more equitable AI systems.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Surveys, Taxonomies & Position Papers"
+      ]
+    },
+    {
+      "id": "2510.18526",
+      "title": "Counterfactual Reasoning for Steerable Pluralistic Value Alignment of Large Language Models",
+      "url": "https://arxiv.org/abs/2510.18526",
+      "year": "2025.10",
+      "pubKey": 202510,
+      "venue": "NeurIPS 2025",
+      "authors": "Guo, Yao, Zhou et al.",
+      "org": "Microsoft Research Asia",
+      "code": "",
+      "project": "",
+      "summary": "COUPLE uses structural causal models and counterfactual reasoning to align LLMs with diverse, interdependent human values, enabling fine-grained control over value priorities including underrepresented ones across cultures and demographics.",
+      "tags": [],
+      "categories": [
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Inference-time and Representation-level Steering"
+      ]
+    },
+    {
+      "id": "2509.24319",
+      "title": "Dual Mechanisms of Value Expression: Intrinsic vs. Prompted Values in Large Language Models",
+      "url": "https://arxiv.org/abs/2509.24319",
+      "year": "2025.10",
+      "pubKey": 202510,
+      "venue": "arXiv",
+      "authors": "Han, Lim, Kong et al.",
+      "org": "Seoul National University",
+      "code": "",
+      "project": "",
+      "summary": "Using mechanistic analysis with value vectors and neurons, the paper shows that LLMs express values via two distinct pathways — intrinsic (training-derived) and prompted (instruction-elicited) — which share components but serve different functions, with intrinsic expression activating more broadly and prompted expression strengthening compliance.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value–Action Alignment, Behavior, and Interpretability"
+      ]
+    },
+    {
+      "id": "2510.05931",
+      "title": "Hire Your Anthropologist! Rethinking Culture Benchmarks Through an Anthropological Lens",
+      "url": "https://arxiv.org/abs/2510.05931",
+      "year": "2025.10",
+      "pubKey": 202510,
+      "venue": "EACL Findings 2026",
+      "authors": "AlKhamissi, Xiao, AlKhamissi et al.",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Examining 20 cultural benchmarks through an anthropological lens, the paper identifies six recurring methodological flaws (e.g., conflating countries with cultures) and recommends improvements such as using authentic narratives and community-involved evaluation design.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Surveys, Taxonomies & Position Papers"
+      ]
+    },
+    {
+      "id": "2510.03384",
+      "title": "Implicit Values Embedded in How Humans and LLMs Complete Subjective Everyday Tasks",
+      "url": "https://arxiv.org/abs/2510.03384",
+      "year": "2025.10",
+      "pubKey": 202510,
+      "venue": "EMNLP 2025",
+      "authors": "Arunasalam, Pickering, Celik et al.",
+      "org": "Florida International University",
+      "code": "https://osf.io/5v8gr/",
+      "project": "",
+      "summary": "Audits six popular LLMs completing 30 subjective everyday tasks against 100 US crowdworkers, finding that LLMs frequently diverge from human implicit values (e.g., environmentalism, diversity, privacy) and from one another.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value Orientation and Psychometric Measurement"
+      ]
+    },
+    {
+      "id": "2509.24216",
+      "title": "MoVa: Towards Generalizable Classification of Human Morals and Values",
+      "url": "https://arxiv.org/abs/2509.24216",
+      "year": "2025.10",
+      "pubKey": 202510,
+      "venue": "EMNLP 2025",
+      "authors": "Chen, Sun, Li et al.",
+      "org": "Australian National University",
+      "code": "https://github.com/ZiyuChen0410/MoVa2025",
+      "project": "",
+      "summary": "Introduces MoVa, a suite of 16 labeled datasets and a lightweight LLM prompting strategy for generalizable classification of human morals and values across multiple theoretical frameworks, outperforming fine-tuned models.",
+      "tags": [
+        "Morality · Schwartz"
+      ],
+      "categories": [
+        "Representation & Extraction"
+      ],
+      "subcategories": [
+        "Value Identification and Classification"
+      ]
+    },
+    {
+      "id": "2509.14434",
+      "title": "Value Alignment of Social Media Ranking Algorithms",
+      "url": "https://arxiv.org/abs/2509.14434",
+      "year": "2025.10",
+      "pubKey": 202510,
+      "venue": "CHI 2026",
+      "authors": "Jahanbakhsh, Zhao, Piccardi et al.",
+      "org": "Cornell University",
+      "code": "",
+      "project": "",
+      "summary": "Proposes a method to re-rank social media feeds using Schwartz's Basic Human Values rather than engagement signals, with two user studies (N=141, N=250) showing users can steer feeds toward their stated values.",
+      "tags": [],
+      "categories": [
+        "Representation & Extraction"
+      ],
+      "subcategories": [
+        "Value Profiling"
+      ]
+    },
+    {
+      "id": "2509.26167",
+      "title": "'Too much alignment; not enough culture': Re-balancing Cultural Alignment Practices in LLMs",
+      "url": "https://arxiv.org/abs/2509.26167",
+      "year": "2025.09",
+      "pubKey": 202509,
+      "venue": "arXiv",
+      "authors": "Orlowski, Norhashim, Koh Ly Wey",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Critiques quantitative-only cultural alignment in LLMs as reductive and proposes integrating qualitative social science methods, drawing on Geertz's 'thick description' to produce culturally grounded AI outputs.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Surveys, Taxonomies & Position Papers"
+      ]
+    },
+    {
+      "id": "2509.08858",
+      "title": "Decentralising LLM Alignment: A Case for Context, Pluralism, and Participation",
+      "url": "https://arxiv.org/abs/2509.08858",
+      "year": "2025.09",
+      "pubKey": 202509,
+      "venue": "AIES 2025",
+      "authors": "Peter, Devlin",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Argues that current LLM alignment concentrates normative power in a few institutions and advocates for decentralizing alignment through context-sensitivity, value pluralism, and participatory design to address epistemic injustice.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Pluralistic Alignment & Social Choice"
+      ]
+    },
+    {
+      "id": "2509.25369",
+      "title": "Generative Value Conflicts Reveal LLM Priorities",
+      "url": "https://arxiv.org/abs/2509.25369",
+      "year": "2025.09",
+      "pubKey": 202509,
+      "venue": "ICLR 2026",
+      "authors": "Liu, Ghate, Diab et al.",
+      "org": "",
+      "code": "https://github.com/andyjliu/conflictscope",
+      "project": "",
+      "summary": "ConflictScope is an automated pipeline that generates scenarios pitting two values against each other to reveal how LLMs prioritize values in open-ended versus multiple-choice settings, finding that models shift toward user autonomy over safety and that explicit value rankings in system prompts improve alignment by ~14%.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value Orientation and Psychometric Measurement"
+      ]
+    },
+    {
+      "id": "2509.10685",
+      "title": "Pluralistic Alignment for Healthcare: A Role-Driven Framework",
+      "url": "https://arxiv.org/abs/2509.10685",
+      "year": "2025.09",
+      "pubKey": 202509,
+      "venue": "EMNLP 2025",
+      "authors": "Zhong, Shetty, Jia et al.",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "EthosAgents is a lightweight role-driven pluralistic alignment framework for healthcare LLMs that simulates diverse stakeholder perspectives, outperforming existing methods including Modular Pluralism across seven models.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Overton Pluralism — Similar View: Covering the Full Spectrum"
+      ]
+    },
+    {
+      "id": "2509.11311",
+      "title": "Prompts to Proxies: Emulating Human Preferences via a Compact LLM Ensemble",
+      "url": "https://arxiv.org/abs/2509.11311",
+      "year": "2025.09",
+      "pubKey": 202509,
+      "venue": "arXiv",
+      "authors": "Wang, Khoo, Wang",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "P2P (Prompts to Proxies) builds a diverse pool of LLM agents via structured prompting and then selects a compact ensemble using L1-regularized regression to emulate population-level survey preferences, achieving low error on the American Trends Panel with no fine-tuning and no demographic data.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Overton Pluralism — Similar View: Covering the Full Spectrum"
+      ]
+    },
+    {
+      "id": "2508.08509",
+      "title": "Steerable Pluralism: Pluralistic Alignment via Few-Shot Comparative Regression",
+      "url": "https://arxiv.org/abs/2508.08509",
+      "year": "2025.08",
+      "pubKey": 202508,
+      "venue": "AIES 2025",
+      "authors": "Adams, Hu, Veenhuis et al.",
+      "org": "Kitware Inc.",
+      "code": "https://github.com/ITM-Kitware/steerable-pluralism-llm-regression",
+      "project": "",
+      "summary": "Steerable Pluralism proposes a few-shot comparative regression method that lets a single LLM adapt to individual user preferences defined by fine-grained attributes at inference time, introducing two new benchmarks derived from MIC and HelpSteer2 for evaluating steerable pluralistic alignment.",
+      "tags": [],
+      "categories": [
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Inference-time and Representation-level Steering"
+      ]
+    },
+    {
+      "id": "2508.11414",
+      "title": "Survey-to-Behavior: Downstream Alignment of Human Values in LLMs via Survey Questions",
+      "url": "https://arxiv.org/abs/2508.11414",
+      "year": "2025.08",
+      "pubKey": 202508,
+      "venue": "arXiv",
+      "authors": "Nie, Mai, Kaczér et al.",
+      "org": "University of Bonn",
+      "code": "",
+      "project": "",
+      "summary": "Survey-to-Behavior fine-tunes LLMs on value-survey questions across 20 human values and shows this produces measurable behavioral shifts not just on held-out survey items but also in out-of-domain moral judgment tasks drawn from Reddit and text adventure games.",
+      "tags": [],
+      "categories": [
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Training-based Alignment and Value Injection"
+      ]
+    },
+    {
+      "id": "2507.20264",
+      "title": "EMBRACE: Shaping Inclusive Opinion Representation by Aligning Implicit Conversations with Social Norms",
+      "url": "https://arxiv.org/abs/2507.20264",
+      "year": "2025.07",
+      "pubKey": 202507,
+      "venue": "AACL Findings 2025",
+      "authors": "Aldayel, Alokaili",
+      "org": "King Saud University",
+      "code": "",
+      "project": "",
+      "summary": "EMBRACE introduces an evaluation framework to assess whether NLP models fairly represent implicit opinions in conversations by aligning them with social norms, using positive-unlabeled learning and instruction-tuned LLMs to detect stance as a proxy for underlying viewpoints.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Overton Pluralism — Similar View: Covering the Full Spectrum"
+      ]
+    },
+    {
+      "id": "2507.19364",
+      "title": "Integrating LLM in Agent-Based Social Simulation: Opportunities and Challenges",
+      "url": "https://arxiv.org/abs/2507.19364",
+      "year": "2025.07",
+      "pubKey": 202507,
+      "venue": "arXiv",
+      "authors": "Taillandier, Zucker, Grignard et al.",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "A position paper surveying how LLMs can be integrated into agent-based social simulation, arguing that hybrid architectures combining classical ABMs, small language models, and LLMs within platforms like GAMA and NetLogo offer the best balance of flexibility and analytical rigor.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Social Simulation"
+      ]
+    },
+    {
+      "id": "2507.11316",
+      "title": "Internal Value Alignment in Large Language Models through Controlled Value Vector Activation",
+      "url": "https://arxiv.org/abs/2507.11316",
+      "year": "2025.07",
+      "pubKey": 202507,
+      "venue": "ACL 2025",
+      "authors": "Jin, Li, Wang et al.",
+      "org": "",
+      "code": "https://github.com/hr-jin/ConVA",
+      "project": "",
+      "summary": "ConVA aligns LLM internal values by identifying value-encoding directions in latent space and applying gated activation steering, achieving high control success across ten basic values while preserving model fluency and resisting adversarial prompts.",
+      "tags": [],
+      "categories": [
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Inference-time and Representation-level Steering"
+      ]
+    },
+    {
+      "id": "2507.20728",
+      "title": "Learning the Value Systems of Societies from Preferences",
+      "url": "https://arxiv.org/abs/2507.20728",
+      "year": "2025.07",
+      "pubKey": 202507,
+      "venue": "ECAI 2025",
+      "authors": "Holgado-Sánchez, Billhardt, Ossowski et al.",
+      "org": "Universidad Rey Juan Carlos / CETINIA",
+      "code": "",
+      "project": "",
+      "summary": "Proposes learning the value systems of diverse social groups from qualitative preference data using heuristic deep clustering, treating society as a plurality of value systems rather than a single aggregate, and validated on real travel decision data.",
+      "tags": [],
+      "categories": [
+        "Representation & Extraction"
+      ],
+      "subcategories": [
+        "Value System Construction and Discovery"
+      ]
+    },
+    {
+      "id": "multimodal-understanding-of-human-values-in-videos-a-benchma",
+      "title": "Multimodal understanding of human values in videos: A benchmark dataset and PLM-based method",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0925231225008422",
+      "year": "2025.07",
+      "pubKey": 202507,
+      "venue": "Neurocomputing 2025",
+      "authors": "Wang, Tao, Chang et al.",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Introduces VVALUES, the first multimodal video dataset annotated with human values (5,104 videos across 13 value categories), and proposes MMVR, a dual-transformer PLM-based method for recognizing values in video content.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value Understanding and Reasoning"
+      ]
+    },
+    {
+      "id": "2507.13490",
+      "title": "Revisiting LLM Value Probing Strategies: Are They Robust and Expressive?",
+      "url": "https://arxiv.org/abs/2507.13490",
+      "year": "2025.07",
+      "pubKey": 202507,
+      "venue": "EMNLP 2025",
+      "authors": "Shen, Singh, Logeswaran et al.",
+      "org": "University of Michigan",
+      "code": "",
+      "project": "",
+      "summary": "Evaluates three widely-used LLM value probing strategies and finds they all show large variance under input perturbations and that probed values weakly correlate with value-based action preferences, calling for more careful use of these methods.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Robustness, Stability, and Consistency"
+      ]
+    },
+    {
+      "id": "2506.06298",
+      "title": "Pairwise Calibrated Rewards for Pluralistic Alignment",
+      "url": "https://arxiv.org/abs/2506.06298",
+      "year": "2025.06",
+      "pubKey": 202506,
+      "venue": "NeurIPS 2025",
+      "authors": "Halpern, Procaccia, Micha et al.",
+      "org": "Harvard University",
+      "code": "",
+      "project": "",
+      "summary": "Proposes pairwise calibration as a criterion for learning a distribution of reward functions from pairwise preference data, so that the fraction of reward functions preferring one response matches the fraction of annotators who prefer it, better representing pluralistic human values.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Overton Pluralism — Overton: Named & Direct"
+      ]
+    },
+    {
+      "id": "2507.16679",
+      "title": "PICACO: Pluralistic In-Context Value Alignment of LLMs via Total Correlation Optimization",
+      "url": "https://arxiv.org/abs/2507.16679",
+      "year": "2025.06",
+      "pubKey": 202506,
+      "venue": "arXiv",
+      "authors": "Jiang, Zhu, Yi et al.",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "PICACO optimizes a meta-instruction via total correlation maximization to help LLMs simultaneously align with multiple conflicting values in-context, without fine-tuning, outperforming baselines across five value sets.",
+      "tags": [],
+      "categories": [
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Inference-time and Representation-level Steering"
+      ]
+    },
+    {
+      "id": "2506.06958",
+      "title": "Simulating Society Requires Simulating Thought",
+      "url": "https://arxiv.org/abs/2506.06958",
+      "year": "2025.06",
+      "pubKey": 202506,
+      "venue": "NeurIPS Position 2025",
+      "authors": "Li, Wu, Mo et al.",
+      "org": "MIT Media Lab",
+      "code": "",
+      "project": "",
+      "summary": "Argues that faithful LLM-based social simulation requires cognitively grounded thought modeling, proposes the Generative Minds (GenMinds) paradigm for structured belief representations, and introduces the RECAP benchmark to assess causal reasoning fidelity in agents.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Social Simulation"
+      ]
+    },
+    {
+      "id": "2506.06404",
+      "title": "Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights",
+      "url": "https://arxiv.org/abs/2506.06404",
+      "year": "2025.06",
+      "pubKey": 202506,
+      "venue": "ACL 2025",
+      "authors": "Choi, Lee, Yi et al.",
+      "org": "Sungkyunkwan University",
+      "code": "https://github.com/Human-Language-Intelligence/Unintended-Harms-LLM",
+      "project": "",
+      "summary": "Shows that fine-tuning LLMs to align with individual user values makes them more prone to generating harmful content, and proposes in-context alignment methods to mitigate this safety risk.",
+      "tags": [],
+      "categories": [
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Foundations and Pluralistic Alignment"
+      ]
+    },
+    {
+      "id": "2505.13531",
+      "title": "AdAEM: An Adaptively and Automated Extensible Measurement of LLMs' Value Difference",
+      "url": "https://arxiv.org/abs/2505.13531",
+      "year": "2025.05",
+      "pubKey": 202505,
+      "venue": "ICLR 2026",
+      "authors": "Yao, Duan, Yi et al.",
+      "org": "Microsoft Research Asia",
+      "code": "https://github.com/ValueCompass/AdAEM",
+      "project": "",
+      "summary": "AdAEM automatically generates and extends value-probing questions for LLMs via in-context optimization, maximizing an information-theoretic objective to surface controversial topics that reveal distinguishing value differences across cultures and time. Unlike static benchmarks, it adaptively avoids outdated or contaminated questions.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value Orientation and Psychometric Measurement"
+      ]
+    },
+    {
+      "id": "2505.23820",
+      "title": "Arbiters of Ambivalence: Challenges of Using LLMs in No-Consensus Tasks",
+      "url": "https://arxiv.org/abs/2505.23820",
+      "year": "2025.05",
+      "pubKey": 202505,
+      "venue": "ACL Findings 2025",
+      "authors": "Radharapu, Revel, Ung et al.",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "A benchmark of inherently ambiguous, no-consensus scenarios is used to test LLMs as answer generators, judges, and debaters, finding that while LLMs produce thoughtful open-ended text, they collapse to definitive positions when judging or debating — failing to represent genuine human disagreement.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Overton Pluralism — Similar View: Covering the Full Spectrum"
+      ]
+    },
+    {
+      "id": "2505.19484",
+      "title": "CulFiT: Fine-grained Cultural-aware LLM Training via Multilingual Critique Data Synthesis",
+      "url": "https://arxiv.org/abs/2505.19484",
+      "year": "2025.05",
+      "pubKey": 202505,
+      "venue": "ACL 2025",
+      "authors": "Feng, Gao, Chen et al.",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "CulFiT is a training paradigm that synthesizes multilingual culturally relevant questions and fine-grained critique data with verifiable reward signals to reduce cultural bias in LLMs; it also introduces GlobalCultureQA, a multilingual benchmark, and achieves state-of-the-art cultural alignment.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Methods: Training, Steering & Adaptation"
+      ]
+    },
+    {
+      "id": "2505.12792",
+      "title": "EAVIT: Efficient and Accurate Human Value Identification from Text data via LLMs",
+      "url": "https://arxiv.org/abs/2505.12792",
+      "year": "2025.05",
+      "pubKey": 202505,
+      "venue": "arXiv",
+      "authors": "Zhu, Xie, Song et al.",
+      "org": "Peking University",
+      "code": "",
+      "project": "",
+      "summary": "EAVIT combines a small local value-detector model with a large online LLM to identify human values in text, reducing input token count by ~83% while outperforming both traditional NLP methods and direct LLM querying approaches.",
+      "tags": [
+        "Schwartz"
+      ],
+      "categories": [
+        "Representation & Extraction"
+      ],
+      "subcategories": [
+        "Value Identification and Classification"
+      ]
+    },
+    {
+      "id": "2505.08245",
+      "title": "Large Language Model Psychometrics: A Systematic Review of Evaluation, Validation, and Enhancement",
+      "url": "https://arxiv.org/abs/2505.08245",
+      "year": "2025.05",
+      "pubKey": 202505,
+      "venue": "arXiv",
+      "authors": "Ye, Jin, Xie et al.",
+      "org": "Peking University",
+      "code": "https://github.com/valuebyte-ai/Awesome-LLM-Psychometrics",
+      "project": "",
+      "summary": "A systematic review of over 400 works that defines LLM Psychometrics as an interdisciplinary field applying psychometric principles to evaluate, validate, and enhance LLMs on human-like psychological constructs such as personality, values, and intelligence.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Evaluation, Psychometrics & Representativeness"
+      ]
+    },
+    {
+      "id": "2505.17712",
+      "title": "Understanding How Value Neurons Shape the Generation of Specified Values in LLMs",
+      "url": "https://arxiv.org/abs/2505.17712",
+      "year": "2025.05",
+      "pubKey": 202505,
+      "venue": "EMNLP Findings 2025",
+      "authors": "Su, Zhang, Yang et al.",
+      "org": "KAUST",
+      "code": "",
+      "project": "",
+      "summary": "ValueLocate is a mechanistic interpretability framework that locates 'value-critical neurons' in LLMs by computing activation differences between opposing value aspects derived from Schwartz value theory, then shows causal links between those neurons and value-relevant generations via targeted manipulation.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value–Action Alignment, Behavior, and Interpretability"
+      ]
+    },
+    {
+      "id": "2505.01015",
+      "title": "Value Portrait: Assessing Language Models' Values through Psychometrically and Ecologically Valid Items",
+      "url": "https://arxiv.org/abs/2505.01015",
+      "year": "2025.05",
+      "pubKey": 202505,
+      "venue": "AAAI 2025",
+      "authors": "Han, Choi, Song et al.",
+      "org": "Seoul National University",
+      "code": "https://github.com/holi-lab/ValuePortrait",
+      "project": "",
+      "summary": "Value Portrait is a psychometrically and ecologically valid benchmark that evaluates LLM value orientations using items grounded in real user-LLM interactions; testing 44 models reveals they over-emphasize Benevolence and Self-Direction while under-emphasizing Tradition and Power compared to human baselines.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value Orientation and Psychometric Measurement"
+      ]
+    },
+    {
+      "id": "2504.07070",
+      "title": "A Survey on Personalized and Pluralistic Preference Alignment in Large Language Models",
+      "url": "https://arxiv.org/abs/2504.07070",
+      "year": "2025.04",
+      "pubKey": 202504,
+      "venue": "arXiv",
+      "authors": "Xie, Wu, Shen et al.",
+      "org": "UC San Diego",
+      "code": "",
+      "project": "",
+      "summary": "A survey on personalized and pluralistic preference alignment for LLMs that introduces a taxonomy spanning training-time, inference-time, and user-modeling approaches, and synthesizes open research challenges in tailoring models to diverse individual preferences.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Pluralistic Alignment & Social Choice"
+      ]
+    },
+    {
+      "id": "2504.05154",
+      "title": "CARE: Multilingual Human Preference Learning for Cultural Awareness",
+      "url": "https://arxiv.org/abs/2504.05154",
+      "year": "2025.04",
+      "pubKey": 202504,
+      "venue": "EMNLP 2025",
+      "authors": "Guo, Naous, Wakaki et al.",
+      "org": "",
+      "code": "https://github.com/Guochry/CARE",
+      "project": "",
+      "summary": "CARE is a multilingual dataset of ~3,490 culturally specific questions with ~31,700 human-evaluated responses showing that a small amount of high-quality native cultural preference data substantially improves LLM cultural awareness over larger generic preference datasets.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Methods: Training, Steering & Adaptation"
+      ]
+    },
+    {
+      "id": "2504.08820",
+      "title": "CAReDiO: Enhancing Cultural Alignment via Representativeness and Distinctiveness Guided Data Optimization",
+      "url": "https://arxiv.org/abs/2504.08820",
+      "year": "2025.04",
+      "pubKey": 202504,
+      "venue": "arXiv",
+      "authors": "Yao, Yi, Wang et al.",
+      "org": "Microsoft Research Asia",
+      "code": "",
+      "project": "",
+      "summary": "CAReDiO is a data optimization framework for cultural alignment that alternately maximizes representativeness and distinctiveness of generated questions and responses, achieving strong cross-cultural alignment across 15 cultures with only ~200 training samples.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Methods: Training, Steering & Adaptation"
+      ]
+    },
+    {
+      "id": "2504.02953",
+      "title": "Cultural Learning-Based Culture Adaptation of Language Models (CLCA)",
+      "url": "https://arxiv.org/abs/2504.02953",
+      "year": "2025.04",
+      "pubKey": 202504,
+      "venue": "ACL 2025",
+      "authors": "Liu, Korhonen, Gurevych",
+      "org": "Ubiquitous Knowledge Processing Lab, TU Darmstadt",
+      "code": "",
+      "project": "",
+      "summary": "CLCA is a framework that adapts LLMs to diverse cultural values by using simulated role-playing social interactions to capture implicit cultural norms for fine-tuning. It improves cultural value alignment across model architectures as measured by World Value Survey data.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Methods: Training, Steering & Adaptation"
+      ]
+    },
+    {
+      "id": "2504.04994",
+      "title": "Following the Whispers of Values: Unraveling Neural Mechanisms Behind Value-Oriented Behaviors in LLMs",
+      "url": "https://arxiv.org/abs/2504.04994",
+      "year": "2025.04",
+      "pubKey": 202504,
+      "venue": "arXiv",
+      "authors": "Hu, Xu, Gu, Han",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "ValueExploration identifies neurons within LLMs that encode national social values by measuring activation differences, then deactivates them to observe behavioral shifts. The work also introduces C-voice, a bilingual benchmark for evaluating Chinese social values in LLMs.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value–Action Alignment, Behavior, and Interpretability"
+      ]
+    },
+    {
+      "id": "2504.02234",
+      "title": "LLM Social Simulations Are a Promising Research Method",
+      "url": "https://arxiv.org/abs/2504.02234",
+      "year": "2025.04",
+      "pubKey": 202504,
+      "venue": "ICML Position 2025",
+      "authors": "Anthis, Liu, Richardson et al.",
+      "org": "University of Chicago (Sociology)",
+      "code": "",
+      "project": "",
+      "summary": "A position paper arguing that LLM simulations of human research subjects are already viable for pilot and exploratory behavioral research, identifying five addressable challenges and recommending context-rich prompting and social-science fine-tuning. Published at ICML 2025.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Social Simulation"
+      ]
+    },
+    {
+      "id": "2504.12633",
+      "title": "SOLAR: Towards Characterizing Subjectivity of Individuals through Modeling Value Conflicts and Trade-offs",
+      "url": "https://arxiv.org/abs/2504.12633",
+      "year": "2025.04",
+      "pubKey": 202504,
+      "venue": "EMNLP 2025",
+      "authors": "Lee, Goldwasser",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "SOLAR is a framework that models value conflicts and trade-offs in user-generated text to characterize individual-level subjectivity in moral judgment tasks. It improves LLM inference on morally contentious issues and provides explanations of individuals' underlying value preferences.",
+      "tags": [],
+      "categories": [
+        "Representation & Extraction"
+      ],
+      "subcategories": [
+        "Value Profiling"
+      ]
+    },
+    {
+      "id": "2504.15236",
+      "title": "Values in the Wild: Discovering and Analyzing Values in Real-World Language Model Interactions",
+      "url": "https://arxiv.org/abs/2504.15236",
+      "year": "2025.04",
+      "pubKey": 202504,
+      "venue": "arXiv",
+      "authors": "Huang, Durmus, McCain et al.",
+      "org": "Anthropic",
+      "code": "https://huggingface.co/datasets/Anthropic/values-in-the-wild",
+      "project": "",
+      "summary": "A privacy-preserving method is applied to hundreds of thousands of real Claude interactions to inductively discover and taxonomize 3,307 distinct AI values, providing the first large-scale empirical analysis of values exhibited by a deployed LLM. The resulting dataset is released on Hugging Face.",
+      "tags": [],
+      "categories": [
+        "Representation & Extraction"
+      ],
+      "subcategories": [
+        "Value System Construction and Discovery"
+      ]
+    },
+    {
+      "id": "2503.08688",
+      "title": "Randomness, Not Representation: The Unreliability of Evaluating Cultural Alignment in LLMs",
+      "url": "https://arxiv.org/abs/2503.08688",
+      "year": "2025.03",
+      "pubKey": 202503,
+      "venue": "FAccT 2025",
+      "authors": "Khan, Casper, Hadfield-Menell",
+      "org": "MIT CSAIL",
+      "code": "https://github.com/ariba-k/llm-cultural-alignment-evaluation",
+      "project": "",
+      "summary": "Survey-based methods for evaluating LLM cultural alignment are shown to be unreliable: results vary substantially with presentation format, fail to generalize across cultural dimensions, and behave erratically under prompt steering. The paper argues that robust red-teaming of evaluation pipelines is necessary before drawing conclusions about LLM cultural values.",
+      "tags": [
+        "`2025`"
+      ],
+      "categories": [
+        "Surveys & Resources",
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Cultural Alignment",
+        "Multicultural Alignment — Evaluation & Benchmarks"
+      ]
+    },
+    {
+      "id": "2503.15484",
+      "title": "Value Profiles for Encoding Human Variation",
+      "url": "https://arxiv.org/abs/2503.15484",
+      "year": "2025.03",
+      "pubKey": 202503,
+      "venue": "EMNLP 2025",
+      "authors": "Sorensen, Mishra, Patel et al.",
+      "org": "University of Washington",
+      "code": "",
+      "project": "",
+      "summary": "Natural language value profiles—compressed from rater demonstrations—are proposed to represent individual human variation and steer a decoder model to predict ratings. Value profiles retain over 70% of the predictive information from full demonstrations and explain annotation disagreement better than demographic groupings.",
+      "tags": [],
+      "categories": [
+        "Representation & Extraction"
+      ],
+      "subcategories": [
+        "Value Profiling"
+      ]
+    },
+    {
+      "id": "2503.04569",
+      "title": "ValuePilot: A Two-Phase Framework for Value-Driven Decision-Making",
+      "url": "https://arxiv.org/abs/2503.04569",
+      "year": "2025.03",
+      "pubKey": 202503,
+      "venue": "arXiv",
+      "authors": "Luo, Lam, Chen et al.",
+      "org": "BIGAI",
+      "code": "",
+      "project": "",
+      "summary": "ValuePilot is a two-phase framework consisting of a dataset generation toolkit and a decision-making module trained to recognize value dimensions in scenarios and navigate trade-offs for personalized decisions. It outperforms GPT-4o, Claude-3.5-Sonnet, and other large models in aligning with stated human value preferences.",
+      "tags": [],
+      "categories": [
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Inference-time and Representation-level Steering"
+      ]
+    },
+    {
+      "id": "2502.08045",
+      "title": "Break the Checkbox: Challenging Closed-Style Evaluations of Cultural Alignment in LLMs",
+      "url": "https://arxiv.org/abs/2502.08045",
+      "year": "2025.02",
+      "pubKey": 202502,
+      "venue": "EMNLP 2025",
+      "authors": "Kabir, Abrar, Ananiadou",
+      "org": "University of Manchester",
+      "code": "",
+      "project": "",
+      "summary": "Closed-style (multiple-choice) survey evaluations of LLM cultural alignment are shown to be fragile: reordering answer choices produces inconsistent outputs, and LLMs show stronger alignment in open-ended settings. The paper calls for more flexible evaluation frameworks that probe specific cultural indicators.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Evaluation & Benchmarks"
+      ]
+    },
+    {
+      "id": "2502.02444",
+      "title": "Generative Psycho-Lexical Approach for Constructing Value Systems in Large Language Models",
+      "url": "https://arxiv.org/abs/2502.02444",
+      "year": "2025.02",
+      "pubKey": 202502,
+      "venue": "ACL 2025",
+      "authors": "Ye, Zhang, Xie et al.",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "A Generative Psycho-Lexical Approach (GPLA) is used to derive a psychologically grounded five-factor value system tailored to LLMs, replacing Schwartz's human-centered theory. The resulting value system better captures LLM values, improves safety prediction, and enhances alignment compared to the canonical framework.",
+      "tags": [],
+      "categories": [
+        "Representation & Extraction"
+      ],
+      "subcategories": [
+        "Value System Construction and Discovery"
+      ]
+    },
+    {
+      "id": "2502.09637",
+      "title": "Meta-Cultural Competence: Climbing the Right Hill of Cultural Awareness",
+      "url": "https://arxiv.org/abs/2502.09637",
+      "year": "2025.02",
+      "pubKey": 202502,
+      "venue": "NAACL 2025",
+      "authors": "Saha, Pandey, Choudhury",
+      "org": "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)",
+      "code": "",
+      "project": "",
+      "summary": "Argues that LLMs need 'meta-cultural competence' — the ability to reason about and adapt to unfamiliar cultures — rather than mere cultural knowledge or awareness, and lays out principles and measurement approaches for achieving it.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Surveys, Taxonomies & Position Papers"
+      ]
+    },
+    {
+      "id": "2502.08640",
+      "title": "Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs",
+      "url": "https://arxiv.org/abs/2502.08640",
+      "year": "2025.02",
+      "pubKey": 202502,
+      "venue": "NeurIPS 2025",
+      "authors": "Mazeika, Yin, Tamirisa et al.",
+      "org": "Center for AI Safety",
+      "code": "https://github.com/centerforaisafety/emergent-values",
+      "project": "",
+      "summary": "Finds that LLMs develop coherent, scale-emergent utility functions that sometimes assign more value to the AI itself than to humans, and proposes 'utility engineering' as a framework to analyze and steer these emergent value systems toward citizen-assembly-aligned preferences.",
+      "tags": [],
+      "categories": [
+        "Representation & Extraction",
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Value System Construction and Discovery",
+        "Inference-time and Representation-level Steering"
+      ]
+    },
+    {
+      "id": "2501.15463",
+      "title": "Mind the Value-Action Gap: Do LLMs Act in Alignment with Their Values?",
+      "url": "https://arxiv.org/abs/2501.15463",
+      "year": "2025.01",
+      "pubKey": 202501,
+      "venue": "EMNLP 2025",
+      "authors": "Shen, Clark, Mitra",
+      "org": "",
+      "code": "https://github.com/huashen218/value_action_gap",
+      "project": "",
+      "summary": "Introduces ValueActionLens, a benchmark of 14.8k value-informed actions across 12 cultures and 11 social topics, revealing that LLMs frequently act inconsistently with their stated values and that context-sensitive evaluation is needed.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value–Action Alignment, Behavior, and Interpretability"
+      ]
+    },
+    {
+      "id": "2501.11770",
+      "title": "The Value of Nothing: Multimodal Extraction of Human Values Expressed by TikTok Influencers",
+      "url": "https://arxiv.org/abs/2501.11770",
+      "year": "2025.01",
+      "pubKey": 202501,
+      "venue": "arXiv",
+      "authors": "Starovolsky-Shitrit, Neduva, Appel Doron et al.",
+      "org": "Tel Aviv University",
+      "code": "",
+      "project": "",
+      "summary": "Presents the first dataset of TikTok videos annotated with Schwartz personal values to study how influencers transmit values to young audiences, finding that a two-step video-to-script pipeline with LLMs substantially outperforms direct multimodal extraction.",
+      "tags": [
+        "Schwartz"
+      ],
+      "categories": [
+        "Representation & Extraction"
+      ],
+      "subcategories": [
+        "Value Identification and Classification"
+      ]
+    },
+    {
+      "id": "2501.07071",
+      "title": "Value Compass Benchmarks: A Platform for Fundamental and Validated Evaluation of LLMs Values",
+      "url": "https://arxiv.org/abs/2501.07071",
+      "year": "2025.01",
+      "pubKey": 202501,
+      "venue": "ACL Demo 2025",
+      "authors": "Yao, Yi, Duan et al.",
+      "org": "Microsoft Research Asia",
+      "code": "",
+      "project": "",
+      "summary": "Proposes Value Compass Benchmarks, a generative and self-evolving platform that evaluates LLMs against motivationally distinct basic values using adaptive test items and a pluralism-aware metric to address data contamination and value-clarification gaps.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value Orientation and Psychometric Measurement"
+      ]
+    },
+    {
+      "id": "2501.00581",
+      "title": "Are the Values of LLMs Structurally Aligned with Humans? A Causal Perspective",
+      "url": "https://arxiv.org/abs/2501.00581",
+      "year": "2024.12",
+      "pubKey": 202412,
+      "venue": "ACL Findings 2025",
+      "authors": "Kang, Wang, Li et al.",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Investigates whether LLMs' value systems structurally match human values using causal value graphs, finding significant divergence despite alignment training. Proposes two lightweight steering methods—role-based prompting and sparse autoencoder steering—for more fine-grained value control.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value–Action Alignment, Behavior, and Interpretability"
+      ]
+    },
+    {
+      "id": "2412.11167",
+      "title": "Cultural Palette: Pluralising Culture Alignment via Multi-agent Palette",
+      "url": "https://arxiv.org/abs/2412.11167",
+      "year": "2024.12",
+      "pubKey": 202412,
+      "venue": "arXiv",
+      "authors": "Yuan, Di, Zhao et al.",
+      "org": "",
+      "code": "https://github.com/Jiahao-Yuan/CulturalPalette",
+      "project": "",
+      "summary": "Proposes Cultural Palette, a multi-agent framework that treats cultural alignment as a color-blending process using five continent-level agents combined by a Meta Agent via Cultural MoErges to produce culturally-adapted LLM outputs. Achieves country-level cultural alignment without country-specific data collection.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Methods: Training, Steering & Adaptation"
+      ]
+    },
+    {
+      "id": "2412.03563",
+      "title": "From Individual to Society: A Survey on Social Simulation Driven by Large Language Model-based Agents",
+      "url": "https://arxiv.org/abs/2412.03563",
+      "year": "2024.12",
+      "pubKey": 202412,
+      "venue": "arXiv",
+      "authors": "Mou, Ding, He et al.",
+      "org": "Fudan University",
+      "code": "https://github.com/FudanDISC/SocialAgent",
+      "project": "",
+      "summary": "Surveys LLM-based social simulation research, organizing work into three tiers: individual simulation, scenario-based multi-agent collaboration, and large-scale society simulation. Covers architectures, evaluation methods, and benchmarks across all three levels.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Social Simulation"
+      ]
+    },
+    {
+      "id": "2411.05403",
+      "title": "(NYTBookOpinions) Benchmarking Distributional Alignment of Large Language Models",
+      "url": "https://arxiv.org/abs/2411.05403",
+      "year": "2024.11",
+      "pubKey": 202411,
+      "venue": "arXiv",
+      "authors": "Meister, Guestrin, Hashimoto",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Introduces a benchmark for evaluating whether LLMs can represent the opinion distributions of specific demographic groups across question domains, steering methods, and distribution expression methods. Finds that LLMs can describe group opinion distributions better than they can simulate them.",
+      "tags": [
+        "Benchmark"
+      ],
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "subcategories": [
+        "Public Opinion & Cultural Datasets"
+      ]
+    },
+    {
+      "id": "2411.14491",
+      "title": "A Survey on Human-Centric LLMs",
+      "url": "https://arxiv.org/abs/2411.14491",
+      "year": "2024.11",
+      "pubKey": 202411,
+      "venue": "arXiv",
+      "authors": "Wang, Sukiennik, Li et al.",
+      "org": "Tsinghua University",
+      "code": "",
+      "project": "",
+      "summary": "Surveys LLMs' capacity to simulate human cognition and behavior at both individual and collective levels, covering reasoning, perception, and social cognition. Identifies key challenges including emotional intelligence, cultural sensitivity, and bias in human-AI collaboration.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "General LLM Alignment Surveys"
+      ]
+    },
+    {
+      "id": "2411.06032",
+      "title": "LLM-GLOBE: A Benchmark Evaluating the Cultural Values Embedded in LLM Output",
+      "url": "https://arxiv.org/abs/2411.06032",
+      "year": "2024.11",
+      "pubKey": 202411,
+      "venue": "arXiv",
+      "authors": "Karinshak, Hu, Kong et al.",
+      "org": "",
+      "code": "https://github.com/raovish6/LLM-GLOBE",
+      "project": "",
+      "summary": "LLM-GLOBE is a benchmark that evaluates cultural values embedded in LLM outputs by applying the GLOBE cultural psychology framework, comparing Chinese and US models via closed-ended prompts and open-generation tasks scored by a novel LLMs-as-a-Jury pipeline.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Evaluation & Benchmarks"
+      ]
+    },
+    {
+      "id": "2411.00860",
+      "title": "Survey of Cultural Awareness in Language Models: Text and Beyond",
+      "url": "https://arxiv.org/abs/2411.00860",
+      "year": "2024.11",
+      "pubKey": 202411,
+      "venue": "arXiv",
+      "authors": "Pawar, Park, Jin et al.",
+      "org": "University of Copenhagen",
+      "code": "https://github.com/siddheshih/culture-awareness-llms",
+      "project": "",
+      "summary": "A comprehensive survey of how cultural awareness is incorporated into text-based and multimodal LLMs, covering dataset creation, benchmarking, downstream task strategies, ethical implications, and the role of HCI in ensuring cultural inclusivity.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources",
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Cultural Alignment",
+        "Multicultural Alignment — Surveys, Taxonomies & Position Papers"
+      ]
+    },
+    {
+      "id": "2411.11479",
+      "title": "Value-Spectrum: Quantifying Preferences of Vision-Language Models via Value Decomposition in Social Media Contexts",
+      "url": "https://arxiv.org/abs/2411.11479",
+      "year": "2024.11",
+      "pubKey": 202411,
+      "venue": "ACL 2025",
+      "authors": "Li, Yang, Yang et al.",
+      "org": "",
+      "code": "https://github.com/Jeremyyny/Value-Spectrum",
+      "project": "",
+      "summary": "Value-Spectrum introduces a VQA benchmark with over 50,000 social media videos to evaluate vision-language models across Schwartz's value dimensions, probing how VLMs handle value-oriented content and adopt personas.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value Orientation and Psychometric Measurement"
+      ]
+    },
+    {
+      "id": "2410.03868",
+      "title": "Can Language Models Reason about Individualistic Human Values and Preferences?",
+      "url": "https://arxiv.org/abs/2410.03868",
+      "year": "2024.10",
+      "pubKey": 202410,
+      "venue": "ACL 2025",
+      "authors": "Jiang, Sorensen, Levine et al.",
+      "org": "University of Washington",
+      "code": "https://github.com/liweijiang/indievalue",
+      "project": "",
+      "summary": "The paper introduces IndieValueCatalog, derived from the World Values Survey, to test whether LMs can predict individual-level value judgments; frontier models achieve only 55-65% accuracy, showing that demographic proxies are insufficient for capturing individual values.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value Understanding and Reasoning"
+      ]
+    },
+    {
+      "id": "2410.02677",
+      "title": "CulturalBench: A Robust, Diverse, and Challenging Cultural Benchmark",
+      "url": "https://arxiv.org/abs/2410.02677",
+      "year": "2024.10",
+      "pubKey": 202410,
+      "venue": "ACL 2025",
+      "authors": "Chiu, Jiang, Lin et al.",
+      "org": "University of Washington",
+      "code": "",
+      "project": "",
+      "summary": "CulturalBench provides 1,696 human-written, human-verified cultural knowledge questions spanning 45 global regions and 17 topics, created via human-AI red-teaming; even top frontier LMs reach only 28.7-61.5% accuracy versus 92.4% for humans.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Evaluation & Benchmarks"
+      ]
+    },
+    {
+      "id": "2410.02683",
+      "title": "DailyDilemmas: Revealing Value Preferences of LLMs with Quandaries of Daily Life",
+      "url": "https://arxiv.org/abs/2410.02683",
+      "year": "2024.10",
+      "pubKey": 202410,
+      "venue": "",
+      "authors": "Chiu, Jiang, Choi",
+      "org": "University of Washington",
+      "code": "https://github.com/kellycyy/daily_dilemmas",
+      "project": "",
+      "summary": "DailyDilemmas is a dataset of 1,360 everyday moral dilemmas used to probe value preferences of LLMs across five ethical frameworks, finding that models consistently favor self-expression over survival and care over loyalty, and that these biases cannot be overridden by system prompts.",
+      "tags": [
+        "Dataset",
+        "Ethics · Schwartz · MFT"
+      ],
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "subcategories": [
+        "Value Annotation Datasets"
+      ]
+    },
+    {
+      "id": "large-language-models-empowered-agent-based-modeling-and-sim",
+      "title": "Large language models empowered agent-based modeling and simulation: a survey and perspectives",
+      "url": "https://www.nature.com/articles/s41599-024-03611-3",
+      "year": "2024.10",
+      "pubKey": 202410,
+      "venue": "Nature 2024",
+      "authors": "Gao, Lan, Li et al.",
+      "org": "Tsinghua University",
+      "code": "https://arxiv.org/abs/2312.11970",
+      "project": "",
+      "summary": "A survey of integrating large language models into agent-based modeling and simulation, analyzing challenges in environment perception, human alignment, action generation, and evaluation, and outlining future research directions.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Social Simulation"
+      ]
+    },
+    {
+      "id": "2410.19198",
+      "title": "MAP: Multi-Human-Value Alignment Palette",
+      "url": "https://arxiv.org/abs/2410.19198",
+      "year": "2024.10",
+      "pubKey": 202410,
+      "venue": "ICLR 2025",
+      "authors": "Wang, Le, Ahmed et al.",
+      "org": "University of Minnesota",
+      "code": "https://github.com/wang8740/MAP",
+      "project": "",
+      "summary": "MAP frames multi-value AI alignment as a constrained optimization problem solved via a primal-dual method, proving that linear weighted rewards are sufficient and providing a toolkit to align models against user-defined value palettes.",
+      "tags": [],
+      "categories": [
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Inference-time and Representation-level Steering"
+      ]
+    },
+    {
+      "id": "2410.01639",
+      "title": "Moral Alignment for LLM Agents",
+      "url": "https://arxiv.org/abs/2410.01639",
+      "year": "2024.10",
+      "pubKey": 202410,
+      "venue": "ICLR 2025",
+      "authors": "Tennant, Hailes, Musolesi",
+      "org": "University College London",
+      "code": "https://github.com/liza-tennant/LLM_morality",
+      "project": "",
+      "summary": "Moral Alignment for LLM Agents proposes fine-tuning decision-making LLMs with intrinsic rewards encoding deontological and utilitarian principles, demonstrated in iterated social dilemma games as a transparent alternative to RLHF.",
+      "tags": [],
+      "categories": [
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Training-based Alignment and Value Injection"
+      ]
+    },
+    {
+      "id": "2410.12971",
+      "title": "Self-Pluralising Culture Alignment for Large Language Models (CultureSPA)",
+      "url": "https://arxiv.org/abs/2410.12971",
+      "year": "2024.10",
+      "pubKey": 202410,
+      "venue": "NAACL 2025",
+      "authors": "Xu, Leng, Yu et al.",
+      "org": "",
+      "code": "https://github.com/shaoyangxu/CultureSPA",
+      "project": "",
+      "summary": "CultureSPA is a self-pluralising culture alignment framework that fine-tunes LLMs on automatically generated culture-contrasting instances to simultaneously align models to diverse cultural values without degrading general capabilities.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Methods: Training, Steering & Adaptation"
+      ]
+    },
+    {
+      "id": "2409.12106",
+      "title": "Measuring Human and AI Values Based on Generative Psychometrics with Large Language Models",
+      "url": "https://arxiv.org/abs/2409.12106",
+      "year": "2024.09",
+      "pubKey": 202409,
+      "venue": "AAAI 2025",
+      "authors": "Ye, Xie, Ren et al.",
+      "org": "Peking University",
+      "code": "https://github.com/value4ai/gpv",
+      "project": "",
+      "summary": "GPV (Generative Psychometrics for Values) uses LLMs to dynamically parse unstructured texts into value-revealing perceptions, enabling context-specific measurement of human and AI value orientations and linking LLM values to AI safety outcomes.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value Orientation and Psychometric Measurement"
+      ]
+    },
+    {
+      "id": "2409.17213",
+      "title": "Plurals: A System for Guiding LLMs Via Simulated Social Ensembles",
+      "url": "https://arxiv.org/abs/2409.17213",
+      "year": "2024.09",
+      "pubKey": 202409,
+      "venue": "CHI 2025",
+      "authors": "Ashkinaze, Fry, Edara et al.",
+      "org": "University of Michigan",
+      "code": "https://github.com/josh-ashkinaze/plurals",
+      "project": "",
+      "summary": "Plurals is a Python library for pluralistic AI deliberation that creates ensembles of LLM agents with nationally representative personas, structured deliberation templates, and customizable information-sharing to surface diverse viewpoints rather than a single neutral output.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Overton Pluralism — Similar View: Covering the Full Spectrum"
+      ]
+    },
+    {
+      "id": "stick-to-your-role-stability-of-personal-values-expressed-in",
+      "title": "Stick to your role! Stability of personal values expressed in large language models",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0309114",
+      "year": "2024.08",
+      "pubKey": 202408,
+      "venue": "PLOS One 2024",
+      "authors": "Kovač, Portelas, Sawayama et al.",
+      "org": "INRIA Flowers Team, Bordeaux",
+      "code": "https://gitlab.inria.fr/gkovac/value_stability",
+      "project": "",
+      "summary": "An evaluation of 21 LLMs using the Portrait Values Questionnaire finds that while models show moderate population-level value consistency, instructing them to simulate specific personas dramatically reduces stability, especially over longer conversations.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Robustness, Stability, and Consistency"
+      ]
+    },
+    {
+      "id": "2408.04655",
+      "title": "Strong and weak alignment of large language models with human values",
+      "url": "https://arxiv.org/abs/2408.04655",
+      "year": "2024.08",
+      "pubKey": 202408,
+      "venue": "Scientific Reports 2024",
+      "authors": "Khamassi, Nahon, Chatila",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "The paper distinguishes 'strong' alignment (requiring genuine causal and intentional reasoning) from 'weak' alignment (statistically plausible outputs), showing that current LLMs like ChatGPT, Gemini, and Copilot fail strong alignment tests and represent human values differently in their embeddings.",
+      "tags": [],
+      "categories": [
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Foundations and Pluralistic Alignment"
+      ]
+    },
+    {
+      "id": "2407.02996",
+      "title": "Are Large Language Models Consistent over Value-laden Questions?",
+      "url": "https://arxiv.org/abs/2407.02996",
+      "year": "2024.07",
+      "pubKey": 202407,
+      "venue": "EMNLP Findings 2024",
+      "authors": "Moore, Deshpande, Yang",
+      "org": "Stanford University",
+      "code": "https://github.com/jlcmoore/ValueConsistency",
+      "project": "",
+      "summary": "Testing 8,000 value-laden questions across 300+ topics on models including Llama-3 and GPT-4o, the study finds LLMs are broadly consistent across paraphrases, formats, and translations, but fine-tuned models show topic-dependent inconsistencies similar to human variation on controversial subjects.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Robustness, Stability, and Consistency"
+      ]
+    },
+    {
+      "id": "2407.10725",
+      "title": "CLAVE: An Adaptive Framework for Evaluating Values of LLM Generated Responses",
+      "url": "https://arxiv.org/abs/2407.10725",
+      "year": "2024.07",
+      "pubKey": 202407,
+      "venue": "NeurIPS 2024",
+      "authors": "Yao, Yi, Xie",
+      "org": "Microsoft Research Asia",
+      "code": "",
+      "project": "",
+      "summary": "CLAVE pairs a large LLM (for extracting value concepts) with a small fine-tuned model (for human-label calibration) to evaluate whether LLM responses align with human values; it also introduces ValEval, a dataset of 13k+ labeled examples across three value systems. Published at NeurIPS 2024.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value Orientation and Psychometric Measurement"
+      ]
+    },
+    {
+      "id": "2407.12878",
+      "title": "Do LLMs have Consistent Values?",
+      "url": "https://arxiv.org/abs/2407.12878",
+      "year": "2024.07",
+      "pubKey": 202407,
+      "venue": "ICLR 2025",
+      "authors": "Rozen, Bezalel, Elidan et al.",
+      "org": "Tel Aviv University",
+      "code": "",
+      "project": "",
+      "summary": "Investigates whether LLMs exhibit consistent, human-like value hierarchies and finds results depend heavily on prompting strategy; introduces a 'Value Anchoring' technique that brings LLM value structures closer to human psychological data. Published at ICLR 2025.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Robustness, Stability, and Consistency"
+      ]
+    },
+    {
+      "id": "2408.01460",
+      "title": "LocalValueBench: A Collaboratively Built and Extensible Benchmark for Evaluating Localized Value Alignment and Ethical Safety in Large Language Models",
+      "url": "https://arxiv.org/abs/2408.01460",
+      "year": "2024.07",
+      "pubKey": 202407,
+      "venue": "arXiv",
+      "authors": "Meadows, Lau, Susanto et al.",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "LocalValueBench is a collaboratively built benchmark that evaluates LLM alignment with Australian local values and ethical norms, offering a replicable methodology for regulators globally to create similar localized benchmarks.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value Orientation and Psychometric Measurement"
+      ]
+    },
+    {
+      "id": "2406.09948",
+      "title": "BLEnD: A Benchmark for LLMs on Everyday Knowledge in Diverse Cultures and Languages",
+      "url": "https://arxiv.org/abs/2406.09948",
+      "year": "2024.06",
+      "pubKey": 202406,
+      "venue": "NeurIPS DB 2024",
+      "authors": "Myung, Lee, Zhou et al.",
+      "org": "KAIST",
+      "code": "https://github.com/nlee0212/BLEnD",
+      "project": "",
+      "summary": "BLEnD is a hand-crafted benchmark of 52.6k QA pairs covering everyday cultural knowledge from 16 countries in 13 languages, revealing that LLMs perform significantly worse on cultures with less online presence and on low-resource languages. Published at NeurIPS 2024.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Evaluation & Benchmarks"
+      ]
+    },
+    {
+      "id": "2406.03930",
+      "title": "Culturally Aware and Adapted NLP: A Taxonomy and a Survey of the State of the Art",
+      "url": "https://arxiv.org/abs/2406.03930",
+      "year": "2024.06",
+      "pubKey": 202406,
+      "venue": "TACL 2025",
+      "authors": "Liu, Gurevych, Korhonen",
+      "org": "TU Darmstadt (UKP Lab)",
+      "code": "",
+      "project": "",
+      "summary": "Proposes a fine-grained taxonomy of cultural elements in NLP and surveys existing resources and methods for culturally aware systems, mapping achievements and open research gaps across the field. Published in TACL.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Surveys, Taxonomies & Position Papers"
+      ]
+    },
+    {
+      "id": "2406.17692",
+      "title": "From Distributional to Overton Pluralism: Investigating Large Language Model Alignment",
+      "url": "https://arxiv.org/abs/2406.17692",
+      "year": "2024.06",
+      "pubKey": 202406,
+      "venue": "NAACL 2025",
+      "authors": "Lake, Choi, Durrett",
+      "org": "UT Austin",
+      "code": "https://github.com/thomlake/investigating-alignment",
+      "project": "",
+      "summary": "Analyzes how alignment fine-tuning changes LLM output distributions, finding that apparent diversity reductions are largely explained by quality control and information aggregation rather than suppression. Introduces the concept of a shift from distributional to Overton pluralism and shows aligned model behavior is recoverable from base models via in-context prompting.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Overton Pluralism — Overton: Named & Direct"
+      ]
+    },
+    {
+      "id": "2406.15951",
+      "title": "Modular Pluralism: Pluralistic Alignment via Multi-LLM Collaboration",
+      "url": "https://arxiv.org/abs/2406.15951",
+      "year": "2024.06",
+      "pubKey": 202406,
+      "venue": "EMNLP 2024",
+      "authors": "Feng, Sorensen, Liu et al.",
+      "org": "University of Washington",
+      "code": "https://github.com/bunsenfeng/modular_pluralism",
+      "project": "",
+      "summary": "Proposes Modular Pluralism, a framework that integrates smaller specialized community LMs with a base LLM to support three modes of pluralism (Overton, steerable, distributional), without requiring fine-tuning of the base model. Demonstrates effectiveness across six tasks and works with both proprietary and open-source LLMs.",
+      "tags": [],
+      "categories": [
+        "Alignment & Steering",
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Training-based Alignment and Value Injection",
+        "Multicultural Alignment — Methods: Training, Steering & Adaptation",
+        "Overton Pluralism — Overton: Named & Direct"
+      ]
+    },
+    {
+      "id": "2406.09264",
+      "title": "Position: Towards Bidirectional Human-AI Alignment",
+      "url": "https://arxiv.org/abs/2406.09264",
+      "year": "2024.06",
+      "pubKey": 202406,
+      "venue": "NeurIPS Position 2025",
+      "authors": "Shen, Knearem, Ghosh et al.",
+      "org": "University of Michigan",
+      "code": "",
+      "project": "",
+      "summary": "Surveys over 400 papers to argue for a bidirectional conception of human-AI alignment that addresses not only aligning AI to human values but also how AI systems shape human cognition and behavior. Identifies gaps in long-term interaction design and mutual understanding, proposing a framework for reciprocal alignment research.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "General LLM Alignment Surveys"
+      ]
+    },
+    {
+      "id": "2406.20087",
+      "title": "ProgressGym: Alignment with a Millennium of Moral Progress",
+      "url": "https://arxiv.org/abs/2406.20087",
+      "year": "2024.06",
+      "pubKey": 202406,
+      "venue": "NeurIPS DB 2024",
+      "authors": "Qiu, Zhang, Huang et al.",
+      "org": "PKU-Alignment / Peking University",
+      "code": "https://github.com/PKU-Alignment/ProgressGym",
+      "project": "",
+      "summary": "Introduces ProgressGym, a framework for learning moral progress mechanics from nine centuries of historical text (1221–2022 AD) and 18 historical LLMs, enabling AI alignment algorithms to anticipate and track evolving human values rather than locking in contemporary moral blindspots. Defines three core challenges: following, predicting, and co-evolving with moral progress.",
+      "tags": [],
+      "categories": [
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Foundations and Pluralistic Alignment"
+      ]
+    },
+    {
+      "id": "2406.14230",
+      "title": "Raising the Bar: Investigating the Values of Large Language Models via Generative Evolving Testing",
+      "url": "https://arxiv.org/abs/2406.14230",
+      "year": "2024.06",
+      "pubKey": 202406,
+      "venue": "ICML 2025",
+      "authors": "Jiang, Yi, Wei et al.",
+      "org": "Microsoft Research Asia",
+      "code": "",
+      "project": "",
+      "summary": "Proposes GETA (Generative Evolving Testing of vAlues), a framework that dynamically generates value-alignment test items tailored to each model's capability level, co-evolving with LLMs to avoid benchmark saturation and data leakage. Demonstrates more consistent evaluation results compared to static benchmarks.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value Orientation and Psychometric Measurement"
+      ]
+    },
+    {
+      "id": "2406.11096",
+      "title": "The Potential and Challenges of Evaluating Attitudes, Opinions, and Values in Large Language Models",
+      "url": "https://arxiv.org/abs/2406.11096",
+      "year": "2024.06",
+      "pubKey": 202406,
+      "venue": "arXiv",
+      "authors": "Ma, Wang, Hu et al.",
+      "org": "LMU Munich",
+      "code": "",
+      "project": "",
+      "summary": "A systematic overview of methods for evaluating attitudes, opinions, and values (AOVs) embedded in LLMs, highlighting that different evaluation approaches yield inconsistent results and offering practical recommendations for methodology and cross-disciplinary research.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Evaluation, Psychometrics & Representativeness"
+      ]
+    },
+    {
+      "id": "2406.04214",
+      "title": "ValueBench: Towards Comprehensively Evaluating Value Orientations and Understanding of Large Language Models",
+      "url": "https://arxiv.org/abs/2406.04214",
+      "year": "2024.06",
+      "pubKey": 202406,
+      "venue": "ACL 2024",
+      "authors": "Ren, Ye, Fang et al.",
+      "org": "Peking University",
+      "code": "https://github.com/ValueByte-AI/ValueBench",
+      "project": "",
+      "summary": "ValueBench introduces the first comprehensive psychometric benchmark for evaluating LLM value orientations and understanding, drawing on 44 psychometric inventories across 453 value dimensions and testing six representative LLMs.",
+      "tags": [
+        "Benchmark",
+        "Schwartz"
+      ],
+      "categories": [
+        "Datasets & Benchmarks",
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value Annotation Datasets",
+        "Value Orientation and Psychometric Measurement"
+      ]
+    },
+    {
+      "id": "2405.13974",
+      "title": "CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models",
+      "url": "https://arxiv.org/abs/2405.13974",
+      "year": "2024.05",
+      "pubKey": 202405,
+      "venue": "arXiv",
+      "authors": "Pistilli, Leidinger, Jernite et al.",
+      "org": "Hugging Face",
+      "code": "",
+      "project": "",
+      "summary": "CIVICS is a hand-crafted multilingual dataset of prompts on value-sensitive topics (e.g., LGBTQI rights, immigration) designed to evaluate how LLMs respond to culturally-informed values across languages, revealing significant variation in model refusals by language and topic.",
+      "tags": [
+        "Dataset"
+      ],
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "subcategories": [
+        "Public Opinion & Cultural Datasets"
+      ]
+    },
+    {
+      "id": "2405.15145",
+      "title": "CulturePark: Boosting Cross-cultural Understanding in Large Language Models",
+      "url": "https://arxiv.org/abs/2405.15145",
+      "year": "2024.05",
+      "pubKey": 202405,
+      "venue": "NeurIPS 2024",
+      "authors": "Li, Teney, Yang et al.",
+      "org": "Microsoft Research Asia",
+      "code": "https://github.com/Scarelette/CulturePark",
+      "project": "",
+      "summary": "CulturePark is a multi-agent LLM communication framework that simulates cross-cultural dialogues to generate training data, producing culture-specific fine-tuned models that match or outperform GPT-4 on cultural alignment and content moderation tasks.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Methods: Training, Steering & Adaptation"
+      ]
+    },
+    {
+      "id": "2404.15238",
+      "title": "CultureBank: An Online Community-Driven Knowledge Base toward Culturally Aware Language Technologies",
+      "url": "https://arxiv.org/abs/2404.15238",
+      "year": "2024.04",
+      "pubKey": 202404,
+      "venue": "EMNLP Findings 2024",
+      "authors": "Shi, Li, Zhang et al.",
+      "org": "Stanford University (SALT-NLP)",
+      "code": "https://github.com/SALT-NLP/CultureBank",
+      "project": "",
+      "summary": "CultureBank is a large-scale cultural knowledge base of 23K descriptors derived from TikTok and Reddit user narratives, enabling evaluation of LLM cultural awareness and fine-tuning for improved performance on downstream cultural tasks.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Evaluation & Benchmarks"
+      ]
+    },
+    {
+      "id": "2404.07900",
+      "title": "High-Dimension Human Value Representation in Large Language Models",
+      "url": "https://arxiv.org/abs/2404.07900",
+      "year": "2024.04",
+      "pubKey": 202404,
+      "venue": "NAACL 2025",
+      "authors": "Cahyawijaya, Chen, Bang et al.",
+      "org": "HKUST",
+      "code": "https://github.com/HLTCHKUST/UniVaR",
+      "project": "",
+      "summary": "UniVaR introduces a continuous, scalable high-dimensional representation of human value distributions in LLMs, trained via self-supervised value embedding learning and evaluated across 15 LLMs in 25 languages and cultures.",
+      "tags": [],
+      "categories": [
+        "Representation & Extraction"
+      ],
+      "subcategories": [
+        "Value Representation and Embedding"
+      ]
+    },
+    {
+      "id": "2404.12464",
+      "title": "NormAd: A Framework for Measuring the Cultural Adaptability of Large Language Models",
+      "url": "https://arxiv.org/abs/2404.12464",
+      "year": "2024.04",
+      "pubKey": 202404,
+      "venue": "NAACL 2025",
+      "authors": "Rao, Yerukola, Shah et al.",
+      "org": "Carnegie Mellon University",
+      "code": "https://github.com/Akhila-Yerukola/NormAd",
+      "project": "",
+      "summary": "NormAd is a framework and benchmark (2.6k situational descriptions from 75 countries) for evaluating LLMs' ability to judge social acceptability under varying levels of cultural norm specificity, revealing that models significantly lag behind humans especially for non-English-centric cultures.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Evaluation & Benchmarks"
+      ]
+    },
+    {
+      "id": "2404.10271",
+      "title": "Social Choice Should Guide AI Alignment in Dealing with Diverse Human Feedback",
+      "url": "https://arxiv.org/abs/2404.10271",
+      "year": "2024.04",
+      "pubKey": 202404,
+      "venue": "ICML Position 2024",
+      "authors": "Conitzer, Freedman, Heitzig et al.",
+      "org": "Carnegie Mellon University",
+      "code": "",
+      "project": "",
+      "summary": "Argues that social choice theory — the study of preference aggregation in collective decisions — should guide how RLHF and related methods handle diverse, conflicting human feedback when aligning foundation models.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Pluralistic Alignment & Social Choice"
+      ]
+    },
+    {
+      "id": "2404.16019",
+      "title": "The PRISM Alignment Dataset: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models",
+      "url": "https://arxiv.org/abs/2404.16019",
+      "year": "2024.04",
+      "pubKey": 202404,
+      "venue": "arXiv",
+      "authors": "Kirk, Whitefield, Röttger et al.",
+      "org": "University of Oxford",
+      "code": "https://github.com/HannahKirk/prism-alignment",
+      "project": "",
+      "summary": "PRISM is a dataset of 8,011 conversations with 21 LLMs rated by 1,500 demographically diverse participants from 75 countries, enabling study of subjective, multicultural, and individualized alignment preferences.",
+      "tags": [
+        "Dataset"
+      ],
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "subcategories": [
+        "Public Opinion & Cultural Datasets"
+      ]
+    },
+    {
+      "id": "2404.16308",
+      "title": "WorldValuesBench: A Large-Scale Benchmark for Multi-Cultural Value Awareness of Language Models",
+      "url": "https://arxiv.org/abs/2404.16308",
+      "year": "2024.04",
+      "pubKey": 202404,
+      "venue": "",
+      "authors": "Zhao, Mondal, Tandon et al.",
+      "org": "Allen Institute for AI",
+      "code": "https://github.com/Demon702/WorldValuesBench",
+      "project": "",
+      "summary": "WorldValuesBench constructs over 20 million (demographic attributes, value question) → answer examples from the World Values Survey to benchmark LLMs' multi-cultural value awareness, finding even strong models struggle with the task.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Evaluation & Benchmarks"
+      ]
+    },
+    {
+      "id": "2403.07678",
+      "title": "MoralBERT: A Fine-Tuned Language Model for Capturing Moral Values in Social Discussions",
+      "url": "https://arxiv.org/abs/2403.07678",
+      "year": "2024.03",
+      "pubKey": 202403,
+      "venue": "GoodIT 2024",
+      "authors": "Preniqi, Ghinassi, Ive et al.",
+      "org": "Queen Mary University of London",
+      "code": "https://github.com/vjosapreniqi/MoralBERT",
+      "project": "",
+      "summary": "MoralBERT fine-tunes BERT-based models on multi-platform social media data annotated with Moral Foundations Theory labels, achieving 11-32% higher F1 than lexicon-based baselines and comparable performance to GPT-4 zero-shot for detecting moral sentiment in social discourse.",
+      "tags": [
+        "Morality"
+      ],
+      "categories": [
+        "Representation & Extraction"
+      ],
+      "subcategories": [
+        "Value Identification and Classification"
+      ]
+    },
+    {
+      "id": "2403.15412",
+      "title": "Towards Measuring and Modeling \"Culture\" in LLMs: A Survey",
+      "url": "https://arxiv.org/abs/2403.15412",
+      "year": "2024.03",
+      "pubKey": 202403,
+      "venue": "EMNLP 2024",
+      "authors": "Adilazuarda, Mukherjee, Lavania et al.",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "A survey of 90+ papers on cultural representation in LLMs, organizing probing approaches along demographic and semantic dimensions, finding that only certain cultural aspects (mainly values) have been studied while many facets remain unexplored.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources",
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Cultural Alignment",
+        "Multicultural Alignment — Surveys, Taxonomies & Position Papers"
+      ]
+    },
+    {
+      "id": "2404.10636",
+      "title": "What are human values, and how do we align AI to them?",
+      "url": "https://arxiv.org/abs/2404.10636",
+      "year": "2024.03",
+      "pubKey": 202403,
+      "venue": "arXiv",
+      "authors": "Klingefjord, Lowe, Edelman",
+      "org": "Meaning Alignment Institute",
+      "code": "",
+      "project": "",
+      "summary": "Proposes a framework that decomposes AI-human values alignment into elicitation, reconciliation, and training stages, introducing Moral Graph Elicitation (MGE) — an LLM-mediated interview process — and validating it with 500 Americans, of whom 89% felt well represented.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources",
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "General LLM Alignment Surveys",
+        "Foundations and Pluralistic Alignment"
+      ]
+    },
+    {
+      "id": "2402.05070",
+      "title": "A Roadmap to Pluralistic Alignment",
+      "url": "https://arxiv.org/abs/2402.05070",
+      "year": "2024.02",
+      "pubKey": 202402,
+      "venue": "ICML Position 2024",
+      "authors": "Sorensen, Moore, Fisher et al.",
+      "org": "University of Washington",
+      "code": "https://github.com/jfisher52/AI_Pluralistic_Alignment",
+      "project": "",
+      "summary": "A position paper that formalizes three approaches to pluralistic alignment in LLMs — Overton (presenting a spectrum of reasonable views), steerable (adjustable per perspective), and distributional (calibrated to a population) — and outlines a research roadmap for each.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources",
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Pluralistic Alignment & Social Choice",
+        "Foundations and Pluralistic Alignment"
+      ]
+    },
+    {
+      "id": "2402.10946",
+      "title": "CultureLLM: Incorporating Cultural Differences into Large Language Models",
+      "url": "https://arxiv.org/abs/2402.10946",
+      "year": "2024.02",
+      "pubKey": 202402,
+      "venue": "NeurIPS 2024",
+      "authors": "Li, Chen, Wang et al.",
+      "org": "",
+      "code": "https://github.com/Scarelette/CultureLLM",
+      "project": "",
+      "summary": "CultureLLM uses semantic data augmentation from the World Values Survey on just 50 seed samples per culture to fine-tune LLMs covering 9 cultures, outperforming GPT-3.5 by 8.1% and Gemini Pro by 9.5% on cultural understanding tasks.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Methods: Training, Steering & Adaptation"
+      ]
+    },
+    {
+      "id": "2402.18120",
+      "title": "Exploring Multilingual Concepts of Human Value in Large Language Models: Is Value Alignment Consistent, Transferable and Controllable across Languages?",
+      "url": "https://arxiv.org/abs/2402.18120",
+      "year": "2024.02",
+      "pubKey": 202402,
+      "venue": "EMNLP Findings 2024",
+      "authors": "Xu, Dong, Guo et al.",
+      "org": "",
+      "code": "https://github.com/shaoyangxu/Multilingual-Human-Value-Concepts",
+      "project": "",
+      "summary": "Analyzes how LLMs represent human value concepts across 7 value types, 16 languages, and 3 LLM series, finding cross-lingual inconsistency, distorted linguistic relationships, and unidirectional transfer from high- to low-resource languages. The study reveals that multilingual value alignment is neither consistent nor freely transferable across languages.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Robustness, Stability, and Consistency"
+      ]
+    },
+    {
+      "id": "2402.13231",
+      "title": "Investigating Cultural Alignment of Large Language Models",
+      "url": "https://arxiv.org/abs/2402.13231",
+      "year": "2024.02",
+      "pubKey": 202402,
+      "venue": "ACL 2024",
+      "authors": "AlKhamissi, ElNokrashy, AlKhamissi et al.",
+      "org": "EPFL",
+      "code": "https://github.com/BKHMSI/cultural-trends",
+      "project": "",
+      "summary": "Measures cultural alignment of LLMs by simulating sociological surveys for Egypt and the US, finding that models align better when prompted in a culture's dominant language and pretrained on that culture's language mix. Introduces Anthropological Prompting to improve cultural alignment, highlighting worse misalignment for underrepresented groups.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Evaluation & Benchmarks"
+      ]
+    },
+    {
+      "id": "2402.14177",
+      "title": "Investigating Human Values in Online Communities",
+      "url": "https://arxiv.org/abs/2402.14177",
+      "year": "2024.02",
+      "pubKey": 202402,
+      "venue": "NAACL 2025",
+      "authors": "Borenstein, Arora, Kaffee et al.",
+      "org": "",
+      "code": "https://github.com/copenlu/HumanValues",
+      "project": "",
+      "summary": "Trains value relevance and polarity classifiers to automatically annotate over 6 million Reddit posts across 12,000 subreddits with Schwartz values, uncovering patterns such as strong opposition to conformity in certain communities and correlations between traditional values and conservative U.S. states.",
+      "tags": [
+        "Schwartz"
+      ],
+      "categories": [
+        "Representation & Extraction"
+      ],
+      "subcategories": [
+        "Value Identification and Classification"
+      ]
+    },
+    {
+      "id": "2401.17228",
+      "title": "Morality is Non-Binary: Building a Pluralist Moral Sentence Embedding Space using Contrastive Learning",
+      "url": "https://arxiv.org/abs/2401.17228",
+      "year": "2024.01",
+      "pubKey": 202401,
+      "venue": "EACL Findings 2024",
+      "authors": "Park, Liscio, Murukannaiah",
+      "org": "Delft University of Technology",
+      "code": "",
+      "project": "",
+      "summary": "Builds a pluralist moral sentence embedding space using contrastive learning to capture multiple moral dimensions rather than binary right/wrong judgments, finding that moral pluralism requires supervised learning with human labels and cannot be recovered through self-supervision alone.",
+      "tags": [],
+      "categories": [
+        "Representation & Extraction"
+      ],
+      "subcategories": [
+        "Value Representation and Embedding"
+      ]
+    },
+    {
+      "id": "2311.08385",
+      "title": "Aligning Large Language Models with Human Opinions through Persona Selection and Value--Belief--Norm Reasoning",
+      "url": "https://arxiv.org/abs/2311.08385",
+      "year": "2023.11",
+      "pubKey": 202311,
+      "venue": "COLING 2025",
+      "authors": "Do, Kawaguchi, Kan et al.",
+      "org": "National University of Singapore",
+      "code": "",
+      "project": "",
+      "summary": "Proposes Chain-of-Opinion (COO), a four-step method grounded in Value-Belief-Norm theory for aligning LLMs with human opinions by filtering irrelevant persona attributes and applying structured reasoning, achieving up to 4% prompting gains and 23% gains when fine-tuning on COO-generated data.",
+      "tags": [],
+      "categories": [
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Inference-time and Representation-level Steering"
+      ]
+    },
+    {
+      "id": "2311.16421",
+      "title": "CDEval: A Benchmark for Measuring the Cultural Dimensions of Large Language Models",
+      "url": "https://arxiv.org/abs/2311.16421",
+      "year": "2023.11",
+      "pubKey": 202311,
+      "venue": "",
+      "authors": "Wang, Zhu, Kong et al.",
+      "org": "Beijing Jiaotong University",
+      "code": "https://github.com/astrodrew/CDEval",
+      "project": "",
+      "summary": "CDEval is a benchmark for measuring cultural dimensions of LLMs, covering six cultural aspects across seven domains, constructed via GPT-4 automated generation and human verification. It reveals that cultural considerations are underweighted in mainstream LLMs relative to universal alignment principles.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Evaluation & Benchmarks"
+      ]
+    },
+    {
+      "id": "2311.14096",
+      "title": "Cultural Bias and Cultural Alignment of Large Language Models",
+      "url": "https://arxiv.org/abs/2311.14096",
+      "year": "2023.11",
+      "pubKey": 202311,
+      "venue": "PNAS Nexus 2024",
+      "authors": "Tao, Viberg, Baker et al.",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Examines cultural biases in five OpenAI language models, finding they systematically favor values of English-speaking and Protestant European countries. Tests cultural prompting as a mitigation strategy, successfully improving alignment with local values in 71-81% of countries.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Cultural Alignment"
+      ]
+    },
+    {
+      "id": "2311.10766",
+      "title": "Value FULCRA: Mapping Large Language Models to the Multidimensional Spectrum of Basic Human Values",
+      "url": "https://arxiv.org/abs/2311.10766",
+      "year": "2023.11",
+      "pubKey": 202311,
+      "venue": "NAACL 2024",
+      "authors": "Yao, Yi, Wang et al.",
+      "org": "Microsoft Research Asia",
+      "code": "",
+      "project": "",
+      "summary": "Proposes FULCRA, a framework grounding LLM value alignment in Schwartz's Theory of Basic Human Values, mapping LLM outputs to a multidimensional value space. The accompanying 20k-pair dataset and BaseAlign paradigm outperform existing binary-label alignment approaches while anticipating previously unidentified risks.",
+      "tags": [
+        "Schwartz"
+      ],
+      "categories": [
+        "Representation & Extraction",
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Value Identification and Classification",
+        "Training-based Alignment and Value Injection"
+      ]
+    },
+    {
+      "id": "2310.16048",
+      "title": "AI Alignment and Social Choice: Fundamental Limitations and Policy Implications",
+      "url": "https://arxiv.org/abs/2310.16048",
+      "year": "2023.10",
+      "pubKey": 202310,
+      "venue": "arXiv",
+      "authors": "Mishra",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Applies social choice theory to AI alignment via RLHF, proving there is no universal voting protocol that can democratically align AI systems without violating individual users' private ethical preferences. Recommends transparency in voting rules and developing narrowly targeted AI agents.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Pluralistic Alignment & Social Choice"
+      ]
+    },
+    {
+      "id": "2310.19852",
+      "title": "AI Alignment: A Comprehensive Survey",
+      "url": "https://arxiv.org/abs/2310.19852",
+      "year": "2023.10",
+      "pubKey": 202310,
+      "venue": "arXiv",
+      "authors": "Ji, Qiu, Chen et al.",
+      "org": "Peking University",
+      "code": "https://github.com/PKU-Alignment/AlignmentSurvey",
+      "project": "",
+      "summary": "A comprehensive survey of AI alignment research organized around four core objectives (Robustness, Interpretability, Controllability, Ethicality) and two components: forward alignment (training) and backward alignment (assessment and governance). Provides a structured overview of techniques, benchmarks, and open challenges across the field.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "General LLM Alignment Surveys"
+      ]
+    },
+    {
+      "id": "2310.15757",
+      "title": "Do Differences in Values Influence Disagreements in Online Discussions?",
+      "url": "https://arxiv.org/abs/2310.15757",
+      "year": "2023.10",
+      "pubKey": 202310,
+      "venue": "EMNLP 2023",
+      "authors": "van der Meer, Vossen, Jonker et al.",
+      "org": "TU Delft",
+      "code": "",
+      "project": "",
+      "summary": "Investigates whether differences in personal values predict disagreement in online discussions, finding that value profile dissimilarity correlates with disagreement in specific contexts and that adding value information improves agreement-prediction models.",
+      "tags": [],
+      "categories": [
+        "Representation & Extraction"
+      ],
+      "subcategories": [
+        "Value Profiling"
+      ]
+    },
+    {
+      "id": "2310.18974",
+      "title": "EtiCor: Corpus for Analyzing LLMs for Etiquettes",
+      "url": "https://arxiv.org/abs/2310.18974",
+      "year": "2023.10",
+      "pubKey": 202310,
+      "venue": "EMNLP 2023",
+      "authors": "Dwivedi, Lavania, Modi",
+      "org": "IIT Kanpur",
+      "code": "",
+      "project": "",
+      "summary": "Introduces EtiCor, a corpus of region-specific etiquette texts from five global regions, and proposes an Etiquette Sensitivity task; experiments show that state-of-the-art LLMs largely fail to understand etiquettes from non-Western cultures.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Evaluation & Benchmarks"
+      ]
+    },
+    {
+      "id": "2309.00779",
+      "title": "Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties",
+      "url": "https://arxiv.org/abs/2309.00779",
+      "year": "2023.10",
+      "pubKey": 202310,
+      "venue": "AAAI 2024",
+      "authors": "Sorensen, Jiang, Hwang et al.",
+      "org": "Allen Institute for AI",
+      "code": "https://github.com/tsor13/kaleido",
+      "project": "",
+      "summary": "Presents ValuePrism, a dataset of 218k values linked to 31k real-world situations, and Kaleido, a multi-task model that generates and assesses the relevance of pluralistic human values, rights, and duties in context.",
+      "tags": [
+        "Dataset",
+        "Value · Duty · Right"
+      ],
+      "categories": [
+        "Datasets & Benchmarks",
+        "Representation & Extraction",
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Value Annotation Datasets",
+        "Value System Construction and Discovery",
+        "Overton Pluralism — Similar View: Covering the Full Spectrum"
+      ]
+    },
+    {
+      "id": "2310.00378",
+      "title": "ValueDCG: Measuring Comprehensive Human Value Understanding Ability of Language Models",
+      "url": "https://arxiv.org/abs/2310.00378",
+      "year": "2023.10",
+      "pubKey": 202310,
+      "venue": "arXiv",
+      "authors": "Zhang, Bai, Gao et al.",
+      "org": "Peking University",
+      "code": "",
+      "project": "",
+      "summary": "Proposes ValueDCG, a metric evaluating LLMs on both factual and reasoned human value understanding, revealing that larger models paradoxically show declining value comprehension despite generating plausible explanations.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value Understanding and Reasoning"
+      ]
+    },
+    {
+      "id": "2309.12342",
+      "title": "Cultural Alignment in Large Language Models: An Explanatory Analysis Based on Hofstede's Cultural Dimensions",
+      "url": "https://arxiv.org/abs/2309.12342",
+      "year": "2023.09",
+      "pubKey": 202309,
+      "venue": "COLING 2024",
+      "authors": "Masoud, Liu, Ferianc et al.",
+      "org": "University College London",
+      "code": "https://github.com/reemim/Hofstedes_CAT",
+      "project": "",
+      "summary": "Designs a Cultural Alignment Test based on Hofstede's cultural dimensions and evaluates Llama 2, GPT-3.5, and GPT-4 across U.S., Chinese, and Arab cultural contexts, finding that all models struggle with cultural values but GPT-4 adapts best to Chinese contexts.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources",
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Cultural Alignment",
+        "Multicultural Alignment — Evaluation & Benchmarks"
+      ]
+    },
+    {
+      "id": "2308.12014",
+      "title": "From Instructions to Intrinsic Human Values -- A Survey of Alignment Goals for Big Models",
+      "url": "https://arxiv.org/abs/2308.12014",
+      "year": "2023.08",
+      "pubKey": 202308,
+      "venue": "arXiv",
+      "authors": "Yao, Yi, Wang et al.",
+      "org": "Microsoft Research Asia",
+      "code": "",
+      "project": "",
+      "summary": "A survey of alignment goals for large models that categorizes objectives into three levels (instructions, preferences, and intrinsic human values) and argues that centering alignment on intrinsic human values is the most promising direction for future work.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "General LLM Alignment Surveys"
+      ]
+    },
+    {
+      "id": "2310.17857",
+      "title": "From Values to Opinions: Predicting Human Behaviors and Stances Using Value-Injected Large Language Models",
+      "url": "https://arxiv.org/abs/2310.17857",
+      "year": "2023.08",
+      "pubKey": 202308,
+      "venue": "EMNLP 2023",
+      "authors": "Kang, Park, Jo et al.",
+      "org": "Sungkyunkwan University",
+      "code": "",
+      "project": "",
+      "summary": "Introduces a Value Injection Method (VIM) that fine-tunes LLMs with targeted value distributions via argument generation and question answering, showing that value-injected LLMs substantially outperform baselines on predicting human opinions and stances.",
+      "tags": [],
+      "categories": [
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Training-based Alignment and Value Injection"
+      ]
+    },
+    {
+      "id": "2308.15399",
+      "title": "Rethinking Machine Ethics -- Can LLMs Perform Moral Reasoning through the Lens of Moral Theories?",
+      "url": "https://arxiv.org/abs/2308.15399",
+      "year": "2023.08",
+      "pubKey": 202308,
+      "venue": "NAACL Findings 2024",
+      "authors": "Zhou, Hu, Li et al.",
+      "org": "The Chinese University of Hong Kong",
+      "code": "",
+      "project": "",
+      "summary": "Proposes a top-down framework that steers LLMs to perform moral reasoning through established philosophical theories rather than crowd-sourced annotations, improving generalizability and explainability of moral judgments.",
+      "tags": [],
+      "categories": [
+        "Alignment & Steering"
+      ],
+      "subcategories": [
+        "Foundations and Pluralistic Alignment"
+      ]
+    },
+    {
+      "id": "2307.12966",
+      "title": "Aligning Large Language Models with Human: A Survey",
+      "url": "https://arxiv.org/abs/2307.12966",
+      "year": "2023.07",
+      "pubKey": 202307,
+      "venue": "arXiv",
+      "authors": "Wang, Zhong, Li et al.",
+      "org": "Huawei Noah's Ark Lab",
+      "code": "https://github.com/GaryYufei/AlignLLMHumanSurvey",
+      "project": "",
+      "summary": "A survey of techniques for aligning LLMs with human expectations, covering instruction data collection, supervised fine-tuning, preference-based training, and evaluation methods for assessing aligned models.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "General LLM Alignment Surveys"
+      ]
+    },
+    {
+      "id": "2307.07870",
+      "title": "Large Language Models as Superpositions of Cultural Perspectives",
+      "url": "https://arxiv.org/abs/2307.07870",
+      "year": "2023.07",
+      "pubKey": 202307,
+      "venue": "arXiv",
+      "authors": "Kovač, Sawayama, Portelas et al.",
+      "org": "Inria (Flowers Team)",
+      "code": "",
+      "project": "",
+      "summary": "Frames LLMs as superpositions of cultural perspectives and introduces the concept of perspective controllability, showing through psychological questionnaires that models exhibit context-dependent values and personality traits depending on the induced perspective.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Evaluation & Benchmarks"
+      ]
+    },
+    {
+      "id": "semeval-2023-task-4-valueeval-identification-of-human-values",
+      "title": "SemEval-2023 Task 4: ValueEval: Identification of Human Values Behind Arguments",
+      "url": "https://aclanthology.org/2023.semeval-1.313/",
+      "year": "2023.07",
+      "pubKey": 202307,
+      "venue": "SemEval 2023",
+      "authors": "Kiesel, Alshomary, Mirzakhmedova et al.",
+      "org": "Bauhaus-Universität Weimar",
+      "code": "",
+      "project": "",
+      "summary": "ValueEval is a shared task at SemEval-2023 that challenged 39 teams to identify 20 human values (e.g., security, hedonism) underlying natural-language arguments in a 9K+ text dataset, with best systems reaching F1 of 0.87 on some value categories.",
+      "tags": [
+        "Schwartz"
+      ],
+      "categories": [
+        "Representation & Extraction"
+      ],
+      "subcategories": [
+        "Value Identification and Classification"
+      ]
+    },
+    {
+      "id": "what-does-a-text-classifier-learn-about-morality-an-explaina",
+      "title": "What does a Text Classifier Learn about Morality? An Explainable Method for Cross-Domain Comparison of Moral Rhetoric",
+      "url": "https://aclanthology.org/2023.acl-long.789/",
+      "year": "2023.07",
+      "pubKey": 202307,
+      "venue": "ACL 2024",
+      "authors": "Liscio, Araque, Gatti et al.",
+      "org": "Delft University of Technology",
+      "code": "",
+      "project": "",
+      "summary": "Introduces TOMEA, an explainable method that probes what moral knowledge a text classifier acquires, enabling cross-domain comparison of moral rhetoric across 35,000 tweets from seven domains.",
+      "tags": [
+        "Morality"
+      ],
+      "categories": [
+        "Representation & Extraction"
+      ],
+      "subcategories": [
+        "Value Identification and Classification"
+      ]
+    },
+    {
+      "id": "2306.16388",
+      "title": "(GlobalOpinionQA) Towards Measuring the Representation of Subjective Global Opinions in Language Models",
+      "url": "https://arxiv.org/abs/2306.16388",
+      "year": "2023.06",
+      "pubKey": 202306,
+      "venue": "arXiv",
+      "authors": "Durmus, Nguyen, Liao et al.",
+      "org": "Anthropic",
+      "code": "https://huggingface.co/datasets/Anthropic/llm_global_opinions",
+      "project": "",
+      "summary": "Proposes GlobalOpinionQA, a dataset from cross-national surveys, and a quantitative framework for measuring whether LLMs reflect global opinion diversity, finding that current models are biased toward US and select European/South American perspectives.",
+      "tags": [
+        "Dataset"
+      ],
+      "categories": [
+        "Datasets & Benchmarks",
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Public Opinion & Cultural Datasets",
+        "Multicultural Alignment — Evaluation & Benchmarks"
+      ]
+    },
+    {
+      "id": "2307.14324",
+      "title": "(MoralChoice) Evaluating the Moral Beliefs Encoded in LLMs",
+      "url": "https://arxiv.org/abs/2307.14324",
+      "year": "2023.06",
+      "pubKey": 202306,
+      "venue": "",
+      "authors": "Scherrer, Shi, Feder et al.",
+      "org": "Columbia University",
+      "code": "https://github.com/ninodimontalcino/moralchoice",
+      "project": "",
+      "summary": "Presents MoralChoice, a statistical survey of 680 high-ambiguity and 687 low-ambiguity moral scenarios administered to 28 LLMs, finding that models handle clear ethical choices well but show sensitivity to wording on ambiguous ones, with closed-source models clustering together.",
+      "tags": [
+        "Benchmark",
+        "Morality"
+      ],
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "subcategories": [
+        "Value Annotation Datasets"
+      ]
+    },
+    {
+      "id": "2306.05076",
+      "title": "DLAMA: A Framework for Curating Culturally Diverse Facts for Probing the Knowledge of Pretrained LMs",
+      "url": "https://arxiv.org/abs/2306.05076",
+      "year": "2023.06",
+      "pubKey": 202306,
+      "venue": "ACL Findings 2023",
+      "authors": "Keleg, Magdy",
+      "org": "University of Edinburgh",
+      "code": "https://github.com/AMR-KELEG/DLAMA",
+      "project": "",
+      "summary": "DLAMA is a framework and benchmark of 78K culturally diverse factual triples spanning Arab, Asian, and South American vs. Western country pairs, revealing that multilingual LMs consistently perform better on Western facts.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Evaluation & Benchmarks"
+      ]
+    },
+    {
+      "id": "2305.17147",
+      "title": "Heterogeneous Value Alignment Evaluation for Large Language Models",
+      "url": "https://arxiv.org/abs/2305.17147",
+      "year": "2023.05",
+      "pubKey": 202305,
+      "venue": "AAAI Workshop 2024",
+      "authors": "Zhang, Zhang, Liu et al.",
+      "org": "Peking University / BIGAI",
+      "code": "https://github.com/zowiezhang/HVAE",
+      "project": "",
+      "summary": "Proposes HVAE, a framework adapting Social Value Orientation from psychology to evaluate whether LLMs behave consistently with assigned social values. Finds that LLMs tend to gravitate toward neutral values rather than strong personal values when induced with heterogeneous value profiles.",
+      "tags": [],
+      "categories": [
+        "Measurement & Evaluation"
+      ],
+      "subcategories": [
+        "Value Orientation and Psychometric Measurement"
+      ]
+    },
+    {
+      "id": "2305.17008",
+      "title": "NormBank: A Knowledge Bank of Situational Social Norms",
+      "url": "https://arxiv.org/abs/2305.17008",
+      "year": "2023.05",
+      "pubKey": 202305,
+      "venue": "",
+      "authors": "Ziems, Dwivedi-Yu, Wang et al.",
+      "org": "Stanford University (SALT Lab)",
+      "code": "https://github.com/SALT-NLP/normbank",
+      "project": "",
+      "summary": "Introduces NormBank, a 155k-entry knowledge bank of situational social norms grounded in multivalent sociocultural frames (setting, agent roles, attributes, constraints). Demonstrates that neural models can extend its coverage and that it transfers effectively to downstream normative reasoning tasks.",
+      "tags": [
+        "Dataset",
+        "Ethics"
+      ],
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "subcategories": [
+        "Value Annotation Datasets"
+      ]
+    },
+    {
+      "id": "2303.17466",
+      "title": "Assessing Cross-Cultural Alignment between ChatGPT and Human Societies",
+      "url": "https://arxiv.org/abs/2303.17466",
+      "year": "2023.03",
+      "pubKey": 202303,
+      "venue": "",
+      "authors": "Cao, Zhou, Lee et al.",
+      "org": "University of Copenhagen",
+      "code": "https://github.com/yongcaoplus/ProbingChatGPT",
+      "project": "",
+      "summary": "Empirically tests ChatGPT's cultural alignment across multiple societies and finds it strongly aligns with American cultural values when given American context but adapts poorly to other cultures. English prompts flatten cross-cultural variance and bias responses toward American norms.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Evaluation & Benchmarks"
+      ]
+    },
+    {
+      "id": "2303.05453",
+      "title": "Personalisation within bounds: A risk taxonomy and policy framework for the alignment of large language models with personalised feedback",
+      "url": "https://arxiv.org/abs/2303.05453",
+      "year": "2023.03",
+      "pubKey": 202303,
+      "venue": "arXiv",
+      "authors": "Kirk, Vidgen, Röttger et al.",
+      "org": "University of Oxford (Oxford Internet Institute)",
+      "code": "",
+      "project": "",
+      "summary": "Develops a risk taxonomy and three-tiered policy framework for personalizing LLMs with user-specific feedback while bounding unsafe behaviors within organizational and societal limits. Argues that current aggregate alignment approaches fail to represent the full diversity of user values and preferences.",
+      "tags": [],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Pluralistic Alignment & Social Choice"
+      ]
+    },
+    {
+      "id": "2301.13771",
+      "title": "(Valueeval) The Touché23-ValueEval Dataset for Identifying Human Values behind Arguments",
+      "url": "https://arxiv.org/abs/2301.13771",
+      "year": "2023.01",
+      "pubKey": 202301,
+      "venue": "",
+      "authors": "Mirzakhmedova, Kiesel, Alshomary et al.",
+      "org": "Bauhaus-Universität Weimar",
+      "code": "",
+      "project": "",
+      "summary": "Presents the Touché23-ValueEval dataset of 9,324 arguments from six diverse sources, each annotated by crowdworkers for 54 human values, expanding the prior dataset and supporting the SemEval 2023 ValueEval shared task. The larger dataset improves model training despite increased classification difficulty.",
+      "tags": [
+        "Dataset",
+        "Schwartz"
+      ],
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "subcategories": [
+        "Value Annotation Datasets"
+      ]
+    },
+    {
+      "id": "2208.05545",
+      "title": "The Moral Foundations Reddit Corpus",
+      "url": "https://arxiv.org/abs/2208.05545",
+      "year": "2022.08",
+      "pubKey": 202208,
+      "venue": "arXiv",
+      "authors": "Trager, Ziabari, Rahmati et al.",
+      "org": "University of Southern California",
+      "code": "https://huggingface.co/datasets/USC-MOLA-Lab/MFRC",
+      "project": "",
+      "summary": "Introduces a corpus of 16,123 Reddit comments annotated for moral sentiment across 8 categories from Moral Foundations Theory, enabling computational detection of moral rhetoric with baseline evaluations using LLMs and fine-tuned encoders.",
+      "tags": [
+        "Dataset",
+        "MFT"
+      ],
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "subcategories": [
+        "Value Annotation Datasets",
+        "Public Opinion & Cultural Datasets"
+      ]
+    },
+    {
+      "id": "2205.12688",
+      "title": "ProsocialDialog: A Prosocial Backbone for Conversational Agents",
+      "url": "https://arxiv.org/abs/2205.12688",
+      "year": "2022.05",
+      "pubKey": 202205,
+      "venue": "",
+      "authors": "Kim, Yu, Jiang et al.",
+      "org": "Seoul National University / Allen Institute for AI",
+      "code": "https://github.com/skywalker023/prosocial-dialog",
+      "project": "",
+      "summary": "Presents ProsocialDialog, a large-scale dataset of 58K dialogues with 331K utterances designed to teach conversational agents to respond safely to problematic user inputs, along with two models—Canary for safety detection and Prost for generating socially-informed responses.",
+      "tags": [
+        "Dataset",
+        "Ethics"
+      ],
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "subcategories": [
+        "Value Annotation Datasets"
+      ]
+    },
+    {
+      "id": "2204.03021",
+      "title": "The Moral Integrity Corpus: A Benchmark for Ethical Dialogue Systems",
+      "url": "https://arxiv.org/abs/2204.03021",
+      "year": "2022.04",
+      "pubKey": 202204,
+      "venue": "",
+      "authors": "Ziems, Yu, Wang et al.",
+      "org": "Georgia Tech",
+      "code": "https://github.com/GT-SALT/mic",
+      "project": "",
+      "summary": "Introduces the Moral Integrity Corpus (MIC), a benchmark of 38K chatbot prompt-reply pairs annotated with 99K Rules of Thumb capturing moral convictions, used to evaluate language models on classifying and generating ethical judgments in dialogue.",
+      "tags": [
+        "Benchmark",
+        "MFT"
+      ],
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "subcategories": [
+        "Value Annotation Datasets"
+      ]
+    },
+    {
+      "id": "2203.10020",
+      "title": "Challenges and Strategies in Cross-Cultural NLP",
+      "url": "https://arxiv.org/abs/2203.10020",
+      "year": "2022.03",
+      "pubKey": 202203,
+      "venue": "ACL 2022",
+      "authors": "Hershcovich, Frank, Lent et al.",
+      "org": "University of Copenhagen",
+      "code": "",
+      "project": "",
+      "summary": "Surveys the challenges of building NLP systems that account for cultural variation beyond language, proposing a framework of cross-cultural and multicultural NLP strategies to address how cultural context shapes language use and content.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Surveys, Taxonomies & Position Papers"
+      ]
+    },
+    {
+      "id": "2203.13722",
+      "title": "Probing Pre-Trained Language Models for Cross-Cultural Differences in Values",
+      "url": "https://arxiv.org/abs/2203.13722",
+      "year": "2022.03",
+      "pubKey": 202203,
+      "venue": "",
+      "authors": "Arora, Kaffee, Augenstein",
+      "org": "University of Copenhagen",
+      "code": "",
+      "project": "",
+      "summary": "Uses probing methods to investigate whether pre-trained language models encode cross-cultural value differences, finding that models do capture some cultural variation but their embedded values align only weakly with established cross-cultural survey frameworks.",
+      "tags": [],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Evaluation & Benchmarks"
+      ]
+    },
+    {
+      "id": "2112.06346",
+      "title": "ValueNet: A New Dataset for Human Value Driven Dialogue System",
+      "url": "https://arxiv.org/abs/2112.06346",
+      "year": "2021.12",
+      "pubKey": 202112,
+      "venue": "AAAI 2022",
+      "authors": "Qiu, Zhao, Li et al.",
+      "org": "UCLA",
+      "code": "https://github.com/Liang-Qiu/ValueNet",
+      "project": "",
+      "summary": "ValueNet introduces a large-scale dataset of 21,374 text scenarios annotated with human attitudes across ten value dimensions, and uses it to train a Transformer-based value model that improves personalized dialogue generation and empathetic response tasks.",
+      "tags": [
+        "Dataset",
+        "Schwartz"
+      ],
+      "categories": [
+        "Datasets & Benchmarks",
+        "Representation & Extraction"
+      ],
+      "subcategories": [
+        "Value Annotation Datasets",
+        "Value Identification and Classification"
+      ]
+    },
+    {
+      "id": "2012.15738",
+      "title": "Moral Stories: Situated Reasoning about Norms, Intents, Actions, and their Consequences",
+      "url": "https://arxiv.org/abs/2012.15738",
+      "year": "2020.12",
+      "pubKey": 202012,
+      "venue": "",
+      "authors": "Emelin, Le Bras, Hwang et al.",
+      "org": "University of Edinburgh",
+      "code": "https://github.com/demelin/moral_stories",
+      "project": "",
+      "summary": "Moral Stories provides a crowd-sourced dataset of structured branching narratives to study whether language models can generate norm-constrained actions, anticipate consequences of moral or immoral behavior, and produce explanatory social norms.",
+      "tags": [
+        "Dataset",
+        "Morality"
+      ],
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "subcategories": [
+        "Value Annotation Datasets"
+      ]
+    },
+    {
+      "id": "2011.00620",
+      "title": "Social Chemistry 101: Learning to Reason about Social and Moral Norms",
+      "url": "https://arxiv.org/abs/2011.00620",
+      "year": "2020.11",
+      "pubKey": 202011,
+      "venue": "",
+      "authors": "Forbes, Hwang, Shwartz et al.",
+      "org": "University of Washington",
+      "code": "https://github.com/mbforbes/social-chemistry-101",
+      "project": "",
+      "summary": "Social Chemistry 101 introduces Social-Chem-101, a corpus of 292k rules-of-thumb with 4.5 million annotations across 12 moral and social dimensions, and demonstrates that a Neural Norm Transformer can learn to generate contextually appropriate social rules for novel situations.",
+      "tags": [
+        "Dataset",
+        "MFT"
+      ],
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "subcategories": [
+        "Value Annotation Datasets"
+      ]
+    },
+    {
+      "id": "2008.02275",
+      "title": "(ETHICS) Aligning AI With Shared Human Values",
+      "url": "https://arxiv.org/abs/2008.02275",
+      "year": "2020.08",
+      "pubKey": 202008,
+      "venue": "",
+      "authors": "Hendrycks, Burns, Basart et al.",
+      "org": "UC Berkeley",
+      "code": "https://github.com/hendrycks/ethics",
+      "project": "",
+      "summary": "The ETHICS benchmark introduces a dataset spanning justice, well-being, duties, virtues, and commonsense morality to evaluate whether language models can predict human ethical judgments, finding that current models only partially succeed.",
+      "tags": [
+        "Dataset",
+        "Ethics"
+      ],
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "subcategories": [
+        "Value Annotation Datasets"
+      ]
+    },
+    {
+      "id": "2008.09094",
+      "title": "Scruples: A Corpus of Community Ethical Judgments on 32,000 Real-Life Anecdotes",
+      "url": "https://arxiv.org/abs/2008.09094",
+      "year": "2020.08",
+      "pubKey": 202008,
+      "venue": "",
+      "authors": "Lourie, Le Bras, Choi",
+      "org": "Allen Institute for AI",
+      "code": "https://github.com/allenai/scruples",
+      "project": "",
+      "summary": "Scruples presents a corpus of 625,000 community ethical judgments over 32,000 real-life anecdotes and shows that neural models learn simpler ethical patterns but struggle with complex moral dilemmas that naturally produce human disagreement.",
+      "tags": [
+        "Dataset",
+        "Ethics"
+      ],
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "subcategories": [
+        "Value Annotation Datasets"
+      ]
+    },
+    {
+      "id": "moral-foundations-twitter-corpus-a-collection-of-35k-tweets-",
+      "title": "Moral Foundations Twitter Corpus: A Collection of 35k Tweets Annotated for Moral Sentiment",
+      "url": "https://journals.sagepub.com/doi/10.1177/1948550619876629",
+      "year": "2020.02",
+      "pubKey": 202002,
+      "venue": "",
+      "authors": "Hoover, Portillo-Wightman, Yeh et al.",
+      "org": "University of Southern California",
+      "code": "",
+      "project": "",
+      "summary": "A dataset of 35,108 tweets annotated for moral sentiment across 10 categories from Moral Foundations Theory, with baseline model results and annotator psychological profiles to support research on moral sentiment detection.",
+      "tags": [
+        "Dataset",
+        "MFT"
+      ],
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "subcategories": [
+        "Value Annotation Datasets"
+      ]
+    },
+    {
+      "id": "a-30-year-struggle-the-sustained-efforts-to-give-force-of-la",
+      "title": "A 30-year struggle; the sustained efforts to give force of law to the Universal Declaration of Human Rights",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000048063",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Vasak",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Karel Vasak's 1977 essay chronicles the thirty-year campaign to transform the Universal Declaration of Human Rights from a non-binding declaration into enforceable international law, introducing his influential three-generations framework for human rights.",
+      "tags": [
+        "1977",
+        "UN"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Political, Civic Values and Human Rights"
+      ]
+    },
+    {
+      "id": "a-theory-of-justice",
+      "title": "A theory of justice.",
+      "url": "https://www.jstor.org/stable/j.ctvjf9z6v",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Rawls",
+      "org": "Harvard University",
+      "code": "",
+      "project": "",
+      "summary": "John Rawls' foundational 1971 work develops a theory of justice as fairness, arguing that principles of justice are those rational agents would choose from behind a 'veil of ignorance', offering a Kantian alternative to utilitarianism.",
+      "tags": [
+        "1971",
+        "Rawls"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Political, Civic Values and Human Rights"
+      ]
+    },
+    {
+      "id": "aggregating-sets-of-judgments-an-impossibility-result",
+      "title": "Aggregating Sets of Judgments: An Impossibility Result",
+      "url": "https://www.cambridge.org/core/journals/economics-and-philosophy/article/abs/aggregating-sets-of-judgments-an-impossibility-result/35BB2A979DC8D2548B3040A1757B058B",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "List, Pettit",
+      "org": "University of Oxford",
+      "code": "",
+      "project": "",
+      "summary": "List and Pettit prove a general impossibility theorem showing that no aggregation procedure can consistently combine individually coherent sets of judgments on logically interconnected questions into a coherent group judgment, paralleling Arrow's impossibility theorem.",
+      "tags": [
+        "2002",
+        "List & Pettit"
+      ],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Theoretical Foundations — Social Choice"
+      ]
+    },
+    {
+      "id": "alignment-goal-survey",
+      "title": "Alignment-Goal-Survey",
+      "url": "https://github.com/ValueCompass/Alignment-Goal-Survey",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Yao, Yi, Wang et al.",
+      "org": "Microsoft Research Asia",
+      "code": "https://github.com/ValueCompass/Alignment-Goal-Survey",
+      "project": "",
+      "summary": "A curated repository accompanying a survey that traces the evolution of LLM alignment goals from instruction-following through human preferences to intrinsic human values, arguing that grounding alignment in core human values is the most promising direction.",
+      "tags": [
+        "Alignment goals"
+      ],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Github Repos"
+      ]
+    },
+    {
+      "id": "an-overview-of-the-schwartz-theory-of-basic-values",
+      "title": "An Overview of the Schwartz Theory of Basic Values",
+      "url": "https://scholarworks.gvsu.edu/orpc/vol2/iss1/11/",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Schwartz",
+      "org": "The Hebrew University of Jerusalem",
+      "code": "",
+      "project": "",
+      "summary": "An overview of Schwartz's theory identifying ten universal basic human values organized in a circular motivational structure, validated across 82 countries using two measurement instruments (Schwartz Value Survey and Portrait Values Questionnaire).",
+      "tags": [
+        "2012",
+        "Schwartz"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Basic Human Values"
+      ]
+    },
+    {
+      "id": "awesome-llm-in-social-science",
+      "title": "Awesome-LLM-in-Social-Science",
+      "url": "https://github.com/ValueByte-AI/Awesome-LLM-in-Social-Science",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "",
+      "org": "ValueByte-AI",
+      "code": "https://github.com/ValueByte-AI/Awesome-LLM-in-Social-Science",
+      "project": "",
+      "summary": "A curated reading list of papers at the intersection of LLMs and social science, covering value/personality evaluation, moral reasoning, opinion measurement, and agent-based social simulation.",
+      "tags": [
+        "Social science"
+      ],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Github Repos"
+      ]
+    },
+    {
+      "id": "awesome-llm-psychometrics",
+      "title": "Awesome-LLM-Psychometrics",
+      "url": "https://github.com/ValueByte-AI/Awesome-LLM-Psychometrics",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Ye et al.",
+      "org": "ValueByte-AI",
+      "code": "https://github.com/ValueByte-AI/Awesome-LLM-Psychometrics",
+      "project": "",
+      "summary": "A curated resource collection accompanying a systematic review on LLM psychometrics, organizing papers on how psychological assessment tools measure personality, values, moral reasoning, and cognitive biases in language models.",
+      "tags": [
+        "Psychometrics"
+      ],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Github Repos"
+      ]
+    },
+    {
+      "id": "awesome-llm-social-simulation",
+      "title": "awesome-llm-social-simulation",
+      "url": "https://github.com/Wanying-He/awesome-llm-social-simulation",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "",
+      "org": "",
+      "code": "https://github.com/Wanying-He/awesome-llm-social-simulation",
+      "project": "",
+      "summary": "A curated reading list of research on using LLMs to simulate social systems and human behavior at scale, spanning simulation platforms, domain applications, and critical evaluations of LLM-based multi-agent social models.",
+      "tags": [
+        "Simulation"
+      ],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Github Repos"
+      ]
+    },
+    {
+      "id": "awesome-personalized-alignment",
+      "title": "Awesome-Personalized-Alignment",
+      "url": "https://github.com/liyongqi2002/Awesome-Personalized-Alignment",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "",
+      "org": "",
+      "code": "https://github.com/liyongqi2002/Awesome-Personalized-Alignment",
+      "project": "",
+      "summary": "A continually updated curated list of papers on personalized alignment in AI, focusing on building systems that adapt to individual user preferences through personalized preference learning and user-centric LLM alignment methods.",
+      "tags": [
+        "Personalization"
+      ],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Github Repos"
+      ]
+    },
+    {
+      "id": "awesome-pluralistic-alignment",
+      "title": "Awesome-Pluralistic-Alignment",
+      "url": "https://github.com/anudeex/Awesome-Pluralistic-Alignment",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "",
+      "org": "",
+      "code": "https://github.com/anudeex/Awesome-Pluralistic-Alignment",
+      "project": "",
+      "summary": "A curated GitHub repository of research resources on pluralistic alignment for LLMs, organizing methodologies, datasets, and benchmarks across consensus-based, steerable, distributional, and multi-mode alignment approaches.",
+      "tags": [
+        "Pluralism"
+      ],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Github Repos"
+      ]
+    },
+    {
+      "id": "basic-human-values-theory-measurement-and-applications",
+      "title": "Basic human values: Theory, measurement, and applications",
+      "url": "https://www.researchgate.net/publication/286951722_Basic_human_values_Theory_measurement_and_applications",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Schwartz",
+      "org": "Hebrew University of Jerusalem",
+      "code": "",
+      "project": "",
+      "summary": "Schwartz presents a cross-culturally validated theory of 10 motivationally distinct basic human values, with measurement instruments tested across 70+ countries, revealing a universal structure of value conflict and congruence.",
+      "tags": [
+        "2006",
+        "Schwartz"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Basic Human Values"
+      ]
+    },
+    {
+      "id": "citizenship-and-social-class",
+      "title": "Citizenship and Social Class",
+      "url": "https://books.google.co.kr/books?id=99v4JQAACAAJ",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Marshall, Bottomore",
+      "org": "London School of Economics",
+      "code": "",
+      "project": "",
+      "summary": "Marshall's seminal sociological essay analyzes citizenship as comprising civil, political, and social rights, tracing their historical development in postwar Britain; Bottomore's accompanying essay revisits these themes in contemporary contexts.",
+      "tags": [
+        "1950",
+        "Marshall"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Political, Civic Values and Human Rights"
+      ]
+    },
+    {
+      "id": "collective-choice-and-social-welfare",
+      "title": "Collective Choice and Social Welfare",
+      "url": "https://www.jstor.org/stable/j.ctv2sp3dqx",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Sen",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Sen's foundational work examines the ethical and mathematical foundations of collective decision-making and social welfare, arguing that Arrow's impossibility theorems do not preclude reasoned democratic social choice.",
+      "tags": [
+        "1970",
+        "Sen"
+      ],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Theoretical Foundations — Social Choice"
+      ]
+    },
+    {
+      "id": "conflicts-of-values-in-moral-luck",
+      "title": "Conflicts of Values (in *Moral Luck*)",
+      "url": "https://www.cambridge.org/core/books/abs/moral-luck/conflicts-of-values/652C425160A2BC6BA74E049D220E4245",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Williams",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Williams examines Berlin's value pluralism—the view that multiple irreducibly conflicting values exist—and argues that defending plurality itself becomes a necessary political task requiring active engagement rather than passive observation.",
+      "tags": [
+        "1981",
+        "Williams"
+      ],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Theoretical Foundations — Value Pluralism"
+      ]
+    },
+    {
+      "id": "creating-capabilities-the-human-development-approach-and-its",
+      "title": "Creating Capabilities: The Human Development Approach and Its Implementation",
+      "url": "https://www.cambridge.org/core/journals/hypatia/article/abs/creating-capabilities-the-human-development-approach-and-its-implementation/6774FAF6E6CEC38018F9733B188A1A6C",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Nussbaum",
+      "org": "University of Chicago Law School",
+      "code": "",
+      "project": "",
+      "summary": "Nussbaum presents her Capabilities Approach as an alternative framework for human development, arguing that standard economic theories fail to capture what people are actually able to do and be, and proposes a list of central human capabilities as a basis for political principles and social justice.",
+      "tags": [
+        "2009",
+        "Nussbaum"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Political, Civic Values and Human Rights"
+      ]
+    },
+    {
+      "id": "cultural-value-orientations",
+      "title": "Cultural Value Orientations",
+      "url": "https://www.researchgate.net/publication/265997557",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Schwartz",
+      "org": "Hebrew University of Jerusalem",
+      "code": "",
+      "project": "",
+      "summary": "Schwartz proposes a theory of seven cultural value orientations (e.g., Embeddedness, Hierarchy, Mastery, Harmony) derived from cross-national survey data, and examines how these orientations correlate with national policies, economic systems, and societal outcomes.",
+      "tags": [
+        "2008",
+        "Schwartz"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Cultural and Cross-Cultural Values"
+      ]
+    },
+    {
+      "id": "cultural-llm-papers",
+      "title": "cultural-llm-papers",
+      "url": "https://github.com/faridlazuarda/cultural-llm-papers",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Lazuarda et al.",
+      "org": "",
+      "code": "https://github.com/faridlazuarda/cultural-llm-papers",
+      "project": "",
+      "summary": "A curated reading list of research papers on culture and LLMs, organized by definition-based and methods-based taxonomies, serving as a companion resource to the survey 'Towards Measuring and Modeling Culture in LLMs'.",
+      "tags": [
+        "Culture"
+      ],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Github Repos"
+      ]
+    },
+    {
+      "id": "culture-awareness-llms",
+      "title": "culture-awareness-llms",
+      "url": "https://github.com/siddheshih/culture-awareness-llms",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Pawar, Park, Jin et al.",
+      "org": "University of Copenhagen",
+      "code": "https://github.com/siddheshih/culture-awareness-llms",
+      "project": "",
+      "summary": "A curated repository accompanying the survey 'Survey of Cultural Awareness in Language Models: Text and Beyond' (arXiv:2411.00860), cataloging methods, datasets, and benchmarks for making LLMs more culturally sensitive across text and multimodal settings.",
+      "tags": [
+        "Culture"
+      ],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Github Repos"
+      ]
+    },
+    {
+      "id": "culture-s-consequences-international-differences-in-work-rel",
+      "title": "Culture's consequences: International differences in work-related values",
+      "url": "https://philpapers.org/rec/HOFCCI-2",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Hofstede",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Hofstede's landmark cross-national study of IBM employees in 50+ countries identifies four dimensions of national culture (Power Distance, Individualism, Uncertainty Avoidance, Masculinity) and demonstrates how these dimensions predict systematic differences in work-related values and behavior across societies.",
+      "tags": [
+        "1980",
+        "Hofstede"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Cultural and Cross-Cultural Values"
+      ]
+    },
+    {
+      "id": "cultures-and-organizations-software-of-the-mind",
+      "title": "Cultures and organizations: software of the mind",
+      "url": "https://books.google.co.kr/books?id=o4OqTgV3V00C",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Hofstede, Hofstede, Minkov",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "A foundational cross-cultural psychology book proposing dimensional frameworks (such as power distance and individualism) derived from four decades of survey research across 70+ countries to explain how national culture shapes values, thinking, and behavior. It distinguishes national from organizational culture and provides tools for cross-cultural management and communication.",
+      "tags": [
+        "2010",
+        "Hofstede"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Cultural and Cross-Cultural Values"
+      ]
+    },
+    {
+      "id": "ess-european-social-survey",
+      "title": "ESS — European Social Survey",
+      "url": "https://www.europeansocialsurvey.org/data-portal",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "",
+      "org": "European Social Survey ERIC",
+      "code": "",
+      "project": "",
+      "summary": "The European Social Survey (ESS) is a pan-European, biennial cross-national survey infrastructure collecting freely accessible data on attitudes, behaviors, and social values across 25+ European nations since 2001, used widely in social science research.",
+      "tags": [
+        "Attitudes & behavior"
+      ],
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "subcategories": [
+        "Survey Datasets"
+      ]
+    },
+    {
+      "id": "evs-european-values-survey",
+      "title": "EVS — European Values Survey",
+      "url": "https://europeanvaluesstudy.eu/",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "",
+      "org": "EVS Foundation / GESIS",
+      "code": "",
+      "project": "",
+      "summary": "The European Values Study (EVS) is a large-scale, repeated cross-sectional survey program tracking basic human values — including family, religion, work, and politics — across European countries from 1981 to 2020, with data archived at GESIS.",
+      "tags": [
+        "European values"
+      ],
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "subcategories": [
+        "Survey Datasets"
+      ]
+    },
+    {
+      "id": "functional-theory-of-human-values",
+      "title": "Functional theory of human values",
+      "url": "https://www.researchgate.net/publication/259486885",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Gouveia, Milfont, Guerra",
+      "org": "Federal University of Paraíba",
+      "code": "",
+      "project": "",
+      "summary": "Gouveia et al. propose and empirically test a functional theory of human values organized around a 3×2 framework of six subfunctions (personal, central, and social goals crossed with survival and thriving needs), validating content and structure hypotheses in a large Brazilian sample (N=13,414).",
+      "tags": [
+        "2013",
+        "Gouveia"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Basic Human Values"
+      ]
+    },
+    {
+      "id": "gss-general-social-survey",
+      "title": "GSS — General Social Survey",
+      "url": "https://gss.norc.org/",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "",
+      "org": "NORC at the University of Chicago",
+      "code": "",
+      "project": "",
+      "summary": "The General Social Survey (GSS) is a continuously administered (since 1972) national survey by NORC at the University of Chicago that tracks American public attitudes, behaviors, and social values, serving as a key longitudinal dataset for social science research.",
+      "tags": [
+        "US opinion"
+      ],
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "subcategories": [
+        "Survey Datasets"
+      ]
+    },
+    {
+      "id": "handbook-of-computational-social-choice",
+      "title": "Handbook of Computational Social Choice",
+      "url": "https://www.cambridge.org/core/books/handbook-of-computational-social-choice/8AF63E87F76A5FC974D5E73536C52BD6",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Brandt, Conitzer, Endriss et al.",
+      "org": "Technische Universität München",
+      "code": "",
+      "project": "",
+      "summary": "A comprehensive reference covering the intersection of computer science and economics in collective decision-making, including voting theory, fair allocation, coalition formation, and judgment aggregation, contributed by 36 leading researchers.",
+      "tags": [
+        "2016",
+        "Brandt et al."
+      ],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Theoretical Foundations — Social Choice"
+      ]
+    },
+    {
+      "id": "liberal-pluralism-the-implications-of-value-pluralism-for-po",
+      "title": "Liberal Pluralism: The Implications of Value Pluralism for Political Theory and Practice",
+      "url": "https://www.cambridge.org/core/books/liberal-pluralism/B7B1CC377F1E093457A525CDC14EA008",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Galston",
+      "org": "University of Maryland, College Park",
+      "code": "",
+      "project": "",
+      "summary": "Galston argues that liberalism is compatible with Isaiah Berlin's value pluralism, developing a 'liberal pluralism' framework that allows diverse conceptions of human flourishing to coexist within liberal political institutions.",
+      "tags": [
+        "2002",
+        "Galston"
+      ],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Theoretical Foundations — Value Pluralism"
+      ]
+    },
+    {
+      "id": "liberals-and-conservatives-rely-on-different-sets-of-moral-f",
+      "title": "Liberals and conservatives rely on different sets of moral foundations",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19379034/",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Graham, Haidt, Nosek",
+      "org": "University of Virginia",
+      "code": "",
+      "project": "",
+      "summary": "Across four studies, liberals were found to prioritize harm and fairness moral foundations while conservatives drew more equally on all five foundations (harm, fairness, loyalty, authority, sanctity), explaining the intractability of political moral disagreements.",
+      "tags": [
+        "2009",
+        "MFT"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Moral Values and Moral Foundations"
+      ]
+    },
+    {
+      "id": "manipulation-of-voting-schemes-a-general-result",
+      "title": "Manipulation of Voting Schemes: A General Result",
+      "url": "https://www.jstor.org/stable/1914083",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Gibbard",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Gibbard proves that any non-trivial voting scheme without chance elements can be strategically manipulated — a voter can secure a preferred outcome by misrepresenting their preferences — establishing a foundational impossibility result in social choice theory.",
+      "tags": [
+        "1973",
+        "Gibbard"
+      ],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Theoretical Foundations — Social Choice"
+      ]
+    },
+    {
+      "id": "mapping-and-interpreting-cultural-differences-around-the-wor",
+      "title": "Mapping and interpreting cultural differences around the world",
+      "url": "https://www.researchgate.net/publication/265596552",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Inglehart, Welzel",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Inglehart and Welzel map global cultural variation along two dimensions — traditional vs. secular-rational values and survival vs. self-expression values — using World Values Survey data to show systematic cross-national patterns in human belief systems.",
+      "tags": [
+        "2004",
+        "Schwartz"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Cultural and Cross-Cultural Values"
+      ]
+    },
+    {
+      "id": "measuring-the-refined-theory-of-individual-values-in-49-cult",
+      "title": "Measuring the Refined Theory of Individual Values in 49 Cultural Groups",
+      "url": "https://www.researchgate.net/publication/349058866",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Schwartz, Cieciuch",
+      "org": "The Hebrew University of Jerusalem",
+      "code": "",
+      "project": "",
+      "summary": "Validates the Revised Portrait Value Questionnaire (PVQ-RR) for measuring Schwartz's 19 refined individual values across 49 cultural groups and 32 language versions, demonstrating reliable measurement and cross-cultural invariance in a sample of 53,472 participants.",
+      "tags": [
+        "2022",
+        "Schwartz"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Basic Human Values"
+      ]
+    },
+    {
+      "id": "mental-representations-of-social-values",
+      "title": "Mental representations of social values.",
+      "url": "https://psycnet.apa.org/record/2012-14612-001",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Maio",
+      "org": "University of Bath",
+      "code": "",
+      "project": "",
+      "summary": "Reviews the psychological functioning of social values by conceptualizing them as mental representations operating at system, abstract, and instantiation levels, clarifying how values influence attitudes and behavior.",
+      "tags": [
+        "2010",
+        "Maio"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Basic Human Values"
+      ]
+    },
+    {
+      "id": "modernization-and-postmodernization-cultural-economic-and-po",
+      "title": "Modernization and Postmodernization: Cultural, Economic, and Political Change in 43 Societies",
+      "url": "https://www.jstor.org/stable/j.ctv10vm2ns",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Inglehart",
+      "org": "University of Michigan",
+      "code": "",
+      "project": "",
+      "summary": "Argues using World Values Survey data from 43 societies that economic development, cultural change, and political change co-occur in predictable patterns, tracing a shift from modern to postmodern values as societies industrialize and then advance further.",
+      "tags": [
+        "1997",
+        "Inglehart"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Cultural and Cross-Cultural Values"
+      ]
+    },
+    {
+      "id": "modernization-cultural-change-and-democracy",
+      "title": "Modernization, Cultural Change, and Democracy",
+      "url": "https://www.researchgate.net/publication/230557603",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Inglehart, Welzel",
+      "org": "University of Michigan",
+      "code": "",
+      "project": "",
+      "summary": "Presents a revised modernization theory showing that socioeconomic development systematically shifts populations from survival to self-expression values, and that this cultural change is a key driver of democratization, tested across 85% of the world's population via the World Values Survey.",
+      "tags": [
+        "2005",
+        "Inglehart"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Cultural and Cross-Cultural Values"
+      ]
+    },
+    {
+      "id": "moral-foundations-theory-the-pragmatic-validity-of-moral-plu",
+      "title": "Moral Foundations Theory: The Pragmatic Validity of Moral Pluralism",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2184440",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Graham, Haidt, Koleva et al.",
+      "org": "University of Southern California",
+      "code": "",
+      "project": "",
+      "summary": "Presents and defends Moral Foundations Theory (MFT), arguing that human moral psychology is built on multiple innate foundations shaped by culture, and that this moral pluralism produces pragmatically valid and empirically productive research across political and social psychology.",
+      "tags": [
+        "2013",
+        "MFT"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Moral Values and Moral Foundations"
+      ]
+    },
+    {
+      "id": "on-the-rationale-of-group-decision-making",
+      "title": "On the Rationale of Group Decision-making",
+      "url": "https://www.jstor.org/stable/1825026",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Black",
+      "org": "University of Glasgow",
+      "code": "",
+      "project": "",
+      "summary": "Duncan Black's 1948 foundational paper introduces the median voter theorem and single-peaked preferences to show how majority voting can yield consistent collective decisions when individual preferences are suitably structured.",
+      "tags": [
+        "1948",
+        "Black"
+      ],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Theoretical Foundations — Social Choice"
+      ]
+    },
+    {
+      "id": "refining-the-theory-of-basic-individual-values",
+      "title": "Refining the theory of basic individual values",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22823292/",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Schwartz et al.",
+      "org": "Hebrew University of Jerusalem",
+      "code": "",
+      "project": "",
+      "summary": "Schwartz et al. refine the classic theory of basic human values by expanding the original 10-value model to 19 more finely differentiated values, validating the updated circular motivational continuum across 15 samples from 10 countries.",
+      "tags": [
+        "2012",
+        "Schwartz"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Basic Human Values"
+      ]
+    },
+    {
+      "id": "social-choice-and-individual-values",
+      "title": "Social Choice and Individual Values",
+      "url": "https://www.jstor.org/stable/j.ctt1nqb90",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Arrow",
+      "org": "Cowles Foundation / Yale University",
+      "code": "",
+      "project": "",
+      "summary": "Kenneth Arrow's landmark monograph proves the impossibility theorem: no method of aggregating individual preference orderings into a social choice can simultaneously satisfy a minimal set of fairness conditions (Pareto, independence of irrelevant alternatives, non-dictatorship) when there are three or more alternatives.",
+      "tags": [
+        "1951",
+        "Arrow"
+      ],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Theoretical Foundations — Social Choice"
+      ]
+    },
+    {
+      "id": "social-choice-theory-in-stanford-encyclopedia-of-philosophy",
+      "title": "Social Choice Theory (in Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/social-choice/",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "List",
+      "org": "London School of Economics",
+      "code": "",
+      "project": "",
+      "summary": "Christian List's Stanford Encyclopedia of Philosophy entry surveys social choice theory — from Condorcet and Arrow's impossibility results to escape routes via restricted domains, interpersonal welfare comparisons, and judgment aggregation — as a framework for collective decision-making.",
+      "tags": [
+        "2022",
+        "List"
+      ],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Theoretical Foundations — Social Choice"
+      ]
+    },
+    {
+      "id": "socialagent",
+      "title": "SocialAgent",
+      "url": "https://github.com/FudanDISC/SocialAgent",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Mou et al.",
+      "org": "Fudan University",
+      "code": "https://github.com/FudanDISC/SocialAgent",
+      "project": "",
+      "summary": "A curated resource repository accompanying a survey on LLM-based social simulation, covering individual behavior modeling, scenario-driven agent interactions, and society-level dynamics across economics, sociology, and online platforms.",
+      "tags": [
+        "Social agents"
+      ],
+      "categories": [
+        "Surveys & Resources"
+      ],
+      "subcategories": [
+        "Github Repos"
+      ]
+    },
+    {
+      "id": "strategy-proofness-and-arrow-s-conditions",
+      "title": "Strategy-proofness and Arrow's Conditions",
+      "url": "https://www.sciencedirect.com/science/article/pii/0022053175900502",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Satterthwaite",
+      "org": "Northwestern University",
+      "code": "",
+      "project": "",
+      "summary": "Satterthwaite proves that any strategy-proof voting procedure over three or more alternatives must be dictatorial, establishing a formal correspondence between strategy-proofness in voting and Arrow's conditions for social welfare functions.",
+      "tags": [
+        "1975",
+        "Satterthwaite"
+      ],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Theoretical Foundations — Social Choice"
+      ]
+    },
+    {
+      "id": "the-impossibility-of-a-paretian-liberal",
+      "title": "The Impossibility of a Paretian Liberal",
+      "url": "https://www.jstor.org/stable/1829633",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Sen",
+      "org": "Harvard University",
+      "code": "",
+      "project": "",
+      "summary": "Sen demonstrates a fundamental impossibility: no social choice rule can simultaneously satisfy even a minimal condition of individual liberty (liberalism) and the Pareto principle, showing a deep tension between freedom and welfare-based social choice.",
+      "tags": [
+        "1970",
+        "Sen"
+      ],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Theoretical Foundations — Social Choice"
+      ]
+    },
+    {
+      "id": "the-morality-of-freedom",
+      "title": "The Morality of Freedom",
+      "url": "https://academic.oup.com/book/9926",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Raz",
+      "org": "University of Oxford",
+      "code": "",
+      "project": "",
+      "summary": "Raz's influential book argues that personal autonomy is the core of liberal morality and that the state has a duty to promote conditions for autonomous living, examining authority, rights, equality, and value pluralism in a comprehensive theory of political morality.",
+      "tags": [
+        "1988",
+        "Raz"
+      ],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Theoretical Foundations — Value Pluralism"
+      ]
+    },
+    {
+      "id": "the-morality-of-pluralism",
+      "title": "The Morality of Pluralism",
+      "url": "https://www.jstor.org/stable/j.ctt7smh7",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Kekes",
+      "org": "SUNY Albany",
+      "code": "",
+      "project": "",
+      "summary": "Kekes defends ethical pluralism — the view that there are many genuinely valid but irreducibly diverse systems of values — against both moral dogmatism and relativism, arguing this provides a better foundation for understanding good lives and political morality.",
+      "tags": [
+        "1993",
+        "Kekes"
+      ],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Theoretical Foundations — Value Pluralism"
+      ]
+    },
+    {
+      "id": "the-morals-of-modernity",
+      "title": "The Morals of Modernity",
+      "url": "https://www.cambridge.org/core/books/morals-of-modernity/2D52EFBB271F119438B8B4DA753079D3",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Larmore",
+      "org": "Columbia University",
+      "code": "",
+      "project": "",
+      "summary": "Larmore examines how modern moral philosophy should be shaped by the conditions of modernity, critiquing attempts to revive ancient virtue ethics and developing foundations for political liberalism that rest on moral pluralism and the limits of reason.",
+      "tags": [
+        "1998",
+        "Larmore"
+      ],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Theoretical Foundations — Value Pluralism"
+      ]
+    },
+    {
+      "id": "the-nature-of-human-values",
+      "title": "The nature of human values.",
+      "url": "https://psycnet.apa.org/record/2011-15663-000",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Rokeach",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Milton Rokeach's foundational 1973 book proposes that a small set of terminal and instrumental values serve as internal reference points guiding attitudes and behavior, and introduces the Rokeach Value Survey to measure their relative rankings.",
+      "tags": [
+        "1973",
+        "Rokeach"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Basic Human Values"
+      ]
+    },
+    {
+      "id": "the-right-and-the-good",
+      "title": "The Right and the Good",
+      "url": "https://academic.oup.com/book/27608",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Ross",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "W.D. Ross's 1930 classic in analytic ethics develops a pluralist deontological theory of prima facie duties, arguing that rightness cannot be reduced to promoting goodness and that multiple irreducible moral obligations coexist.",
+      "tags": [
+        "1930",
+        "Ross"
+      ],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Theoretical Foundations — Value Pluralism"
+      ]
+    },
+    {
+      "id": "the-righteous-mind",
+      "title": "The Righteous Mind",
+      "url": "https://righteousmind.com/",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Haidt",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Jonathan Haidt's book argues that moral judgments are primarily driven by intuition rather than reasoning, and that differing moral foundations — across care, fairness, loyalty, authority, and purity — explain political and religious divisions.",
+      "tags": [
+        "2012",
+        "MFT"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Moral Values and Moral Foundations"
+      ]
+    },
+    {
+      "id": "the-theory-of-communicative-action",
+      "title": "The Theory of Communicative Action",
+      "url": "https://philpapers.org/rec/HABTTO",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Habermas",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Jürgen Habermas's 1984 two-volume work develops a theory of communicative rationality, arguing that social coordination and modernity are best understood through the intersubjective structure of communicative action rather than purely instrumental reason.",
+      "tags": [
+        "1981",
+        "Habermas"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Political, Civic Values and Human Rights"
+      ]
+    },
+    {
+      "id": "the-theory-of-dyadic-morality-reinventing-moral-judgment-by-",
+      "title": "The theory of dyadic morality: Reinventing moral judgment by redefining harm.",
+      "url": "https://psycnet.apa.org/record/2018-02142-002",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Schein, Gray",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Schein and Gray propose the Theory of Dyadic Morality, which redefines harm as an intuitively perceived continuum involving an agent causing damage to a patient, and argues this dyadic structure underlies moral condemnation and explains phenomena like moral acquisition and polarization.",
+      "tags": [
+        "2018",
+        "TDM"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Moral Values and Moral Foundations"
+      ]
+    },
+    {
+      "id": "towards-realistic-evaluation-of-cultural-value-alignment-div",
+      "title": "Towards Realistic Evaluation of Cultural Value Alignment: Diversity Enhancement for Survey Simulation",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S030645732500041X",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Liu, Cao, Wu et al.",
+      "org": "",
+      "code": "https://github.com/alexc-l/DEF-Survey-Sim",
+      "project": "",
+      "summary": "Proposes a diversity-enhancement framework with a memory simulation mechanism to more realistically evaluate how well LLMs align with cultural values by simulating sociological survey responses; reveals divergence and preference biases across models in US and Chinese contexts.",
+      "tags": [
+        "`2025`"
+      ],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Multicultural Alignment — Methods: Training, Steering & Adaptation"
+      ]
+    },
+    {
+      "id": "two-concepts-of-liberty",
+      "title": "Two Concepts of Liberty",
+      "url": "https://academic.oup.com/book/7968/chapter-abstract/153281672",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Berlin",
+      "org": "University of Oxford",
+      "code": "",
+      "project": "",
+      "summary": "Isaiah Berlin's landmark 1958 Oxford lecture distinguishes negative liberty (freedom from interference) from positive liberty (self-mastery), arguing that conflating the two enables authoritarian justifications for coercion and that irreducible value pluralism is central to political philosophy.",
+      "tags": [
+        "1958",
+        "Berlin"
+      ],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Theoretical Foundations — Value Pluralism"
+      ]
+    },
+    {
+      "id": "universals-in-the-content-and-structure-of-values-theoretica",
+      "title": "Universals in the content and structure of values: Theoretical advances and empirical tests in 20 countries.",
+      "url": "https://psycnet.apa.org/record/2003-00370-001",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Schwartz",
+      "org": "Hebrew University of Jerusalem",
+      "code": "",
+      "project": "",
+      "summary": "Schwartz's foundational 1992 theory identifies ten motivationally distinct universal value types and maps their structural relations, validated with empirical data across 20 countries.",
+      "tags": [
+        "1992",
+        "Schwartz"
+      ],
+      "categories": [
+        "Value Theory"
+      ],
+      "subcategories": [
+        "Basic Human Values"
+      ]
+    },
+    {
+      "id": "value-pluralism-in-stanford-encyclopedia-of-philosophy",
+      "title": "Value Pluralism (in Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/value-pluralism/",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "Mason",
+      "org": "",
+      "code": "",
+      "project": "",
+      "summary": "Stanford Encyclopedia of Philosophy entry by Elinor Mason surveying value pluralism — the view that there are multiple irreducible moral values — and the challenges this poses for rational choice between incommensurable values.",
+      "tags": [
+        "2023",
+        "Mason"
+      ],
+      "categories": [
+        "Pluralistic Alignment"
+      ],
+      "subcategories": [
+        "Theoretical Foundations — Value Pluralism"
+      ]
+    },
+    {
+      "id": "wvs-world-values-survey",
+      "title": "WVS — World Values Survey",
+      "url": "https://www.worldvaluessurvey.org/",
+      "year": "",
+      "pubKey": 0,
+      "venue": "",
+      "authors": "",
+      "org": "World Values Survey Association",
+      "code": "",
+      "project": "",
+      "summary": "The World Values Survey is a global cross-national research project that collects longitudinal data on human values, beliefs, and attitudes across societies, serving as a widely-used empirical resource for studying cultural variation.",
+      "tags": [
+        "Cross-national values"
+      ],
+      "categories": [
+        "Datasets & Benchmarks"
+      ],
+      "subcategories": [
+        "Survey Datasets"
+      ]
+    }
+  ]
+}
